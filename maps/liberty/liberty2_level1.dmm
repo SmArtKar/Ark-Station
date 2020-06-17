@@ -5920,20 +5920,45 @@
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
 	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
 /obj/effect/floor_decal/spline/fancy{
 	dir = 8
 	},
+/obj/structure/table/standard,
 /turf/simulated/floor/tiled,
 /area/space)
 "lS" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
 	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/space)
 "lT" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
 	},
 /obj/effect/floor_decal/spline/fancy{
 	dir = 4
@@ -6028,15 +6053,6 @@
 /obj/machinery/cooker/oven,
 /obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/old_tile,
-/area/space)
-"mf" = (
-/obj/structure/sign/double/barsign{
-	dir = 1;
-	icon_state = "empty";
-	pixel_x = 1;
-	pixel_y = -32
-	},
-/turf/simulated/wall,
 /area/space)
 "mg" = (
 /obj/effect/floor_decal/corner/black/half,
@@ -7220,21 +7236,63 @@
 /turf/simulated/floor/tiled/monotile,
 /area/space)
 "oz" = (
-/obj/effect/floor_decal/corner/red/diagonal,
 /obj/structure/hygiene/sink{
 	pixel_y = 18
+	},
+/obj/item/weapon/storage/mirror{
+	pixel_y = 33
+	},
+/obj/effect/floor_decal/corner/red/bordercorner,
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
 	},
 /turf/simulated/floor/tiled/old_tile,
 /area/space)
 "oA" = (
+/obj/item/weapon/storage/mirror{
+	pixel_y = 33
+	},
 /obj/structure/hygiene/sink{
 	pixel_y = 18
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/red/bordercorner,
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
 /turf/simulated/floor/tiled/old_tile,
 /area/space)
 "oB" = (
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/red/bordercorner,
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
 /turf/simulated/floor/tiled/old_tile,
 /area/space)
 "oC" = (
@@ -8335,6 +8393,8 @@
 "qj" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/structure/table/marble,
+/obj/item/weapon/reagent_containers/food/drinks/flask/barflask,
+/obj/item/weapon/reagent_containers/food/drinks/flask/vacuumflask,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "qk" = (
@@ -8738,9 +8798,21 @@
 /turf/simulated/open,
 /area/space)
 "qT" = (
-/obj/effect/floor_decal/corner/red/diagonal,
 /obj/structure/hygiene/toilet{
 	dir = 1
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/bordercorner,
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
 	},
 /turf/simulated/floor/tiled/old_tile,
 /area/space)
@@ -10440,6 +10512,25 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
+"uC" = (
+/obj/structure/hygiene/toilet{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/bordercorner,
+/turf/simulated/floor/tiled/old_tile,
+/area/space)
 "uD" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/grass,
@@ -10450,6 +10541,42 @@
 /area/space)
 "uJ" = (
 /turf/simulated/wall/titanium,
+/area/space)
+"uP" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black/corner,
+/turf/simulated/floor/tiled,
+/area/space)
+"uS" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "uY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -10511,6 +10638,25 @@
 "xO" = (
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
+"xP" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "xW" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
@@ -10529,6 +10675,29 @@
 	dir = 9
 	},
 /turf/simulated/floor/plating,
+/area/space)
+"zL" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "zO" = (
 /obj/structure/flora/ausbushes/fernybush,
@@ -10554,6 +10723,25 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
+"Cs" = (
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "CB" = (
 /obj/machinery/atmospherics/portables_connector{
 	icon_state = "map_connector";
@@ -10574,6 +10762,42 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
+/area/space)
+"DN" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	icon_state = "spline_fancy_corner";
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"DW" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "En" = (
 /obj/machinery/door/firedoor,
@@ -10623,10 +10847,72 @@
 	},
 /turf/simulated/wall/r_titanium,
 /area/space)
+"Gs" = (
+/obj/machinery/vending/lavatory,
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/bordercorner,
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile,
+/area/space)
+"HH" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/spline/fancy/black/corner,
+/turf/simulated/floor/tiled,
+/area/space)
 "HK" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
+/area/space)
+"HM" = (
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	icon_state = "spline_fancy_corner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	icon_state = "spline_fancy_corner";
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "Im" = (
 /obj/structure/railing/mapped{
@@ -10678,6 +10964,60 @@
 /obj/structure/table/woodentable_reinforced/walnut,
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"KH" = (
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"KM" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"KT" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "Ll" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -10719,6 +11059,23 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled,
 /area/space)
+"MJ" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled,
+/area/space)
 "MW" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 6
@@ -10739,6 +11096,26 @@
 	icon_state = "intact"
 	},
 /turf/simulated/floor/shuttle_ceiling,
+/area/space)
+"Ob" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	icon_state = "spline_fancy_corner";
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "Od" = (
 /obj/structure/railing/mapped,
@@ -10791,6 +11168,25 @@
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/simulated/floor/grass,
 /area/space)
+"PT" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "QF" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -10800,6 +11196,45 @@
 /area/space)
 "QH" = (
 /obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled,
+/area/space)
+"QR" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"QY" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/space)
 "QZ" = (
@@ -10816,11 +11251,72 @@
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
+"Rx" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/spline/fancy,
+/turf/simulated/floor/tiled,
+/area/space)
 "Sc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
+/area/space)
+"Se" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"Sj" = (
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	icon_state = "spline_fancy_corner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	icon_state = "spline_fancy_corner";
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "St" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
@@ -10846,9 +11342,44 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/grass,
 /area/space)
+"Tb" = (
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "Te" = (
 /obj/item/weapon/stool/wood,
 /turf/simulated/floor/wood/walnut,
+/area/space)
+"TD" = (
+/obj/effect/floor_decal/corner/red/bordercorner,
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile,
 /area/space)
 "TR" = (
 /obj/machinery/computer{
@@ -10865,6 +11396,24 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled,
 /area/space)
+"Vi" = (
+/obj/effect/floor_decal/spline/fancy/black/corner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/spline/fancy/black/corner,
+/turf/simulated/floor/tiled,
+/area/space)
 "Wm" = (
 /turf/simulated/wall/liberty/sfp_blue,
 /area/space)
@@ -10878,6 +11427,41 @@
 	icon_state = "intact"
 	},
 /turf/simulated/floor/shuttle_ceiling,
+/area/space)
+"WG" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/spline/fancy{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"WJ" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/turf/simulated/floor/tiled,
 /area/space)
 "WM" = (
 /obj/structure/barricade,
@@ -10923,6 +11507,41 @@
 "ZE" = (
 /obj/structure/flora/ausbushes/fernybush,
 /turf/simulated/floor/grass,
+/area/space)
+"ZV" = (
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"ZZ" = (
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner,
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/grey/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 
 (1,1,1) = {"
@@ -23352,7 +23971,7 @@ PB
 PB
 PB
 PB
-bP
+bg
 bP
 bP
 bP
@@ -23554,7 +24173,7 @@ Te
 Te
 Te
 Te
-bP
+bg
 bP
 bP
 bP
@@ -23756,7 +24375,7 @@ jd
 jd
 jd
 jd
-bP
+bg
 bP
 bP
 bP
@@ -23958,7 +24577,7 @@ ae
 ag
 ae
 bg
-bP
+bg
 bP
 bP
 bP
@@ -24762,7 +25381,7 @@ bg
 bP
 bP
 bg
-aP
+bg
 bg
 jk
 bg
@@ -24964,7 +25583,7 @@ bg
 bP
 bP
 bg
-bg
+bP
 bg
 bg
 bg
@@ -26189,7 +26808,7 @@ lj
 lz
 jd
 pc
-mf
+bg
 im
 ns
 kB
@@ -26598,7 +27217,7 @@ ep
 ep
 im
 oz
-oB
+TD
 im
 im
 im
@@ -26799,10 +27418,10 @@ mg
 ep
 ep
 im
-oA
-oB
+oz
+TD
 lA
-oB
+TD
 qT
 im
 aP
@@ -27002,7 +27621,7 @@ im
 bg
 im
 oA
-oB
+TD
 im
 im
 im
@@ -27202,12 +27821,12 @@ ae
 im
 im
 im
-im
+Gs
 oB
-oB
+TD
 lA
-oB
-qT
+TD
+uC
 im
 aP
 aP
@@ -27392,15 +28011,15 @@ bP
 bP
 bg
 jw
-bP
-bP
-bP
-bP
-bP
-bP
-bP
-bP
-bP
+WJ
+WJ
+WJ
+WJ
+WJ
+WJ
+KT
+KT
+QR
 bg
 bg
 bg
@@ -27593,16 +28212,16 @@ bP
 bP
 aP
 WM
-bP
-bP
-bP
-bP
-bP
-hM
-ir
-kW
-hM
-ir
+DW
+WJ
+WJ
+WJ
+WJ
+Vi
+PT
+DN
+uP
+xP
 bg
 mG
 nt
@@ -27802,8 +28421,8 @@ bg
 bg
 bg
 ln
-kX
-jx
+Se
+MJ
 lQ
 bg
 mH
@@ -28004,8 +28623,8 @@ bP
 bP
 bg
 lo
-kX
-jx
+Se
+MJ
 ZE
 bg
 mI
@@ -28206,8 +28825,8 @@ bP
 bP
 bg
 lp
-kX
-jx
+Se
+MJ
 Mu
 bg
 mJ
@@ -28407,9 +29026,9 @@ bP
 bP
 bP
 gK
-iv
-kY
-jx
+ZZ
+Ob
+MJ
 hL
 bg
 bg
@@ -28609,9 +29228,9 @@ bP
 bP
 bP
 jy
-bP
-bP
-jx
+QR
+KT
+MJ
 jm
 bg
 mK
@@ -28811,9 +29430,9 @@ bP
 bP
 bP
 gK
-ir
-kW
-jx
+QY
+DN
+MJ
 wr
 bg
 mL
@@ -29014,8 +29633,8 @@ bP
 bP
 gK
 ln
-kX
-bP
+uS
+KM
 lR
 bg
 mM
@@ -29216,8 +29835,8 @@ bP
 bP
 bg
 EQ
-kX
-bP
+KH
+KT
 lS
 mh
 fL
@@ -29418,8 +30037,8 @@ bg
 bg
 bg
 PK
-kX
-hM
+zL
+HH
 lT
 bg
 mN
@@ -29620,8 +30239,8 @@ iq
 iq
 bg
 lo
-kX
-jx
+WG
+Rx
 lQ
 bg
 mO
@@ -29822,8 +30441,8 @@ ip
 ip
 gK
 xW
-kX
-jx
+WG
+Rx
 ZE
 bg
 mP
@@ -30023,9 +30642,9 @@ iq
 ip
 ip
 gK
-iv
-kY
-jx
+Cs
+HM
+Rx
 jm
 bg
 bg
@@ -30225,9 +30844,9 @@ iq
 ip
 ip
 jy
-bP
-bP
-jx
+ZV
+WJ
+Rx
 Mu
 bg
 mQ
@@ -30427,9 +31046,9 @@ ip
 ip
 ip
 gK
-ir
-kW
-jx
+Tb
+Sj
+Rx
 hL
 bg
 mR
@@ -30630,8 +31249,8 @@ iq
 iq
 bg
 Od
-kX
-jx
+WG
+Rx
 jm
 bg
 mS
@@ -30832,8 +31451,8 @@ gK
 bg
 bg
 QZ
-kX
-jx
+WG
+Rx
 bg
 bg
 bg
@@ -31034,8 +31653,8 @@ vs
 bg
 SM
 xW
-kX
-hN
+WG
+Rx
 Im
 bg
 mn
