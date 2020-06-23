@@ -11,7 +11,8 @@
 	SMALL_SOFTFLOOR
 	ASTEROID
 	SPACE
-	I have totally no idea what most of them sound like. */
+	I have totally no idea what most of them sound like.
+	Alternatively, sound ambience can be set directly in "ambience" variable. */
 
 // LEVEL ONE
 
