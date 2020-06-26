@@ -56,11 +56,41 @@
 	icon_state = "medbay_reception"
 	// req_access = WRITE ACCESSES
 
-/area/liberty/medbay/surgery_storage
-	name = "\improper Medbay - Surgery Storage"
-	icon_state = "medbay_surgery_storage"
+/area/liberty/medbay/chemistry
+	name = "\improper Medbay - Chemistry Lab"
+	icon_state = "medbay_chemistry"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/exam
+	name = "\improper Medbay - Examination Room"
+	icon_state = "medbay_exam"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/emergency
+	name = "\improper Medbay - Emergency Treatment Center"
+	icon_state = "medbay_emergency"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/preop_ward
+	name = "\improper Medbay - Preoperating Ward"
+	icon_state = "medbay_preop_ward"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/operating
+	name = "\improper Medbay - Operating Room"
+	icon_state = "medbay_operating"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/operating_storage
+	name = "\improper Medbay - Operating Room Storage"
+	icon_state = "medbay_operating_storage"
 	// req_access = WRITE ACCESSES
 	sound_env = SMALL_ENCLOSED
+
+/area/liberty/medbay/hallway/one
+	name = "\improper Medbay - Level One Hallway"
+	icon_state = "medbay_lvl1"
+	// req_access = WRITE ACCESSES
 
 // BRIG
 
@@ -94,6 +124,10 @@
 	name = "\improper SFP Field Office - Armory"
 	icon_state = "department_armory"
 
+/area/liberty/sfp/dorm
+	name = "\improper SFP Field Office - Dormitory"
+	icon_state = "department_dorm"
+
 /area/liberty/sfp/hallway/one_north
 	name = "\improper SFP Field Office - Level One North Hallway"
 	icon_state = "department_lvl1n"
@@ -101,3 +135,47 @@
 /area/liberty/sfp/hallway/one_south
 	name = "\improper SFP Field Office - Level One South Hallway"
 	icon_state = "department_lvl1s"
+
+//////////////////////////////////// LEVEL TWO ////////////////////////////////////
+
+// MEDBAY
+
+/area/liberty/medbay/hallway/two
+	name = "\improper Medbay - Level Two Hallway"
+	icon_state = "medbay_lvl2"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/storage
+	name = "\improper Medbay - Storage"
+	icon_state = "medbay_storage"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/oncall_room
+	name = "\improper Medbay - On-Call Room"
+	icon_state = "medbay_oncall_room"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/locker_room
+	name = "\improper Medbay - Locker Room"
+	icon_state = "medbay_locker_room"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/cmo
+	name = "\improper Medbay - Chief Medical Officer"
+	icon_state = "medbay_cmo"
+	// req_access = WRITE ACCESSES
+
+/area/liberty/medbay/ward
+	sound_env = SMALL_SOFTFLOOR
+
+/area/liberty/medbay/ward/one
+	name = "\improper Medbay - Ward One"
+	icon_state = "medbay_ward1"
+
+/area/liberty/medbay/ward/two
+	name = "\improper Medbay - Ward Two"
+	icon_state = "medbay_ward2"
+
+/area/liberty/medbay/ward/three
+	name = "\improper Medbay - Ward Three"
+	icon_state = "medbay_ward3"
