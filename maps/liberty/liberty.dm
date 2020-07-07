@@ -10,6 +10,12 @@
 
 // TORCH DEFINES
 
+//	#include "../torch/torch_ranks.dm"
+
+//	#include "../torch/datums/uniforms.dm"
+//	#include "../torch/datums/uniforms_expedition.dm"
+//	#include "../torch/datums/uniforms_fleet.dm"
+
 //	#include "../torch/items/cards_ids.dm"
 	#include "../torch/items/encryption_keys.dm"
 	#include "../torch/items/headsets.dm"
@@ -52,6 +58,8 @@
 	#include "../torch/structures/closets/services.dm"
 	#include "../torch/structures/closets/supply.dm"
 	#include "../torch/structures/closets/exploration.dm"
+
+	#include "../torch/machinery/suit_storage.dm"
 
 	#include "../torch/job/torch_access.dm" // REMOVE ME
 	#include "../torch/torch_presets.dm" // REMOVE ME
