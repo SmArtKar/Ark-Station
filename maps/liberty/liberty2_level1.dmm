@@ -4485,7 +4485,7 @@
 	pixel_x = 0;
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "iZ" = (
 /obj/effect/floor_decal/borderfloorwhite{
@@ -4517,7 +4517,7 @@
 	pixel_y = -12
 	},
 /obj/machinery/disposal,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "ja" = (
 /obj/effect/floor_decal/borderfloorwhite{
@@ -4732,28 +4732,32 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "jE" = (
+/obj/structure/table/standard,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/item/weapon/stock_parts/scanning_module{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/item/weapon/stock_parts/micro_laser,
+/obj/item/weapon/stock_parts/console_screen,
+/obj/item/weapon/stock_parts/matter_bin,
+/obj/item/device/paicard,
+/obj/item/weapon/stock_parts/scanning_module,
+/obj/item/weapon/stock_parts/manipulator,
+/obj/item/weapon/reagent_containers/dropper{
+	pixel_y = -4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
 	},
-/obj/effect/floor_decal/borderfloorwhite{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/purple/border{
-	dir = 4
-	},
-/obj/effect/floor_decal/borderfloorwhite/corner2{
-	icon_state = "borderfloorcorner2_white";
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/purple/bordercorner2{
-	dir = 6
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white/monotile,
+/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "jF" = (
 /obj/effect/floor_decal/borderfloorwhite{
@@ -4847,7 +4851,8 @@
 	},
 /obj/machinery/button/alternate{
 	id_tag = "science_eva";
-	name = "EVA"
+	name = "EVA";
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
@@ -4898,29 +4903,6 @@
 	icon_state = "stripe"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
-"jQ" = (
-/obj/structure/table/standard,
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/item/weapon/stock_parts/scanning_module{
-	pixel_x = 2;
-	pixel_y = 3
-	},
-/obj/item/weapon/stock_parts/micro_laser,
-/obj/item/weapon/stock_parts/console_screen,
-/obj/item/weapon/stock_parts/matter_bin,
-/obj/item/device/paicard,
-/obj/item/weapon/stock_parts/scanning_module,
-/obj/item/weapon/stock_parts/manipulator,
-/obj/item/weapon/reagent_containers/dropper{
-	pixel_y = -4
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "jR" = (
 /obj/effect/floor_decal/borderfloorwhite{
@@ -5154,14 +5136,23 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "ko" = (
+/obj/structure/table/standard,
 /obj/effect/floor_decal/borderfloorwhite{
-	dir = 8
+	icon_state = "borderfloor_white";
+	dir = 10
 	},
 /obj/effect/floor_decal/corner/purple/border{
+	dir = 10
+	},
+/obj/item/modular_computer/laptop/preset/custom_loadout/standard{
+	icon_state = "laptop-open";
+	dir = 1
+	},
+/obj/machinery/light{
+	icon_state = "tube_map";
 	dir = 8
 	},
-/obj/structure/bed/chair/office/light,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "kp" = (
 /obj/machinery/r_n_d/destructive_analyzer,
@@ -5402,25 +5393,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
-"kK" = (
-/obj/structure/table/standard,
-/obj/effect/floor_decal/borderfloorwhite{
-	icon_state = "borderfloor_white";
-	dir = 10
-	},
-/obj/effect/floor_decal/corner/purple/border{
-	dir = 10
-	},
-/obj/item/modular_computer/laptop/preset/custom_loadout/standard{
-	icon_state = "laptop-open";
-	dir = 1
-	},
-/obj/machinery/light{
-	icon_state = "tube_map";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
-/area/space)
 "kL" = (
 /obj/structure/table/standard,
 /obj/structure/closet/shipping_wall/filled{
@@ -5450,16 +5422,6 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
-"kO" = (
-/obj/machinery/fabricator,
-/obj/structure/reagent_dispensers/acid{
-	density = 0;
-	pixel_x = 32;
-	pixel_y = 0
-	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/techfloor,
 /area/space)
 "kP" = (
 /obj/machinery/door/firedoor,
@@ -10764,6 +10726,16 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_north)
+"ya" = (
+/obj/machinery/fabricator,
+/obj/structure/reagent_dispensers/acid{
+	density = 0;
+	pixel_x = 0;
+	pixel_y = -32
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
 "yo" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
 /obj/effect/floor_decal/spline/fancy/black/corner{
@@ -12310,6 +12282,15 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Pv" = (
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/bordercorner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
 "Px" = (
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/r_wall/prepainted,
@@ -12588,6 +12569,16 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
+"RS" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 8
+	},
+/obj/structure/bed/chair/office/light,
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
 "RT" = (
 /obj/structure/flora/ausbushes/pointybush,
 /obj/structure/railing{
@@ -12720,9 +12711,6 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/grass,
 /area/space)
-"SQ" = (
-/turf/simulated/wall/r_wall,
-/area/liberty/medbay/exam)
 "SS" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
 /area/liberty/sfp/lobby)
@@ -12882,6 +12870,16 @@
 	dir = 9
 	},
 /turf/simulated/floor/wood/walnut,
+/area/space)
+"Um" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	icon_state = "borderfloor_white";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "Uw" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
@@ -39740,7 +39738,7 @@ jO
 kb
 gu
 ab
-ab
+bg
 bP
 bP
 bP
@@ -39938,11 +39936,11 @@ hX
 iD
 gu
 gu
-gC
-jB
+Um
+RS
 ko
-kK
 ab
+bg
 bP
 bP
 bP
@@ -40139,12 +40137,12 @@ hX
 iD
 gu
 gu
-gC
-gD
-jD
+Um
+Pv
 jD
 kL
 ab
+bg
 bP
 bP
 bP
@@ -40340,13 +40338,13 @@ hv
 hY
 gu
 gu
-gC
-gD
-jD
+Um
+Pv
 kc
 kp
 kM
 ab
+bg
 lq
 lq
 lq
@@ -40542,13 +40540,13 @@ hw
 hZ
 bg
 iY
-gD
-jD
+Pv
 jP
 Cl
 ag
 kN
 ab
+bg
 lq
 lq
 lq
@@ -40744,19 +40742,19 @@ hx
 ia
 bg
 iZ
-gr
+jD
 jE
-jQ
 kd
 kq
-kO
+ya
 ab
+bg
 lq
 lq
 lq
 bg
-SQ
-SQ
+Rs
+Rs
 Qa
 Rs
 Rs
@@ -40951,14 +40949,14 @@ bg
 hb
 hb
 hb
-bg
 ab
 bg
 bg
 bg
 bg
-ab
-ab
+bg
+bg
+bg
 aP
 aP
 Qx
@@ -41153,7 +41151,7 @@ jF
 jR
 jR
 kr
-bg
+ab
 ab
 ab
 ab
