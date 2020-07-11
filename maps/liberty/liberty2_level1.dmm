@@ -2512,11 +2512,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
-"fe" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/effect/floor_decal/corner/grey/mono,
-/turf/simulated/floor/tiled/monotile,
-/area/liberty/sfp/dorm)
 "fg" = (
 /obj/effect/floor_decal/corner/grey{
 	icon_state = "corner_white";
@@ -10408,16 +10403,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
-"ux" = (
-/obj/effect/floor_decal/borderfloorwhite{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/purple/border{
-	dir = 8
-	},
-/obj/structure/bed/chair/office/light,
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "uz" = (
 /turf/simulated/open,
 /area/liberty/sfp/hallway/one_south)
@@ -11356,16 +11341,6 @@
 "EB" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
 /area/liberty/sfp/recreation)
-"EC" = (
-/obj/machinery/fabricator,
-/obj/structure/reagent_dispensers/acid{
-	density = 0;
-	pixel_x = 0;
-	pixel_y = -32
-	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/techfloor,
-/area/space)
 "EF" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/brown/bordercorner,
@@ -11606,15 +11581,6 @@
 /obj/effect/floor_decal/corner/grey/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/space)
-"GK" = (
-/obj/effect/floor_decal/borderfloorwhite/corner{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/purple/bordercorner{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "Hh" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 8
@@ -11832,6 +11798,11 @@
 	icon_state = "corner_white";
 	dir = 9
 	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
 "KN" = (
@@ -11853,6 +11824,16 @@
 /obj/effect/floor_decal/steeldecal/steel_decals4,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
+"Ld" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	icon_state = "borderfloor_white";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
 "Lk" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/brown/bordercorner,
@@ -11931,6 +11912,16 @@
 "LU" = (
 /turf/simulated/wall/liberty/sfp_blue,
 /area/liberty/sfp/interrogation)
+"LZ" = (
+/obj/machinery/fabricator,
+/obj/structure/reagent_dispensers/acid{
+	density = 0;
+	pixel_x = 0;
+	pixel_y = -32
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
 "Mh" = (
 /obj/effect/floor_decal/corner/red/bordercorner,
 /obj/effect/floor_decal/corner/red/bordercorner{
@@ -13125,6 +13116,15 @@
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
+"WF" = (
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/bordercorner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
 "WM" = (
 /obj/structure/barricade,
 /turf/simulated/floor/plating,
@@ -13158,6 +13158,16 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
+"WZ" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 8
+	},
+/obj/structure/bed/chair/office/light,
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
 "Xa" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -13282,16 +13292,6 @@
 "YX" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
 /area/liberty/sfp/office)
-"Zg" = (
-/obj/effect/floor_decal/borderfloorwhite{
-	icon_state = "borderfloor_white";
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/purple/border{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "Zw" = (
 /obj/effect/floor_decal/corner/grey/bordercorner{
 	icon_state = "bordercolorcorner";
@@ -13309,11 +13309,6 @@
 /obj/machinery/disposal,
 /turf/simulated/floor/tiled,
 /area/space)
-"Zz" = (
-/obj/machinery/atmospherics/unary/vent_pump,
-/obj/effect/floor_decal/corner/grey/mono,
-/turf/simulated/floor/tiled/monotile,
-/area/liberty/sfp/dorm)
 "ZC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5;
@@ -22560,7 +22555,7 @@ an
 fG
 aP
 aP
-aP
+gr
 aP
 aP
 aP
@@ -22764,8 +22759,8 @@ aP
 aP
 aP
 aP
-aP
-aP
+gr
+gr
 aP
 aP
 bP
@@ -22965,9 +22960,9 @@ fG
 aP
 aP
 aP
-aP
-aP
-aP
+gr
+gr
+gr
 aP
 aP
 aP
@@ -23165,9 +23160,9 @@ al
 an
 fG
 aP
+gr
 aP
-aP
-aP
+gr
 aP
 aP
 aP
@@ -23569,7 +23564,7 @@ al
 an
 fG
 aP
-aP
+gr
 aP
 aP
 aP
@@ -23773,7 +23768,7 @@ fG
 aP
 aP
 aP
-aP
+gr
 aP
 aP
 aP
@@ -25180,7 +25175,7 @@ Gr
 DM
 DM
 Oe
-Zz
+HQ
 uO
 DM
 DM
@@ -26392,7 +26387,7 @@ SB
 SL
 DM
 PA
-fe
+HQ
 fr
 Gr
 Gr
@@ -39941,8 +39936,8 @@ hX
 iD
 gu
 gu
-Zg
-ux
+Ld
+WZ
 ko
 ab
 bg
@@ -40142,8 +40137,8 @@ hX
 iD
 gu
 gu
-Zg
-GK
+Ld
+WF
 jD
 kL
 ab
@@ -40343,8 +40338,8 @@ hv
 hY
 gu
 gu
-Zg
-GK
+Ld
+WF
 kc
 kp
 kM
@@ -40545,7 +40540,7 @@ hw
 hZ
 bg
 iY
-GK
+WF
 jP
 Cl
 ag
@@ -40751,7 +40746,7 @@ jD
 jE
 kd
 kq
-EC
+LZ
 ab
 bg
 lq

@@ -1811,7 +1811,6 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/zero)
 "ds" = (
-/obj/structure/stairs/north,
 /turf/simulated/floor/tiled/dark,
 /area/liberty/sfp/hallway/zero)
 "dt" = (
@@ -4931,6 +4930,19 @@
 /obj/effect/wallframe_spawn/reinforced/hull,
 /turf/space,
 /area/space)
+"lX" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/obj/structure/lift/button{
+	pixel_x = -32;
+	pixel_y = 5
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "mp" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
@@ -4942,33 +4954,20 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"mQ" = (
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
+"mr" = (
 /obj/effect/floor_decal/corner/blue/border{
-	dir = 4
-	},
-/obj/structure/bed/sofa/teal/right{
-	icon_state = "couchteal_right";
 	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner,
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"nc" = (
-/obj/structure/fake_stairs/single{
-	icon_state = "strairs_single";
-	dir = 8
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/monotile,
+"mt" = (
+/obj/effect/floor_decal/stoneborder/corner,
+/turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
 "nh" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -4985,17 +4984,11 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"om" = (
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 8
+"nB" = (
+/obj/structure/lift/panel{
+	pixel_y = 32
 	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 4
-	},
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/carpet/red,
 /area/space)
 "oy" = (
 /obj/effect/floor_decal/corner/blue/border,
@@ -5004,28 +4997,13 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"oE" = (
+"oG" = (
+/obj/structure/fitness/weightlifter,
 /obj/effect/floor_decal/corner/blue/mono,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"oS" = (
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner,
-/obj/effect/floor_decal/stoneborder{
-	icon_state = "stoneborder";
-	dir = 4
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map";
+	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
@@ -5040,14 +5018,16 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"pF" = (
-/obj/effect/paint/sun,
-/obj/effect/paint_stripe/white,
-/turf/simulated/wall,
-/area/space)
 "pL" = (
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/sfp/laboratory)
+"qt" = (
+/obj/effect/floor_decal/stoneborder{
+	icon_state = "stoneborder";
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/shallow,
+/area/space)
 "qE" = (
 /obj/machinery/portable_atmospherics/reagent_sublimator/sauna,
 /obj/effect/floor_decal/corner/blue/border{
@@ -5071,23 +5051,6 @@
 /obj/effect/floor_decal/corner/blue/border,
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"sj" = (
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"sk" = (
-/obj/effect/floor_decal/stoneborder{
-	icon_state = "stoneborder";
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/water/shallow,
-/area/space)
 "sw" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	icon_state = "bordercolorcorner";
@@ -5100,6 +5063,31 @@
 /obj/effect/floor_decal/corner/blue/border,
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
+"sx" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner,
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"sT" = (
+/obj/structure/bed/chair/pew,
+/obj/item/modular_computer/telescreen/preset/generic{
+	pixel_y = 26
+	},
+/obj/effect/floor_decal/corner/grey/mono,
+/obj/effect/floor_decal/spline/plain/white,
+/turf/simulated/floor/tiled/monotile,
+/area/space)
 "tg" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	icon_state = "bordercolorcorner";
@@ -5109,10 +5097,6 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"tF" = (
-/obj/effect/floor_decal/stoneborder/corner,
-/turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
 "tM" = (
 /obj/structure/flora/pottedplant/large,
@@ -5151,6 +5135,12 @@
 /obj/machinery/vending/fitness,
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
+"uy" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/shallow,
+/area/space)
 "uE" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	icon_state = "bordercolorcorner";
@@ -5176,11 +5166,6 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/old_tile,
 /area/space)
-"uN" = (
-/obj/effect/paint_stripe/blue,
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/wall,
-/area/space)
 "uO" = (
 /obj/effect/floor_decal/corner/grey{
 	icon_state = "corner_white";
@@ -5195,12 +5180,6 @@
 "vx" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/zero)
-"vO" = (
-/obj/structure/fitness/punchingbag,
-/obj/effect/floor_decal/corner/blue/mono,
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
 "wl" = (
 /turf/simulated/wall/r_wall/liberty/sfp_white,
 /area/liberty/sfp/cells)
@@ -5217,20 +5196,14 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
-"wG" = (
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner,
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
+"wB" = (
+/obj/effect/floor_decal/corner/blue/border{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
 "wO" = (
@@ -5260,6 +5233,26 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
+"xd" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner,
+/obj/effect/floor_decal/stoneborder{
+	icon_state = "stoneborder";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "xo" = (
 /obj/machinery/space_heater,
 /obj/machinery/light/small{
@@ -5276,16 +5269,6 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"xu" = (
-/obj/structure/fitness/weightlifter,
-/obj/effect/floor_decal/corner/blue/mono,
-/obj/machinery/light{
-	dir = 1;
-	icon_state = "tube_map";
-	pixel_y = 0
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
 "xN" = (
 /obj/effect/floor_decal/carpet/red{
 	dir = 4
@@ -5299,31 +5282,9 @@
 /obj/machinery/door/airlock/sfp,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/liberty/sfp/morgue)
-"yf" = (
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner,
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"yh" = (
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 5
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/machinery/vending/sovietsoda,
+"ye" = (
+/obj/effect/floor_decal/corner/blue/mono,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
 "yI" = (
@@ -5388,25 +5349,7 @@
 /obj/effect/paint_stripe/blue,
 /turf/simulated/wall,
 /area/space)
-"Bl" = (
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/structure/table/glass,
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"BI" = (
-/obj/machinery/door/firedoor,
-/obj/effect/floor_decal/industrial/hatch,
-/obj/machinery/door/airlock/maintenance,
-/obj/machinery/door/blast/regular/open,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/sfp/laboratory)
-"BJ" = (
+"Bm" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 6
 	},
@@ -5417,6 +5360,41 @@
 /obj/structure/flora/pottedplant/minitree,
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
+"BI" = (
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch,
+/obj/machinery/door/airlock/maintenance,
+/obj/machinery/door/blast/regular/open,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/sfp/laboratory)
+"Ca" = (
+/obj/structure/fake_stairs/single{
+	icon_state = "strairs_single";
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/space)
+"Cr" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/obj/structure/bed/sofa/teal/right{
+	icon_state = "couchteal_right";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "Cx" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	icon_state = "bordercolorcorner";
@@ -5424,6 +5402,35 @@
 	},
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 6
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"CS" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/obj/structure/bed/sofa/teal/left{
+	icon_state = "couchteal_left";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"Dh" = (
+/obj/effect/floor_decal/corner/blue/border,
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
@@ -5467,6 +5474,39 @@
 "Gb" = (
 /turf/simulated/wall/r_wall/liberty/sfp_white,
 /area/liberty/sfp/laboratory)
+"Gm" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"GS" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner,
+/obj/effect/floor_decal/stoneborder{
+	icon_state = "stoneborder";
+	dir = 4
+	},
+/obj/structure/table/glass,
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "GU" = (
 /turf/simulated/wall/r_wall/liberty/sfp_white,
 /area/liberty/sfp/archive)
@@ -5482,29 +5522,9 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"Hr" = (
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 5
-	},
-/obj/machinery/disposal,
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
 "Hw" = (
 /obj/effect/paint_stripe/white,
 /turf/simulated/wall/wood,
-/area/space)
-"HD" = (
-/obj/structure/bed/chair/pew,
-/obj/item/modular_computer/telescreen/preset/generic{
-	pixel_y = 26
-	},
-/obj/effect/floor_decal/corner/grey/mono,
-/obj/effect/floor_decal/spline/plain/white,
-/turf/simulated/floor/tiled/monotile,
 /area/space)
 "HU" = (
 /obj/machinery/light,
@@ -5513,6 +5533,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
+/area/space)
+"Ib" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/structure/table/glass,
+/turf/simulated/floor/tiled/old_cargo,
 /area/space)
 "Im" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
@@ -5546,12 +5577,6 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/space)
-"IL" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
 "JH" = (
 /obj/effect/floor_decal/corner/grey/mono,
@@ -5597,27 +5622,9 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"KG" = (
-/obj/effect/floor_decal/corner/blue/bordercee{
-	icon_state = "bordercolorcee";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
 "KX" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/exoplanet/water/shallow,
-/area/space)
-"Lc" = (
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner,
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/old_cargo,
 /area/space)
 "Lf" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
@@ -5640,6 +5647,17 @@
 /obj/structure/bed/chair/pew,
 /obj/effect/floor_decal/corner/blue/border,
 /turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"Lh" = (
+/obj/machinery/light,
+/obj/effect/floor_decal/stoneborder{
+	icon_state = "stoneborder";
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
 "Lo" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
@@ -5668,24 +5686,6 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"Mc" = (
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 4
-	},
-/obj/structure/bed/sofa/teal/left{
-	icon_state = "couchteal_left";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
 "Mg" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	icon_state = "bordercolorcorner";
@@ -5694,16 +5694,6 @@
 /obj/effect/floor_decal/corner/blue/bordercorner,
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"Mr" = (
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
@@ -5716,6 +5706,20 @@
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	icon_state = "bordercolorcorner";
 	dir = 8
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"Nf" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
@@ -5774,6 +5778,17 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
+"Pn" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/machinery/vending/sovietsoda,
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "PE" = (
 /turf/simulated/wall/r_wall/liberty/sfp_white,
 /area/liberty/sfp/morgue)
@@ -5823,12 +5838,10 @@
 	},
 /turf/simulated/floor/tiled/old_tile,
 /area/space)
-"QT" = (
-/obj/effect/floor_decal/stoneborder/corner{
-	icon_state = "stoneborder_c";
-	dir = 8
-	},
-/turf/simulated/floor/exoplanet/water/shallow,
+"Rp" = (
+/obj/effect/paint/sun,
+/obj/effect/paint_stripe/white,
+/turf/simulated/wall,
 /area/space)
 "RQ" = (
 /obj/machinery/door/firedoor,
@@ -5845,27 +5858,14 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"SK" = (
-/obj/effect/floor_decal/corner/blue/border,
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/obj/machinery/door/firedoor{
-	icon_state = "open";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
+"SX" = (
+/obj/machinery/door/airlock/maintenance,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
-"Tk" = (
-/obj/effect/floor_decal/corner/blue/border{
+"TE" = (
+/obj/effect/floor_decal/corner/blue/bordercee{
+	icon_state = "bordercolorcee";
 	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 4
-	},
-/obj/structure/lift/button{
-	pixel_x = -32;
-	pixel_y = 5
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
@@ -5879,13 +5879,31 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
-"Uu" = (
-/obj/machinery/door/airlock/maintenance,
-/turf/simulated/floor/tiled/techfloor/grid,
+"Ul" = (
+/obj/effect/paint_stripe/blue,
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/wall,
 /area/space)
 "Ux" = (
 /turf/simulated/wall/r_wall/liberty/sfp_white,
 /area/liberty/sfp/hallway/zero)
+"UI" = (
+/obj/structure/fitness/punchingbag,
+/obj/effect/floor_decal/corner/blue/mono,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"UK" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/obj/machinery/disposal,
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "UY" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	icon_state = "bordercolorcorner";
@@ -5902,30 +5920,21 @@
 	},
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"Vz" = (
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
+"VM" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	icon_state = "bordercolorcorner";
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"Wo" = (
-/obj/machinery/light,
-/obj/effect/floor_decal/stoneborder{
-	icon_state = "stoneborder";
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 1
 	},
-/obj/structure/railing/mapped{
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 4
 	},
-/turf/simulated/floor/exoplanet/water/shallow,
+/obj/effect/floor_decal/corner/blue/bordercorner,
+/turf/simulated/floor/tiled/old_cargo,
 /area/space)
 "WA" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
@@ -5950,21 +5959,15 @@
 /obj/effect/floor_decal/corner/blue/border,
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"WE" = (
+"WP" = (
 /obj/effect/floor_decal/corner/blue/border{
-	dir = 8
+	dir = 6
 	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 4
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
 	},
-/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"WK" = (
-/obj/structure/lift/panel{
-	pixel_y = 32
-	},
-/turf/simulated/floor/carpet/red,
 /area/space)
 "Xd" = (
 /obj/structure/lattice,
@@ -6026,30 +6029,26 @@
 /obj/machinery/door/airlock/glass/sfp,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/liberty/sfp/cells)
-"ZF" = (
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
+"ZJ" = (
+/obj/effect/floor_decal/stoneborder/corner{
+	icon_state = "stoneborder_c";
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/blue/bordercorner,
-/obj/effect/floor_decal/stoneborder{
-	icon_state = "stoneborder";
-	dir = 4
-	},
-/obj/structure/table/glass,
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/exoplanet/water/shallow,
 /area/space)
 "ZO" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/archive)
+"ZQ" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/blue/bordercorner,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 
 (1,1,1) = {"
 aa
@@ -18879,11 +18878,11 @@ ad
 ad
 ad
 YR
-SK
+Dh
 AN
 AN
 AN
-SK
+Dh
 YR
 ad
 ad
@@ -19276,12 +19275,12 @@ eE
 GU
 ad
 AN
-tF
-sk
-sk
-sk
-sk
-QT
+mt
+qt
+qt
+qt
+qt
+ZJ
 AN
 fF
 fP
@@ -20289,18 +20288,18 @@ AN
 ww
 fm
 fm
-IL
-IL
-Wo
+uy
+uy
+Lh
 AN
-SK
+Dh
 AN
 AN
 AN
-SK
+Dh
 AN
 dh
-WK
+nB
 gl
 dh
 dh
@@ -20492,12 +20491,12 @@ Kw
 OZ
 KX
 OJ
-ZF
+GS
 Lf
 AN
 tg
 Mg
-WE
+wB
 Mg
 Cx
 AN
@@ -20893,10 +20892,10 @@ Gb
 ad
 AN
 mp
-oS
-oS
-yf
-yf
+xd
+xd
+VM
+VM
 IE
 AN
 Fd
@@ -20904,11 +20903,11 @@ Hl
 gq
 pk
 yI
-WE
+wB
 yI
 Qy
 nz
-Tk
+lX
 yI
 LY
 dh
@@ -21094,19 +21093,19 @@ eH
 Gb
 ad
 fn
-yf
-yf
-yf
-yf
-yf
-yf
+VM
+VM
+VM
+VM
+VM
+VM
 fB
 rR
 oy
 gq
 rR
 fd
-oE
+ye
 fd
 fd
 fd
@@ -21296,19 +21295,19 @@ eI
 Gb
 ad
 AN
-Hr
+UK
 UY
 fs
-mQ
-Mc
-BJ
+Cr
+CS
+Bm
 AN
 tg
 zY
 gq
 pk
 yI
-WE
+wB
 yI
 yI
 ND
@@ -21511,11 +21510,11 @@ AN
 eX
 AN
 AN
-uN
-uN
+Ul
+Ul
 fn
-uN
-uN
+Ul
+Ul
 dh
 dh
 dh
@@ -21709,13 +21708,13 @@ ad
 AN
 Fd
 fE
-WE
+wB
 fE
 LY
 AN
 up
 yI
-Vz
+Nf
 yI
 On
 dh
@@ -21909,11 +21908,11 @@ Hw
 ad
 ad
 AN
-SK
+Dh
 AN
 AN
 AN
-SK
+Dh
 AN
 MS
 yI
@@ -22103,11 +22102,11 @@ ew
 eM
 BI
 ad
-pF
-HD
+Rp
+sT
 fo
 IH
-pF
+Rp
 ad
 ad
 AN
@@ -22117,11 +22116,11 @@ Ko
 fU
 Cx
 AN
-yh
+Pn
 RU
-Bl
-nc
-KG
+Ib
+Ca
+TE
 dh
 dh
 dh
@@ -22320,9 +22319,9 @@ fV
 fF
 AN
 AN
-sj
-om
-Vz
+ZQ
+Gm
+Nf
 On
 dh
 hy
@@ -22521,9 +22520,9 @@ Ko
 fW
 fG
 AN
-xu
+oG
 rR
-vO
+UI
 fd
 oy
 dh
@@ -22709,11 +22708,11 @@ ey
 eP
 Gb
 ad
-pF
-pF
-pF
-pF
-pF
+Rp
+Rp
+Rp
+Rp
+Rp
 ad
 ad
 AN
@@ -22724,7 +22723,7 @@ fV
 fG
 AN
 AN
-wG
+sx
 yI
 yI
 zY
@@ -22925,7 +22924,7 @@ Ko
 fW
 fH
 AN
-xu
+oG
 rR
 fd
 fd
@@ -23129,9 +23128,9 @@ LY
 AN
 AN
 Dk
-Lc
+mr
 yI
-Mr
+WP
 dh
 ad
 ad
@@ -23323,15 +23322,15 @@ dG
 dG
 fy
 AN
-SK
+Dh
 AN
 AN
 AN
-SK
+Dh
 AN
 AN
 AN
-Uu
+SX
 AN
 AN
 dh
