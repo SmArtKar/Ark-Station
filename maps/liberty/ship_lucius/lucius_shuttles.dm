@@ -11,6 +11,7 @@
 /obj/effect/overmap/visitable/ship/landable/lucius
 	name = "SEV Lucius"
 	shuttle = "SEV Lucius"
+	desc = "Sensor array detects a Lexington-class medium-sized ship under the SCG flag. The vessel is unarmed and belongs to Expeditionary Corps, apparently, serving an exploration mission."
 	multiz = 1
 	icon_state = "ship"
 	moving_state = "ship_moving"
@@ -21,6 +22,7 @@
 	initial_restricted_waypoints = list(
 		"Lucius Hangar" = list("nav_lazarev_dock")
 	)
+	initial_generic_waypoints = list(null) // PREPARE GENERIC WPTS!
 
 /obj/effect/overmap/visitable/ship/landable/lazarev
 	name = "MRM Lazarev"
