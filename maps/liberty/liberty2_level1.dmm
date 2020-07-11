@@ -5522,8 +5522,8 @@
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/floor_decal/corner/lime/mono,
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube_map"
 	},
 /obj/effect/floor_decal/corner/black/mono,
 /obj/effect/floor_decal/corner/black/mono,
@@ -5926,8 +5926,8 @@
 "me" = (
 /obj/machinery/cooker/oven,
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube_map"
 	},
 /obj/effect/floor_decal/corner/black/mono,
 /obj/effect/floor_decal/corner/black/mono,
@@ -6584,8 +6584,8 @@
 /obj/item/weapon/storage/toolbox/emergency,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube_map"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/space)
@@ -7002,7 +7002,7 @@
 	dir = 4;
 	icon_state = "light0";
 	pixel_x = -24;
-	pixel_y = 24
+	pixel_y = -24
 	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/exam)
@@ -7726,15 +7726,11 @@
 "pw" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/medical,
+/obj/machinery/door/airlock/medical/liberty,
 /turf/simulated/floor/tiled/white/monotile,
 /area/liberty/medbay/exam)
 "px" = (
 /obj/machinery/photocopier,
-/obj/machinery/light{
-	icon_state = "tube_map";
-	dir = 8
-	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/hallway/one)
 "py" = (
@@ -7748,6 +7744,12 @@
 /area/liberty/medbay/hallway/one)
 "pz" = (
 /obj/machinery/papershredder,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map";
+	pixel_x = 0;
+	pixel_y = 0
+	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/hallway/one)
 "pA" = (
@@ -8336,8 +8338,8 @@
 /area/space)
 "qu" = (
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube_map"
 	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -8786,10 +8788,7 @@
 "rg" = (
 /obj/machinery/disposal,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/light{
-	icon_state = "tube_map";
-	dir = 8
-	},
+/obj/machinery/light,
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/hallway/one)
 "rh" = (
@@ -9191,10 +9190,6 @@
 "rP" = (
 /obj/structure/closet/hydrant,
 /turf/simulated/floor/tiled/monotile,
-/area/space)
-"rQ" = (
-/obj/machinery/space_heater,
-/turf/simulated/floor/plating,
 /area/space)
 "rR" = (
 /obj/structure/fake_stairs{
@@ -10377,6 +10372,7 @@
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/shutters/open,
 /obj/machinery/door/firedoor,
+/obj/effect/paint_stripe/green,
 /turf/simulated/floor/plating,
 /area/liberty/medbay/emergency)
 "uh" = (
@@ -10385,6 +10381,12 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/space)
+"ul" = (
+/obj/effect/paint_stripe/green,
+/turf/simulated/wall{
+	alpha = 255
+	},
+/area/liberty/medbay/emergency)
 "uq" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -10570,6 +10572,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "we" = (
+/obj/effect/paint_stripe/green,
 /turf/simulated/wall,
 /area/liberty/medbay/operating)
 "wp" = (
@@ -10968,6 +10971,10 @@
 /obj/effect/floor_decal/corner/grey/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/sfp/hallway/one_south)
+"AK" = (
+/obj/effect/paint_stripe/green,
+/turf/simulated/wall,
+/area/liberty/medbay/hallway/one)
 "AM" = (
 /obj/structure/bed/chair/wood/maple{
 	icon_state = "wooden_chair_preview";
@@ -11214,10 +11221,15 @@
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
+"De" = (
+/obj/machinery/light/navigation,
+/turf/simulated/floor/shuttle_ceiling,
+/area/space)
 "Dh" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/shutters/open,
 /obj/machinery/door/firedoor,
+/obj/effect/paint_stripe/green,
 /turf/simulated/floor/plating,
 /area/liberty/medbay/operating)
 "Dr" = (
@@ -11299,6 +11311,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
 "Ec" = (
+/obj/effect/paint_stripe/green,
 /turf/simulated/wall,
 /area/liberty/medbay/preop_ward)
 "Ee" = (
@@ -11617,6 +11630,23 @@
 "Hw" = (
 /turf/simulated/floor/tiled/freezer,
 /area/space)
+"Hz" = (
+/obj/machinery/fabricator,
+/obj/structure/reagent_dispensers/acid{
+	density = 0;
+	pixel_x = 0;
+	pixel_y = -32
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
+"HE" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters/open,
+/obj/machinery/door/airlock/multi_tile/medical/liberty,
+/turf/simulated/floor/tiled/white/monotile,
+/area/liberty/medbay/reception)
 "HK" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
 /obj/machinery/meter,
@@ -11824,16 +11854,6 @@
 /obj/effect/floor_decal/steeldecal/steel_decals4,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
-"Ld" = (
-/obj/effect/floor_decal/borderfloorwhite{
-	icon_state = "borderfloor_white";
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/purple/border{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "Lk" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/brown/bordercorner,
@@ -11891,6 +11911,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/office)
 "LD" = (
+/obj/effect/paint_stripe/green,
 /turf/simulated/wall,
 /area/liberty/medbay/reception)
 "LF" = (
@@ -11912,16 +11933,6 @@
 "LU" = (
 /turf/simulated/wall/liberty/sfp_blue,
 /area/liberty/sfp/interrogation)
-"LZ" = (
-/obj/machinery/fabricator,
-/obj/structure/reagent_dispensers/acid{
-	density = 0;
-	pixel_x = 0;
-	pixel_y = -32
-	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/techfloor,
-/area/space)
 "Mh" = (
 /obj/effect/floor_decal/corner/red/bordercorner,
 /obj/effect/floor_decal/corner/red/bordercorner{
@@ -12060,6 +12071,16 @@
 "MY" = (
 /turf/simulated/wall/r_titanium,
 /area/space)
+"Nk" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	icon_state = "borderfloor_white";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
 "Nq" = (
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
@@ -12120,6 +12141,7 @@
 /turf/simulated/floor/exoplanet/grass,
 /area/space)
 "NP" = (
+/obj/effect/paint_stripe/green,
 /turf/simulated/wall,
 /area/liberty/medbay/operating_storage)
 "NU" = (
@@ -12454,6 +12476,15 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
+"Qp" = (
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/bordercorner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
 "Qq" = (
 /obj/structure/bed/chair/pew/left,
 /obj/effect/floor_decal/corner/grey{
@@ -12490,6 +12521,7 @@
 /turf/simulated/wall,
 /area/liberty/medbay/hallway/one)
 "QC" = (
+/obj/effect/paint_stripe/green,
 /turf/simulated/wall,
 /area/liberty/medbay/chemistry)
 "QF" = (
@@ -12556,6 +12588,7 @@
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
 "Rs" = (
+/obj/effect/paint_stripe/green,
 /turf/simulated/wall,
 /area/liberty/medbay/exam)
 "Rw" = (
@@ -12680,6 +12713,7 @@
 /turf/simulated/floor/tiled,
 /area/space)
 "SH" = (
+/obj/effect/paint_stripe/green,
 /turf/simulated/wall,
 /area/liberty/medbay/emergency)
 "SI" = (
@@ -12963,8 +12997,8 @@
 /obj/item/weapon/reagent_containers/food/drinks/flask/barflask,
 /obj/item/weapon/reagent_containers/food/drinks/flask/vacuumflask,
 /obj/machinery/light{
-	icon_state = "tube1";
-	dir = 8
+	dir = 8;
+	icon_state = "tube_map"
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
@@ -13116,15 +13150,6 @@
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
-"WF" = (
-/obj/effect/floor_decal/borderfloorwhite/corner{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/purple/bordercorner{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "WM" = (
 /obj/structure/barricade,
 /turf/simulated/floor/plating,
@@ -13138,6 +13163,10 @@
 "WQ" = (
 /obj/machinery/light/navigation,
 /turf/simulated/floor/airless,
+/area/space)
+"WS" = (
+/obj/effect/paint_stripe/green,
+/turf/simulated/wall,
 /area/space)
 "WU" = (
 /obj/structure/bed/chair/pew/left,
@@ -13158,16 +13187,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
-"WZ" = (
-/obj/effect/floor_decal/borderfloorwhite{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/purple/border{
-	dir = 8
-	},
-/obj/structure/bed/chair/office/light,
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "Xa" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -13325,6 +13344,16 @@
 /obj/item/weapon/material/bell,
 /obj/item/weapon/flame/candle,
 /turf/simulated/floor/carpet/red,
+/area/space)
+"ZR" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 8
+	},
+/obj/structure/bed/chair/office/light,
+/turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "ZW" = (
 /obj/machinery/light{
@@ -28971,7 +29000,7 @@ aa
 aa
 aa
 aa
-xO
+De
 NU
 MY
 MY
@@ -28985,7 +29014,7 @@ EP
 MY
 MY
 vH
-xO
+De
 aa
 aa
 aa
@@ -33087,7 +33116,7 @@ pO
 aP
 aP
 aP
-rQ
+bg
 bg
 bg
 bP
@@ -35905,13 +35934,13 @@ bP
 bP
 Mz
 QF
-bg
+WS
 mY
 zO
 mY
 mY
 QF
-bg
+WS
 nV
 bg
 bg
@@ -36113,7 +36142,7 @@ nG
 nG
 QC
 QC
-bg
+WS
 aP
 aP
 aP
@@ -36315,9 +36344,9 @@ nH
 of
 oG
 QC
-Qx
+AK
 UP
-Qx
+AK
 aP
 bg
 bg
@@ -36519,7 +36548,7 @@ oH
 QC
 pQ
 qw
-Qx
+AK
 aP
 aP
 aP
@@ -36725,7 +36754,7 @@ SH
 SH
 wx
 SH
-SH
+ul
 SH
 SH
 SH
@@ -37728,7 +37757,7 @@ ne
 nN
 oi
 oM
-pu
+HE
 pW
 qC
 rc
@@ -39142,7 +39171,7 @@ nf
 nQ
 xq
 oT
-pu
+HE
 pW
 qC
 re
@@ -39540,7 +39569,7 @@ la
 bP
 bP
 bP
-bg
+WS
 Rs
 Rs
 Rs
@@ -39936,8 +39965,8 @@ hX
 iD
 gu
 gu
-Ld
-WZ
+Nk
+ZR
 ko
 ab
 bg
@@ -40137,8 +40166,8 @@ hX
 iD
 gu
 gu
-Ld
-WF
+Nk
+Qp
 jD
 kL
 ab
@@ -40338,8 +40367,8 @@ hv
 hY
 gu
 gu
-Ld
-WF
+Nk
+Qp
 kc
 kp
 kM
@@ -40540,7 +40569,7 @@ hw
 hZ
 bg
 iY
-WF
+Qp
 jP
 Cl
 ag
@@ -40746,7 +40775,7 @@ jD
 jE
 kd
 kq
-LZ
+Hz
 ab
 bg
 lq
@@ -40959,12 +40988,12 @@ bg
 bg
 aP
 aP
-Qx
+AK
 px
 qc
 qx
 rg
-Qx
+AK
 aP
 aP
 aP
@@ -41161,7 +41190,7 @@ ab
 ab
 aP
 aP
-Qx
+AK
 py
 qc
 qx
@@ -41363,12 +41392,12 @@ gr
 ab
 aP
 aP
-Qx
+AK
 pz
 qi
 qK
 rh
-Qx
+AK
 aP
 aP
 aP
@@ -41565,12 +41594,12 @@ Xa
 nn
 aP
 aP
-Qx
+AK
 Qx
 JJ
 JJ
 Qx
-Qx
+AK
 aP
 aP
 aP
@@ -41767,12 +41796,12 @@ vZ
 ab
 aP
 aP
-Qx
+AK
 Qx
 JJ
 JJ
 Qx
-Qx
+AK
 aP
 aP
 aP
@@ -41969,12 +41998,12 @@ fL
 ab
 aP
 aP
-Qx
+AK
 Qx
 Ba
 Ba
 Qx
-Qx
+AK
 aP
 aP
 aP
@@ -42171,12 +42200,12 @@ fL
 ab
 aP
 aP
-Qx
+AK
 Qx
 Ba
 Ba
 Qx
-Qx
+AK
 aP
 aP
 aP
@@ -42373,12 +42402,12 @@ fL
 ab
 aP
 aP
+AK
 Qx
 Qx
 Qx
 Qx
-Qx
-Qx
+AK
 aP
 bg
 bg
@@ -42575,12 +42604,12 @@ fL
 ab
 aP
 aP
-Qx
-Qx
-Qx
-Qx
-Qx
-Qx
+AK
+AK
+AK
+AK
+AK
+AK
 aP
 bg
 aP
