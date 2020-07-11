@@ -779,8 +779,7 @@
 /area/ship/skrellscoutship/crew/medbay)
 "cS" = (
 /obj/machinery/body_scanconsole{
-	dir = 4;
-	display_tags = list("med_or_display","rob_or_display1","rob_or_display2")
+	dir = 4
 	},
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
@@ -803,8 +802,7 @@
 "cY" = (
 /obj/machinery/optable,
 /obj/machinery/body_scan_display{
-	pixel_y = 24;
-	tag = "med_or_display"
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
@@ -1628,18 +1626,6 @@
 /area/ship/skrellscoutship/robotics)
 "fy" = (
 /obj/structure/table/rack,
-/obj/item/clothing/mask/breath/emergency,
-/obj/item/clothing/mask/breath/emergency,
-/obj/item/clothing/mask/breath/emergency,
-/obj/item/clothing/mask/breath/emergency,
-/obj/item/clothing/mask/breath/emergency,
-/obj/item/clothing/mask/breath/emergency,
-/obj/item/weapon/tank/emergency/oxygen,
-/obj/item/weapon/tank/emergency/oxygen,
-/obj/item/weapon/tank/emergency/oxygen,
-/obj/item/weapon/tank/emergency/oxygen,
-/obj/item/weapon/tank/emergency/oxygen,
-/obj/item/weapon/tank/emergency/oxygen,
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/robotics)
 "fA" = (
@@ -4068,6 +4054,12 @@
 "uZ" = (
 /obj/machinery/light/skrell,
 /obj/structure/table/rack,
+/obj/item/weapon/rig/skrell/sec{
+	pixel_x = -7
+	},
+/obj/item/weapon/rig/skrell/sec{
+	pixel_x = 8
+	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/wings/starboard)
 "va" = (
@@ -4333,6 +4325,7 @@
 /obj/structure/closet/cabinet,
 /obj/item/clothing/accessory/storage/black_vest,
 /obj/item/weapon/gun/energy/gun/skrell,
+/obj/item/weapon/rig/skrell/cmd,
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/crew/quarters)
 "zT" = (
@@ -5059,7 +5052,13 @@
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
 "MS" = (
-/obj/structure/bed/chair,
+/obj/structure/table/rack,
+/obj/item/weapon/rig/skrell/med{
+	pixel_x = -7
+	},
+/obj/item/weapon/rig/skrell/med{
+	pixel_x = 7
+	},
 /turf/simulated/floor/tiled/skrell/orange{
 	dir = 1
 	},
@@ -5425,9 +5424,14 @@
 /area/ship/skrellscoutshuttle)
 "Rs" = (
 /obj/structure/table/rack,
-/obj/item/weapon/storage/belt/utility/full,
 /obj/structure/window/reinforced{
 	dir = 8
+	},
+/obj/item/weapon/rig/skrell/eng{
+	pixel_x = -5
+	},
+/obj/item/weapon/rig/skrell/eng{
+	pixel_x = 7
 	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/wings/starboard)
