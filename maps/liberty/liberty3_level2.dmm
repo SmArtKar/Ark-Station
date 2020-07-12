@@ -992,6 +992,7 @@
 /area/space)
 "cp" = (
 /obj/machinery/door/airlock/maintenance,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/space)
 "cq" = (
@@ -1110,6 +1111,7 @@
 /area/space)
 "cB" = (
 /obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white,
 /area/space)
 "cC" = (
@@ -3520,6 +3522,10 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/space)
+"hq" = (
+/obj/effect/paint_stripe/green,
+/turf/simulated/wall,
+/area/liberty/medbay/hallway/two)
 "hr" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 8
@@ -4920,10 +4926,6 @@
 /obj/effect/floor_decal/corner/purple/bordercorner,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
-"kf" = (
-/obj/effect/paint_stripe/green,
-/turf/simulated/wall,
-/area/space)
 "kA" = (
 /obj/machinery/disposal,
 /turf/simulated/floor/wood/maple,
@@ -4947,6 +4949,15 @@
 /obj/machinery/floor_light,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
+"kH" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/space)
 "kR" = (
 /obj/effect/floor_decal/carpet{
 	dir = 4;
@@ -4957,6 +4968,10 @@
 "kU" = (
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/wood/walnut,
+/area/space)
+"ld" = (
+/obj/structure/bed/chair/pew/left,
+/turf/simulated/floor/tiled,
 /area/space)
 "li" = (
 /obj/structure/table/woodentable/walnut,
@@ -5020,10 +5035,6 @@
 	dir = 5
 	},
 /turf/simulated/floor/wood/walnut,
-/area/space)
-"me" = (
-/obj/effect/paint_stripe/green,
-/turf/simulated/wall/r_wall,
 /area/space)
 "mg" = (
 /obj/item/weapon/bedsheet/brown,
@@ -5190,10 +5201,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/ward/two)
-"pB" = (
-/obj/structure/bed/chair/pew/left,
-/turf/simulated/floor/tiled,
-/area/space)
 "pH" = (
 /obj/structure/bed/chair/wood/walnut{
 	dir = 8
@@ -5266,13 +5273,6 @@
 	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/ward/one)
-"qY" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/paint_stripe/green,
-/turf/simulated/floor/tiled/techmaint,
-/area/liberty/medbay/hallway/two)
 "rS" = (
 /obj/item/modular_computer/telescreen/preset,
 /turf/simulated/wall,
@@ -5373,6 +5373,14 @@
 	step_x = 30
 	},
 /turf/simulated/floor/plating,
+/area/space)
+"tT" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "tV" = (
 /obj/effect/floor_decal/spline/fancy/black{
@@ -5524,6 +5532,10 @@
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/r_wall/prepainted,
 /area/space)
+"wB" = (
+/obj/effect/paint_stripe/green,
+/turf/simulated/wall/r_wall,
+/area/space)
 "wC" = (
 /obj/effect/wallframe_spawn/reinforced/polarized,
 /obj/machinery/door/firedoor,
@@ -5542,6 +5554,19 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
+/area/space)
+"wW" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 4
+	},
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/space)
 "xa" = (
 /obj/structure/table/woodentable_reinforced/walnut,
@@ -6144,6 +6169,16 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
+"Jg" = (
+/obj/effect/floor_decal/carpet{
+	dir = 4;
+	icon_state = "brown_edges"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/red,
+/area/space)
 "JJ" = (
 /obj/effect/floor_decal/carpet/red,
 /obj/effect/floor_decal/carpet/red{
@@ -6184,6 +6219,17 @@
 	},
 /obj/effect/floor_decal/corner/black/full,
 /turf/simulated/floor/tiled/dark,
+/area/space)
+"KI" = (
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube_map"
+	},
+/turf/simulated/floor/carpet/red,
 /area/space)
 "KM" = (
 /obj/effect/floor_decal/corner/black/half,
@@ -6291,6 +6337,15 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/red,
+/area/space)
+"LT" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/open,
 /area/space)
 "Md" = (
 /obj/effect/floor_decal/spline/fancy/black/corner{
@@ -6415,6 +6470,10 @@
 	},
 /turf/simulated/floor/carpet,
 /area/space)
+"OF" = (
+/obj/effect/paint_stripe/green,
+/turf/simulated/wall,
+/area/space)
 "OI" = (
 /obj/structure/bed/sofa/teal/left,
 /turf/simulated/floor/wood/maple,
@@ -6441,6 +6500,10 @@
 	step_y = 31
 	},
 /turf/simulated/wall,
+/area/space)
+"Pt" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Pv" = (
 /obj/structure/flora/pottedplant/fern,
@@ -6531,10 +6594,19 @@
 	},
 /turf/simulated/floor/carpet,
 /area/space)
-"Rm" = (
-/obj/effect/paint_stripe/green,
-/turf/simulated/wall,
-/area/liberty/medbay/hallway/two)
+"Rj" = (
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map";
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/turf/simulated/floor/carpet/red,
+/area/space)
 "Rw" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -6543,10 +6615,6 @@
 	},
 /obj/item/weapon/newspaper,
 /turf/simulated/floor/wood/walnut,
-/area/space)
-"RC" = (
-/obj/structure/bed/chair/pew,
-/turf/simulated/floor/tiled,
 /area/space)
 "RI" = (
 /turf/simulated/floor/tiled/white,
@@ -6817,6 +6885,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"VH" = (
+/obj/structure/bed/chair/pew,
+/turf/simulated/floor/tiled,
+/area/space)
 "VN" = (
 /obj/structure/bed/chair/wood/walnut{
 	dir = 4
@@ -6839,6 +6911,13 @@
 /obj/structure/table/woodentable_reinforced/walnut,
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Wv" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/maintenance,
+/obj/effect/paint_stripe/green,
+/turf/simulated/floor/tiled/techmaint,
+/area/liberty/medbay/hallway/two)
 "Wz" = (
 /obj/structure/table/standard,
 /obj/machinery/light{
@@ -6913,10 +6992,21 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Yh" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
 "Yi" = (
 /obj/machinery/papershredder,
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/wood/walnut,
+/area/space)
+"Yl" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/open,
 /area/space)
 "Yn" = (
 /obj/structure/table/woodentable/walnut,
@@ -6944,6 +7034,13 @@
 	},
 /obj/machinery/floor_light,
 /turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"YO" = (
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "YR" = (
 /obj/structure/flora/pottedplant/fern,
@@ -16213,19 +16310,19 @@ aI
 oa
 bW
 co
-ck
+Yh
 cK
 da
 oa
 bW
 co
-ck
+Yh
 cK
 da
 oa
 bW
 co
-ck
+Yh
 cK
 da
 aE
@@ -16416,19 +16513,19 @@ oa
 oa
 oa
 oa
-ck
+tT
 oa
 oa
 oa
 oa
 oa
-ck
+tT
 oa
 oa
 oa
 oa
 oa
-ck
+tT
 ww
 aE
 ao
@@ -16621,13 +16718,13 @@ cz
 ue
 ue
 ue
+KI
 ue
 ue
 ue
 ue
 ue
-ue
-ue
+KI
 ue
 ue
 fi
@@ -16821,6 +16918,7 @@ aI
 cp
 CS
 kR
+Jg
 kR
 kR
 kR
@@ -16829,8 +16927,7 @@ kR
 kR
 kR
 kR
-kR
-kR
+Jg
 kR
 fj
 ch
@@ -17027,8 +17124,8 @@ oa
 oa
 oa
 oa
-ed
-Zi
+wW
+wW
 oa
 oa
 oa
@@ -17229,8 +17326,8 @@ db
 dl
 dF
 oa
-xN
-GY
+ed
+Zi
 oa
 eI
 eR
@@ -17425,15 +17522,15 @@ aI
 oa
 oC
 DD
-ck
+Yh
 cO
 dc
 dm
 ln
-ck
+Yh
 xN
 GY
-ck
+Yh
 eJ
 Vv
 Hj
@@ -17835,7 +17932,7 @@ oa
 oa
 oa
 oa
-xN
+Rj
 GY
 oa
 oC
@@ -18233,12 +18330,12 @@ aI
 oa
 bW
 co
-ck
+Yh
 cO
 dc
 dm
 ln
-ck
+Yh
 xN
 GY
 oa
@@ -18643,9 +18740,9 @@ oa
 oa
 oa
 oa
-xN
+Rj
 GY
-ck
+Yh
 eJ
 Vv
 aF
@@ -19041,12 +19138,12 @@ aI
 oa
 oC
 DD
-ck
+Yh
 cO
 dc
 dm
 ln
-ck
+Yh
 xN
 GY
 oa
@@ -19451,7 +19548,7 @@ oa
 oa
 oa
 oa
-xN
+Rj
 GY
 oa
 oa
@@ -19854,10 +19951,10 @@ cO
 dc
 dm
 ln
-ck
+Yh
 xN
 GY
-ck
+Yh
 aI
 aI
 aI
@@ -20074,7 +20171,7 @@ az
 DX
 Fj
 EE
-dT
+Pt
 Xq
 Xq
 Xq
@@ -20662,7 +20759,7 @@ aV
 aV
 aV
 aV
-ck
+Yh
 QP
 kU
 oa
@@ -21065,7 +21162,7 @@ as
 as
 aV
 as
-bg
+gF
 oa
 QP
 kU
@@ -21264,10 +21361,10 @@ FA
 FA
 as
 Cb
-RC
+VH
 aV
-as
-as
+VH
+Cb
 oa
 QP
 kU
@@ -21466,9 +21563,9 @@ FA
 FA
 as
 Cb
-pB
+ld
 aV
-RC
+ld
 Cb
 oa
 QP
@@ -21670,7 +21767,7 @@ as
 as
 as
 aV
-aV
+VH
 Cb
 oa
 QP
@@ -21690,7 +21787,7 @@ az
 DX
 Fj
 Px
-dT
+Pt
 SN
 IU
 SN
@@ -21872,7 +21969,7 @@ aV
 aV
 as
 aV
-aV
+ld
 Cb
 oa
 QP
@@ -21886,7 +21983,7 @@ oa
 aI
 aI
 aI
-dT
+Pt
 NS
 ay
 ay
@@ -22090,13 +22187,13 @@ oa
 oa
 oa
 ch
-dT
+YO
 ch
 oa
 oa
 oa
 oa
-dT
+YO
 oa
 aE
 aE
@@ -22286,7 +22383,7 @@ dt
 VB
 ay
 kU
-dT
+Pt
 aI
 oa
 ak
@@ -22480,7 +22577,7 @@ as
 aI
 aI
 aI
-dT
+Pt
 QP
 ay
 ay
@@ -22887,7 +22984,7 @@ bK
 oa
 oa
 oa
-dT
+YO
 oa
 oa
 oa
@@ -23106,7 +23203,7 @@ oa
 oa
 oa
 oa
-dT
+YO
 oa
 aE
 jt
@@ -23303,7 +23400,7 @@ kD
 tY
 tY
 tY
-dT
+Pt
 Hl
 vl
 oa
@@ -27930,8 +28027,8 @@ as
 aV
 aV
 aV
-do
-gG
+aV
+LT
 gG
 gG
 gG
@@ -27942,8 +28039,8 @@ gG
 yV
 aV
 aV
-do
-gG
+aV
+LT
 gG
 gG
 gG
@@ -28132,8 +28229,8 @@ aV
 aV
 aV
 aV
-do
-bg
+aV
+Yl
 bg
 bg
 bg
@@ -28144,8 +28241,8 @@ bg
 eK
 aV
 aV
-do
-bg
+aV
+Yl
 bg
 bg
 bg
@@ -28334,8 +28431,8 @@ aV
 aV
 aV
 aV
-do
-bg
+aV
+Yl
 bg
 bg
 bg
@@ -28346,8 +28443,8 @@ bg
 eK
 aV
 aV
-do
-bg
+aV
+Yl
 bg
 bg
 bg
@@ -28536,8 +28633,8 @@ aV
 aV
 aV
 aV
-do
-bg
+aV
+Yl
 bg
 bg
 bg
@@ -28548,8 +28645,8 @@ bg
 eK
 aV
 aV
-do
-bg
+aV
+Yl
 bg
 bg
 bg
@@ -28738,8 +28835,8 @@ as
 aV
 aV
 aV
-do
-gF
+aV
+kH
 gF
 gF
 gF
@@ -28750,8 +28847,8 @@ gF
 Lu
 aV
 aV
-do
-gF
+aV
+kH
 gF
 gF
 gF
@@ -29569,7 +29666,7 @@ Uz
 wk
 ie
 wk
-Rm
+hq
 as
 as
 as
@@ -29771,7 +29868,7 @@ fx
 hF
 if
 iw
-Rm
+hq
 aI
 aI
 aI
@@ -29973,7 +30070,7 @@ gL
 hG
 Gu
 ix
-Rm
+hq
 aI
 aI
 aI
@@ -30175,7 +30272,7 @@ fx
 bx
 Gu
 iy
-Rm
+hq
 aI
 aI
 aI
@@ -30377,16 +30474,16 @@ fx
 hH
 Gu
 iz
-Rm
+hq
 iW
-Rm
+hq
 CH
 CH
 CH
 CH
 CH
 Cp
-me
+wB
 ab
 aa
 aa
@@ -31194,7 +31291,7 @@ jP
 jP
 jP
 sJ
-me
+wB
 ab
 aa
 aa
@@ -32002,7 +32099,7 @@ QS
 QS
 QS
 EP
-me
+wB
 ab
 aa
 aa
@@ -32791,7 +32888,7 @@ as
 aV
 aV
 aV
-Rm
+hq
 PS
 PS
 PS
@@ -32800,17 +32897,17 @@ PS
 PS
 hR
 il
-Rm
-Rm
-Rm
-Rm
-Rm
+hq
+hq
+hq
+hq
+hq
 QS
 QS
 QS
 QS
 EP
-me
+wB
 ab
 aa
 aa
@@ -33006,7 +33103,7 @@ SS
 iU
 jc
 jo
-Rm
+hq
 aI
 aI
 aI
@@ -33208,7 +33305,7 @@ tW
 iV
 jd
 jp
-Rm
+hq
 aI
 as
 jt
@@ -33406,11 +33503,11 @@ hk
 ht
 hT
 io
-Rm
-Rm
-Rm
-Rm
-Rm
+hq
+hq
+hq
+hq
+hq
 aI
 as
 ab
@@ -33612,7 +33709,7 @@ SS
 iU
 jc
 jo
-Rm
+hq
 aI
 as
 ab
@@ -33810,11 +33907,11 @@ hm
 ht
 hU
 ip
-Rm
+hq
 iV
 je
 jq
-Rm
+hq
 aI
 as
 ab
@@ -34012,11 +34109,11 @@ PS
 PS
 hU
 iq
-Rm
-Rm
-Rm
-Rm
-Rm
+hq
+hq
+hq
+hq
+hq
 aI
 as
 ab
@@ -34210,12 +34307,12 @@ as
 aI
 aI
 aI
-Rm
+hq
 hu
 hU
 iq
 iI
-Rm
+hq
 aI
 aI
 aI
@@ -34412,12 +34509,12 @@ as
 aI
 aI
 aI
-Rm
+hq
 hv
 hU
 iq
 iJ
-Rm
+hq
 aI
 as
 as
@@ -34614,12 +34711,12 @@ as
 aI
 aI
 aI
-Rm
+hq
 hw
 hU
 iq
 iK
-Rm
+hq
 aI
 as
 ab
@@ -34816,12 +34913,12 @@ as
 aI
 aI
 aI
-Rm
+hq
 hx
 hU
 iq
 iL
-qY
+Wv
 aI
 as
 ab
@@ -35018,12 +35115,12 @@ aI
 aI
 aI
 aI
-Rm
+hq
 hy
 hV
 ir
 iM
-Rm
+hq
 aI
 as
 ab
@@ -35220,12 +35317,12 @@ aI
 aI
 aI
 aI
-kf
+OF
 as
 eQ
 eQ
 as
-kf
+OF
 aI
 as
 ab
@@ -35422,12 +35519,12 @@ aI
 aI
 aI
 aI
-kf
+OF
 as
 eQ
 eQ
 as
-kf
+OF
 aI
 as
 ab
@@ -35624,12 +35721,12 @@ aI
 aI
 aI
 aI
-kf
+OF
 as
 bk
 bk
 as
-kf
+OF
 aI
 as
 ab
@@ -35826,12 +35923,12 @@ aI
 aI
 aI
 aI
-kf
+OF
 as
 bk
 bk
 as
-kf
+OF
 aI
 as
 ab
@@ -36028,12 +36125,12 @@ aI
 aI
 aI
 aI
-kf
+OF
 as
 as
 as
 as
-kf
+OF
 aI
 as
 ab
@@ -36230,12 +36327,12 @@ aI
 aI
 aI
 aI
-kf
-kf
-kf
-kf
-kf
-kf
+OF
+OF
+OF
+OF
+OF
+OF
 aI
 as
 ab

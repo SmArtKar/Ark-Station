@@ -12,7 +12,7 @@
 	ASTEROID
 	SPACE
 	I have totally no idea what most of them sound like.
-	Alternatively, sound ambience can be set directly in "ambience" variable. */
+	Alternatively, sound ambience can be set directly in the "ambience" variable. */
 
 //////////////////////////////////// LEVEL ZERO ////////////////////////////////////
 
@@ -179,3 +179,48 @@
 /area/liberty/medbay/ward/three
 	name = "\improper Medbay - Ward Three"
 	icon_state = "medbay_ward3"
+
+// HOTEL
+
+/area/liberty/hotel/room
+	sound_env = SMALL_SOFTFLOOR
+
+/area/liberty/hotel/room/one_zero_one
+	name = "\improper Hotel - Room 101"
+	icon_state = "hotel_room_101"
+
+/area/liberty/hotel/room/one_zero_two
+	name = "\improper Hotel - Room 102"
+	icon_state = "hotel_room_102"
+
+/area/liberty/hotel/room/one_zero_three
+	name = "\improper Hotel - Room 103"
+	icon_state = "hotel_room_103"
+
+/area/liberty/hotel/room/one_zero_four
+	name = "\improper Hotel - Room 104"
+	icon_state = "hotel_room_104"
+
+/area/liberty/hotel/room/two_zero_one
+	name = "\improper Hotel - Room 201"
+	icon_state = "hotel_room_201"
+
+/area/liberty/hotel/room/two_zero_two
+	name = "\improper Hotel - Room 202"
+	icon_state = "hotel_room_202"
+
+/area/liberty/hotel/room/three_zero_one
+	name = "\improper Hotel - Room 301"
+	icon_state = "hotel_room_301"
+
+/area/liberty/hotel/room/three_zero_two
+	name = "\improper Hotel - Room 302"
+	icon_state = "hotel_room_302"
+
+/area/liberty/hotel/hallway/west
+	name = "\improper Hotel - West Hallway"
+	icon_state = "hotel_west"
+
+/area/liberty/hotel/hallway/east
+	name = "\improper Hotel - East Hallway"
+	icon_state = "hotel_east"
