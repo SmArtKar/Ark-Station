@@ -24,6 +24,7 @@
 	cost = 2
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/lucius, /datum/shuttle/autodock/overmap/lazarev)
 	area_usage_test_exempted_root_areas = list(/area/lucius)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 // SUBMAP DATA
 
