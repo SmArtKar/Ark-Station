@@ -56,6 +56,7 @@
 	skill_needed = SKILL_NONE
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/sol
 	knockdown = 0
+	defer_initialisation = TRUE
 
 /datum/shuttle/autodock/overmap/lazarev
 	name = "MRM Lazarev"
@@ -70,11 +71,12 @@
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 	mothershuttle = "SEV Lucius"
 	fuel_consumption = 3
+	defer_initialisation = TRUE
 
 // NAVPOINTS
 
 /obj/effect/shuttle_landmark/lucius/start
-	name = "SEV Lucius"
+	name = "Uncharted Space"
 	landmark_tag = "nav_lucius_start"
 
 /obj/effect/shuttle_landmark/lazarev/start

@@ -26,7 +26,7 @@
 	area_usage_test_exempted_root_areas = list(/area/lucius)
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
-/obj/effect/overmap/visitable/sector/lucius
+/obj/effect/overmap/visitable/sector/luciusspace
 	name = "Empty Sector"
 	in_space = 1
 	hide_from_reports = TRUE
