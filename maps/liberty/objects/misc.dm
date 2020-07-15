@@ -64,3 +64,73 @@
 
 /obj/effect/floor_decal/industrial/warning/narrow/corner
 	icon_state = "warningcorner_narrow"
+
+/obj/effect/floor_decal/industrial/number
+	name = "storage number"
+	icon = 'maps/liberty/icons/decals.dmi'
+
+/obj/effect/floor_decal/industrial/number/a
+	icon_state = "a"
+
+/obj/effect/floor_decal/industrial/number/a/one
+	icon_state = "a_one"
+
+/obj/effect/floor_decal/industrial/number/a/two
+	icon_state = "a_two"
+
+/obj/effect/floor_decal/industrial/number/a/three
+	icon_state = "a_three"
+
+/obj/effect/floor_decal/industrial/number/a/four
+	icon_state = "a_four"
+
+/obj/effect/floor_decal/industrial/number/b
+	icon_state = "b"
+
+/obj/effect/floor_decal/industrial/number/b/one
+	icon_state = "b_one"
+
+/obj/effect/floor_decal/industrial/number/b/two
+	icon_state = "b_two"
+
+/obj/effect/floor_decal/industrial/number/b/three
+	icon_state = "b_three"
+
+/obj/effect/floor_decal/industrial/number/c
+	icon_state = "c"
+
+/obj/effect/floor_decal/industrial/number/c/one
+	icon_state = "c_one"
+
+/obj/effect/floor_decal/industrial/number/c/two
+	icon_state = "c_two"
+
+/obj/effect/floor_decal/industrial/number/c/three
+	icon_state = "c_three"
+
+/obj/effect/floor_decal/industrial/number/c/four
+	icon_state = "c_four"
+
+/obj/effect/floor_decal/industrial/number/d
+	icon_state = "d"
+
+/obj/effect/floor_decal/industrial/number/d/one
+	icon_state = "d_one"
+
+/obj/effect/floor_decal/industrial/number/d/two
+	icon_state = "d_two"
+
+/obj/effect/floor_decal/industrial/number/d/three
+	icon_state = "d_three"
+
+/obj/effect/floor_decal/industrial/number/e/one
+	icon_state = "e_one"
+
+/obj/effect/floor_decal/industrial/number/e/two
+	icon_state = "e_two"
+
+/obj/effect/floor_decal/industrial/number/f
+	icon_state = "f"
+
+/obj/effect/floor_decal/industrial/number/f/one
+	icon_state = "f_one"
