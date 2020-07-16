@@ -277,6 +277,8 @@
 			return global.atmosphere_alarm;
 		if("attack_log_repository")
 			return global.attack_log_repository;
+		if("autodocs")
+			return global.autodocs;
 		if("base_miss_chance")
 			return global.base_miss_chance;
 		if("basic_robolimb")
@@ -841,6 +843,8 @@
 			return global.tape_roll_applications;
 		if("telecomms_list")
 			return global.telecomms_list;
+		if("text_tag_icons")
+			return global.text_tag_icons;
 		if("ticket_panels")
 			return global.ticket_panels;
 		if("tickets")
@@ -1186,6 +1190,8 @@
 			global.atmosphere_alarm=newval;
 		if("attack_log_repository")
 			global.attack_log_repository=newval;
+		if("autodocs")
+			global.autodocs=newval;
 		if("base_miss_chance")
 			global.base_miss_chance=newval;
 		if("basic_robolimb")
@@ -1750,6 +1756,8 @@
 			global.tape_roll_applications=newval;
 		if("telecomms_list")
 			global.telecomms_list=newval;
+		if("text_tag_icons")
+			global.text_tag_icons=newval;
 		if("ticket_panels")
 			global.ticket_panels=newval;
 		if("tickets")
@@ -1956,6 +1964,7 @@
 	"assigned_blocks",
 	"atmosphere_alarm",
 	"attack_log_repository",
+	"autodocs",
 	"base_miss_chance",
 	"basic_robolimb",
 	"blocked",
@@ -2238,6 +2247,7 @@
 	"tank_gauge_cache",
 	"tape_roll_applications",
 	"telecomms_list",
+	"text_tag_icons",
 	"ticket_panels",
 	"tickets",
 	"total_lighting_corners",
