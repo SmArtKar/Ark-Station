@@ -15,6 +15,9 @@
 /obj/effect/paint/sfp_blue
 	color = COLOR_SFP_BLUE
 
+/obj/effect/paint/white
+	color = "#fefefe"
+
 /obj/effect/paint_stripe/sfp_blue
 	color = COLOR_SFP_BLUE
 
@@ -42,6 +45,7 @@
 	icon_state = "borderfloor_white_shifted"
 
 /obj/effect/floor_decal/spline/plain/yellow_warning
+	alpha = 255
 	color = "#d2d53d"
 
 /obj/effect/floor_decal/industrial/stop_sign
