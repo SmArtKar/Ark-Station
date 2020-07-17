@@ -16,7 +16,7 @@
 
 // TEMPLATE
 
-/datum/map_template/ruin/away_site/lucius
+/datum/map_template/ruin/away_site/luciusship
 	name = "SEV Lucius"
 	id = "awaysite_lucius"
 	description = "Sol Exploration Vessel Lucius."
