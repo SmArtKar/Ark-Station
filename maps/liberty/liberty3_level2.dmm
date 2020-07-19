@@ -1182,6 +1182,7 @@
 /area/liberty/hotel/room/one_zero_four)
 "cC" = (
 /obj/structure/table/woodentable_reinforced/mahogany,
+/obj/effect/floor_decal/corner/black/diagonal,
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "cD" = (
@@ -1555,16 +1556,11 @@
 /turf/simulated/floor/wood/walnut,
 /area/space)
 "dq" = (
-/obj/effect/floor_decal/carpet/red{
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/red{
+/obj/structure/bed/chair/wood/mahogany{
 	dir = 1
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 9
-	},
-/turf/simulated/floor/carpet/red,
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "dr" = (
 /obj/effect/floor_decal/carpet/red{
@@ -1577,7 +1573,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/carpet/red,
-/area/space)
+/area/liberty/hotel/room/two_zero_one)
 "ds" = (
 /obj/effect/floor_decal/corner/black/diagonal,
 /turf/simulated/floor/tiled/dark,
@@ -1687,24 +1683,6 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/space)
-"dI" = (
-/obj/structure/bed/chair/wood/mahogany{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 8
-	},
-/turf/simulated/floor/carpet/red,
-/area/space)
-"dJ" = (
-/obj/structure/bed/chair/wood/mahogany{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/red,
 /area/space)
 "dK" = (
 /obj/machinery/door/blast/regular/open{
@@ -2024,26 +2002,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white/monotile,
 /area/space)
-"ez" = (
-/obj/effect/floor_decal/carpet/red{
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/red,
-/obj/effect/floor_decal/carpet/red{
-	dir = 10
-	},
-/turf/simulated/floor/carpet/red,
-/area/space)
-"eA" = (
-/obj/effect/floor_decal/carpet/red{
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/red,
-/obj/effect/floor_decal/carpet/red{
-	dir = 6
-	},
-/turf/simulated/floor/carpet/red,
-/area/space)
 "eB" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	icon_state = "intact";
@@ -2186,7 +2144,6 @@
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_one)
 "eS" = (
-/obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/carpet/red,
 /area/space)
 "eU" = (
@@ -2478,22 +2435,11 @@
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "fs" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/one_zero_four)
-"ft" = (
-/obj/effect/floor_decal/carpet/purple,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 8
+/obj/structure/railing/mapped{
+	dir = 4
 	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 10
-	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_two)
+/turf/simulated/open,
+/area/liberty/hotel/hallway/east)
 "fu" = (
 /obj/structure/bed/chair/wood/maple,
 /turf/simulated/floor/wood/walnut,
@@ -2516,9 +2462,16 @@
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "fw" = (
-/obj/machinery/door/airlock/civilian,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/two_zero_one)
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube_map"
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/hallway/west)
 "fx" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/shutters,
@@ -3641,32 +3594,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/space)
-"ho" = (
-/obj/structure/hygiene/sink{
-	dir = 4;
-	pixel_x = 12
-	},
-/obj/effect/floor_decal/corner/black/full,
-/obj/item/weapon/storage/mirror{
-	dir = 4;
-	pixel_x = 32;
-	pixel_y = 0
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_three)
 "hr" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 8
@@ -3792,18 +3719,9 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/hallway/two)
-"hD" = (
-/obj/effect/floor_decal/carpet/red{
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 5
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
+"hB" = (
+/turf/simulated/open,
+/area/liberty/hotel/hallway/east)
 "hF" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	icon_state = "borderfloor_white";
@@ -4054,6 +3972,10 @@
 	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/hallway/two)
+"id" = (
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/hallway/east)
 "ie" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -4228,19 +4150,18 @@
 	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/hallway/two)
-"iu" = (
-/obj/machinery/button/windowtint{
-	dir = 4;
-	pixel_x = -24;
-	pixel_y = 10
-	},
-/obj/item/device/flashlight/lamp/green{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/structure/table/woodentable/walnut,
+"is" = (
+/obj/structure/flora/pottedplant/minitree,
 /turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_three)
+/area/liberty/hotel/room/three_zero_two)
+"iu" = (
+/obj/structure/table/standard,
+/obj/machinery/computer{
+	icon_state = "computer";
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "iw" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	icon_state = "borderfloor_white";
@@ -4712,6 +4633,10 @@
 /obj/item/weapon/shampoo,
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/hallway/two)
+"jh" = (
+/obj/machinery/papershredder,
+/turf/simulated/floor/carpet/blue2,
+/area/space)
 "ji" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	icon_state = "borderfloor_white";
@@ -5073,6 +4998,10 @@
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/ward/two)
+"jU" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/r_wall/prepainted,
+/area/liberty/hotel/room/two_zero_two)
 "jX" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	icon_state = "spline_fancy";
@@ -5083,27 +5012,16 @@
 /area/space)
 "jZ" = (
 /obj/structure/table/woodentable/walnut,
-/obj/machinery/light/spot,
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_three)
-"ka" = (
-/obj/item/modular_computer/telescreen{
-	pixel_y = 24
+/obj/item/weapon/material/ashtray/glass,
+/obj/effect/floor_decal/carpet/red{
+	dir = 4
 	},
-/obj/structure/undies_wardrobe/chestdrawer/walnut,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 8
+/obj/effect/floor_decal/carpet/red,
+/obj/effect/floor_decal/carpet/red{
+	dir = 6
 	},
-/obj/effect/floor_decal/carpet/blue{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 9
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_three)
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/room/two_zero_two)
 "kd" = (
 /obj/structure/table/glass,
 /obj/effect/floor_decal/corner/black/full,
@@ -5120,24 +5038,55 @@
 /obj/effect/floor_decal/corner/purple/bordercorner,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
-"kf" = (
-/obj/machinery/light_switch{
-	icon_state = "crema_switch";
-	pixel_x = -23;
-	pixel_y = 28
+"ki" = (
+/obj/structure/closet/cabinet/walnut,
+/obj/effect/floor_decal/carpet/red{
+	dir = 1
 	},
-/obj/effect/floor_decal/spline/fancy/black,
-/turf/simulated/floor/wood/walnut,
+/obj/effect/floor_decal/carpet/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/red,
 /area/liberty/hotel/room/two_zero_two)
 "kj" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/two_zero_one)
-"kn" = (
-/obj/structure/bed/chair/wood/walnut,
+/obj/structure/hygiene/shower{
+	pixel_y = 18
+	},
+/obj/structure/curtain/open/shower,
 /obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/three_zero_three)
+"kl" = (
+/obj/effect/paint_stripe/green,
+/obj/effect/paint/white,
+/turf/simulated/wall/r_wall,
+/area/space)
+"kt" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_two)
+"kx" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/floor/plating,
+/area/liberty/hotel/room/three_zero_two)
 "kA" = (
 /obj/machinery/disposal,
 /turf/simulated/floor/tiled/old_cargo,
@@ -5161,6 +5110,13 @@
 /obj/machinery/floor_light,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
+"kN" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/hallway/east)
 "kR" = (
 /obj/effect/floor_decal/carpet{
 	dir = 4;
@@ -5172,6 +5128,41 @@
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"kX" = (
+/obj/structure/bed/chair/wood/walnut,
+/obj/machinery/alarm{
+	pixel_y = 22
+	},
+/obj/effect/floor_decal/corner/black/full,
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_three)
+"lh" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/obj/structure/table/woodentable/walnut,
+/obj/item/device/flashlight/lamp/green{
+	pixel_x = -3;
+	pixel_y = 16
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 5
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_two)
 "li" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/weapon/storage/box/glasses,
@@ -5194,28 +5185,15 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/one_zero_one)
-"lu" = (
-/obj/structure/hygiene/toilet,
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
+"lo" = (
+/obj/structure/table/woodentable/walnut,
+/obj/item/device/radio/intercom{
+	dir = 4;
+	icon_state = "intercom";
+	pixel_x = -24
 	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/two_zero_one)
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/two_zero_two)
 "lv" = (
 /obj/structure/bed/sofa/black/right{
 	icon_state = "couchblack_right";
@@ -5224,6 +5202,13 @@
 /obj/effect/floor_decal/corner/black/full,
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
+"lw" = (
+/obj/structure/bed/chair/comfy/black{
+	icon_state = "comfychair_preview";
+	dir = 4
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/space)
 "ly" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/weapon/paper_bin{
@@ -5241,43 +5226,22 @@
 /turf/simulated/floor/wood/walnut,
 /area/space)
 "lC" = (
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+/obj/structure/coatrack/walnut,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
 	dir = 1
 	},
-/obj/structure/closet/secure_closet/wall{
-	pixel_x = 24;
-	pixel_y = 10
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_three)
-"lG" = (
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
 	dir = 8
 	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/one_zero_two)
+"lE" = (
+/obj/structure/bed/chair/armchair/black,
+/obj/effect/floor_decal/corner/black/full,
 /turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/two_zero_one)
+/area/liberty/hotel/room/three_zero_two)
 "lJ" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/bar_alc/full{
@@ -5303,6 +5267,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"md" = (
+/obj/machinery/door/unpowered/simple/wood,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/two_zero_one)
 "mg" = (
 /obj/item/weapon/bedsheet/brown,
 /obj/structure/bed/padded,
@@ -5330,15 +5298,63 @@
 	},
 /turf/simulated/floor/carpet,
 /area/space)
-"mz" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/liberty/hotel/hallway/west)
+"ms" = (
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/two_zero_two)
+"my" = (
+/obj/structure/bed/sofa/black/right{
+	icon_state = "couchblack_right";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/red,
+/obj/effect/floor_decal/carpet/red{
+	dir = 10
+	},
+/obj/machinery/button/windowtint{
+	id = "rd_windows";
+	pixel_x = 6;
+	pixel_y = -24;
+	range = 11
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/room/two_zero_two)
 "mB" = (
 /obj/structure/flora/pottedplant/minitree,
 /obj/effect/floor_decal/carpet/red,
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/carpet/red,
+/area/space)
+"mJ" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/prepainted,
+/area/liberty/hotel/room/three_zero_three)
+"mM" = (
+/obj/item/modular_computer,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"mO" = (
+/obj/structure/bed/sofa/black/right{
+	icon_state = "couchblack_right";
+	dir = 1
+	},
+/turf/simulated/floor/carpet/blue2,
 /area/space)
 "mR" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -5348,22 +5364,13 @@
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/ward/one)
-"nl" = (
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/hallway/east)
-"np" = (
-/obj/structure/closet/cabinet/walnut,
-/obj/effect/floor_decal/carpet/red{
-	dir = 1
+"mZ" = (
+/obj/structure/bed/chair/office/dark{
+	icon_state = "officechair_preview";
+	dir = 4
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 9
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
+/turf/simulated/floor/tiled,
+/area/space)
 "nu" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	icon_state = "spline_fancy";
@@ -5383,6 +5390,18 @@
 	},
 /turf/simulated/floor/carpet,
 /area/space)
+"nB" = (
+/obj/item/weapon/bedsheet/brown,
+/obj/structure/bed/padded,
+/obj/effect/floor_decal/carpet/red,
+/obj/effect/floor_decal/carpet/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 6
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/room/two_zero_two)
 "nG" = (
 /obj/machinery/computer/modular/preset/library,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -5396,6 +5415,18 @@
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/oncall_room)
+"nL" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/prepainted,
+/area/liberty/hotel/room/one_zero_three)
+"nQ" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_three)
 "nT" = (
 /obj/structure/bed/sofa/black/left,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -5422,102 +5453,53 @@
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/prepainted,
 /area/space)
+"ob" = (
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 24;
+	pixel_y = 6
+	},
+/obj/machinery/button/alternate/door/bolts{
+	dir = 8;
+	pixel_x = 24;
+	pixel_y = -2
+	},
+/obj/structure/coatrack/walnut,
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_two)
 "of" = (
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/carpet/green,
 /area/space)
-"oi" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/liberty/hotel/hallway/east)
-"oo" = (
-/obj/item/device/radio/intercom{
-	pixel_y = 24
-	},
-/obj/effect/floor_decal/carpet/blue{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/blue,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 9
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 10
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_three)
-"or" = (
-/obj/item/weapon/bedsheet/double/brown,
-/obj/structure/bed/double/walnut,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 4
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 4
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_three)
-"ou" = (
-/obj/structure/closet/cabinet/walnut,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
+"ok" = (
+/obj/structure/bed/sofa/black{
+	icon_state = "couchblack_middle";
 	dir = 5
 	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
+/turf/simulated/floor/carpet/blue2,
+/area/space)
+"om" = (
+/obj/structure/hygiene/toilet,
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 4
 	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_four)
-"ox" = (
-/obj/machinery/light_switch{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/blue,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 6
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_three)
-"oA" = (
-/obj/machinery/button/alternate/door/bolts{
-	dir = 1;
-	pixel_x = 33;
-	pixel_y = -24
-	},
-/obj/machinery/light_switch{
-	dir = 1;
-	pixel_x = 24;
-	pixel_y = -24
-	},
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/one_zero_two)
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/two_zero_two)
 "oC" = (
 /obj/structure/hygiene/toilet,
 /obj/effect/floor_decal/corner/black/full,
@@ -5550,28 +5532,23 @@
 	},
 /turf/simulated/floor/carpet,
 /area/space)
-"oE" = (
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
+"oJ" = (
+/obj/machinery/button/alternate/door/bolts{
+	dir = 1;
+	pixel_x = 33;
+	pixel_y = -24
+	},
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_x = 24;
+	pixel_y = -24
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
 	dir = 1
 	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 9
-	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_three)
-"oF" = (
-/obj/machinery/button/alternate/door/bolts{
-	pixel_x = 0;
-	pixel_y = 28
-	},
-/turf/space,
-/area/space)
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/one_zero_two)
 "oM" = (
 /obj/structure/bed/chair/wood/maple{
 	icon_state = "wooden_chair_preview";
@@ -5594,21 +5571,11 @@
 /obj/item/weapon/storage/pill_bottle/dice_nerd,
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"oV" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/three_zero_one)
-"oX" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance,
-/obj/effect/paint_stripe/green,
-/turf/simulated/floor/tiled/techmaint,
-/area/liberty/medbay/hallway/two)
-"pd" = (
-/obj/effect/floor_decal/spline/fancy/black,
+"pb" = (
+/obj/structure/table/woodentable/walnut,
+/obj/machinery/light/spot,
 /turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/hallway/east)
+/area/liberty/hotel/room/three_zero_three)
 "pe" = (
 /obj/structure/iv_drip,
 /obj/machinery/firealarm{
@@ -5619,52 +5586,27 @@
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/ward/two)
 "ph" = (
-/obj/structure/bed/sofa/black/right{
-	icon_state = "couchblack_right";
-	dir = 8
-	},
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_three)
-"pj" = (
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 1
-	},
 /obj/effect/floor_decal/carpet/purple{
 	icon_state = "purple_edges";
 	dir = 8
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 9
 	},
 /turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_four)
-"pl" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
+/area/liberty/hotel/room/one_zero_three)
+"pj" = (
 /turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/hallway/east)
+"pk" = (
+/obj/machinery/door/airlock/civilian,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/liberty/hotel/room/three_zero_three)
-"pu" = (
-/obj/structure/hygiene/shower{
-	pixel_y = 18
+"px" = (
+/obj/structure/hygiene/sink{
+	dir = 8;
+	pixel_x = -12
 	},
-/obj/structure/curtain/open/shower,
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 10
+/obj/item/weapon/storage/mirror{
+	pixel_x = -32
 	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/yellow/bordercorner,
 /obj/effect/floor_decal/corner/yellow/bordercorner{
@@ -5673,29 +5615,36 @@
 	},
 /obj/effect/floor_decal/corner/yellow/bordercorner{
 	icon_state = "bordercolorcorner";
-	dir = 1
+	dir = 8
 	},
 /obj/effect/floor_decal/corner/yellow/bordercorner{
 	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_three)
+"pE" = (
+/obj/item/device/radio/intercom{
+	pixel_y = 24
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
 	dir = 8
 	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 10
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
 	dir = 9
 	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/liberty/hotel/room/two_zero_two)
-"pA" = (
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 8
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 10
 	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_two)
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_two)
 "pH" = (
 /obj/structure/bed/chair/wood/walnut{
 	dir = 8
@@ -5706,22 +5655,38 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/three_zero_one)
+"pL" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/floor/plating,
+/area/liberty/hotel/room/three_zero_one)
+"pN" = (
+/obj/effect/paint/white,
+/obj/effect/paint_stripe/green,
+/turf/simulated/wall,
+/area/liberty/medbay/hallway/two)
 "pU" = (
-/obj/effect/floor_decal/carpet/red,
-/obj/effect/floor_decal/carpet/red{
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/red{
+/obj/structure/hygiene/toilet,
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 4
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 6
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 10
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
 	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_three)
 "pV" = (
 /obj/item/weapon/stool/padded,
 /turf/simulated/floor/tiled/old_cargo,
@@ -5733,43 +5698,55 @@
 	},
 /turf/simulated/floor/carpet,
 /area/space)
-"qm" = (
+"qd" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_one)
+"qg" = (
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/prepainted,
-/area/liberty/hotel/room/two_zero_one)
-"qt" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/three_zero_one)
-"qu" = (
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"qz" = (
-/obj/machinery/button/alternate/door/bolts{
-	pixel_x = 0;
-	pixel_y = 28
-	},
-/obj/structure/coatrack/walnut,
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/two_zero_two)
-"qK" = (
-/obj/structure/undies_wardrobe/chestdrawer/walnut,
+/area/liberty/hotel/room/one_zero_four)
+"qv" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	icon_state = "spline_fancy";
 	dir = 1
 	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 4
-	},
 /turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/one_zero_two)
+/area/liberty/hotel/room/three_zero_one)
+"qx" = (
+/obj/effect/floor_decal/corner/red/border,
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"qy" = (
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/hallway/east)
+"qJ" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/r_wall/prepainted,
+/area/liberty/hotel/room/three_zero_three)
 "qM" = (
 /turf/simulated/floor/carpet,
 /area/space)
+"qN" = (
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 10
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_two)
 "qP" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/fancy/black,
@@ -5818,29 +5795,22 @@
 	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/ward/one)
-"qZ" = (
-/obj/structure/hygiene/toilet,
-/obj/effect/floor_decal/corner/black/full,
-/obj/machinery/light{
-	dir = 1;
-	icon_state = "tube_map";
-	pixel_y = 0
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+"rj" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
 	dir = 1
 	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_two)
+"rk" = (
+/obj/structure/table/standard,
+/obj/machinery/computer{
+	icon_state = "computer";
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_three)
+/turf/simulated/floor/tiled,
+/area/space)
 "rl" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/yellow/bordercorner,
@@ -5862,78 +5832,45 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/three_zero_two)
-"rn" = (
-/obj/effect/paint/white,
-/obj/effect/paint_stripe/green,
-/turf/simulated/wall,
-/area/liberty/medbay/hallway/two)
-"rr" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor{
-	icon_state = "open";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/three_zero_three)
-"rs" = (
-/obj/item/device/radio/intercom{
-	pixel_y = 24
-	},
-/obj/effect/floor_decal/carpet/blue{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/blue,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 9
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 10
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_two)
-"rw" = (
-/obj/structure/bed/padded,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
+"rA" = (
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	icon_state = "spline_fancy_corner";
 	dir = 4
 	},
-/obj/item/weapon/bedsheet/brown,
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_two)
-"rE" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/floor/plating,
-/area/liberty/hotel/room/three_zero_one)
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/hallway/east)
+"rC" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"rD" = (
+/obj/machinery/disposal,
+/turf/simulated/floor/tiled,
+/area/space)
 "rS" = (
 /obj/item/modular_computer/telescreen/preset,
 /turf/simulated/wall,
 /area/space)
-"sc" = (
-/obj/effect/floor_decal/carpet/red{
-	dir = 8
+"sf" = (
+/obj/effect/floor_decal/carpet{
+	dir = 4;
+	icon_state = "brown_edges"
+	},
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
+	dir = 5
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 1
 	},
 /turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
-"sg" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/liberty/hotel/room/one_zero_one)
-"sj" = (
-/obj/structure/bed/padded,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 4
-	},
-/obj/item/weapon/bedsheet/brown,
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_four)
+/area/liberty/hotel/hallway/east)
 "sl" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/device/flashlight/lamp/lava/pink,
@@ -5964,29 +5901,13 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_one)
-"ss" = (
-/obj/effect/floor_decal/carpet{
-	icon_state = "brown_edges";
-	dir = 8
+"sy" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
 	},
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube_map"
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/hallway/west)
-"su" = (
-/obj/effect/floor_decal/carpet/purple,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 10
-	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_four)
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_two)
 "sz" = (
 /obj/structure/bed/sofa/black/left{
 	icon_state = "couchblack_left";
@@ -6003,9 +5924,6 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"sB" = (
-/turf/simulated/open,
-/area/liberty/hotel/hallway/east)
 "sJ" = (
 /obj/effect/paint_stripe/green,
 /obj/effect/paint/white,
@@ -6019,19 +5937,44 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"sW" = (
+/obj/structure/bed/chair/comfy/black{
+	icon_state = "comfychair_preview";
+	dir = 8
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/space)
+"sY" = (
+/obj/structure/bed/sofa/black{
+	icon_state = "couchblack_middle";
+	dir = 9
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_two)
 "td" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
 /turf/simulated/floor/airless,
 /area/space)
-"te" = (
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_two)
+"tf" = (
+/obj/machinery/button/windowtint{
+	dir = 4;
+	pixel_x = -24;
+	pixel_y = 10
+	},
+/obj/item/device/flashlight/lamp/green{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/structure/table/woodentable/walnut,
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_three)
 "tk" = (
-/obj/machinery/door/airlock/civilian,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/three_zero_one)
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/hallway/east)
 "tn" = (
 /obj/structure/bed/sofa/black/left{
 	icon_state = "couchblack_left";
@@ -6042,6 +5985,37 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"tp" = (
+/obj/item/device/radio/intercom{
+	pixel_y = 24
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 9
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 10
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_three)
+"tq" = (
+/obj/structure/bed/padded,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 4
+	},
+/obj/item/weapon/bedsheet/brown,
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_two)
 "tx" = (
 /obj/structure/table/woodentable/walnut,
 /obj/structure/flora/pottedplant/smallcactus,
@@ -6051,13 +6025,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"ty" = (
-/obj/structure/bed/sofa/black{
-	icon_state = "couchblack_middle";
-	dir = 9
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_three)
 "tB" = (
 /obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/black{
 	step_x = 25;
@@ -6066,35 +6033,7 @@
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"tI" = (
-/obj/structure/table/woodentable/walnut,
-/obj/item/device/flashlight/lamp/green,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/space)
-"tL" = (
-/obj/effect/floor_decal/carpet{
-	dir = 4;
-	icon_state = "brown_edges"
-	},
-/obj/effect/floor_decal/carpet{
-	icon_state = "brown_edges";
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet{
-	icon_state = "brown_edges";
-	dir = 5
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 1
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/hallway/east)
-"tN" = (
+"tG" = (
 /obj/item/weapon/bedsheet/brown,
 /obj/structure/bed/padded,
 /obj/effect/floor_decal/carpet/red{
@@ -6108,6 +6047,15 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/liberty/hotel/room/two_zero_two)
+"tI" = (
+/obj/structure/table/woodentable/walnut,
+/obj/item/device/flashlight/lamp/green,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/space)
 "tQ" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/NT{
@@ -6115,25 +6063,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"tS" = (
+"tT" = (
 /obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/blast/shutters,
-/obj/machinery/door/firedoor,
-/obj/effect/paint_stripe/green,
+/obj/effect/paint_stripe/yellow,
 /turf/simulated/floor/plating,
-/area/liberty/medbay/cmo)
-"tU" = (
-/obj/structure/undies_wardrobe/chestdrawer/walnut,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 4
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/one_zero_three)
+/area/liberty/hotel/hallway/west)
 "tV" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 4
@@ -6154,22 +6088,39 @@
 /obj/machinery/floor_light,
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"ua" = (
-/obj/machinery/alarm{
-	alarm_id = null;
-	dir = 8;
-	icon_state = "alarm0";
-	pixel_x = 24
-	},
-/obj/effect/floor_decal/carpet/red{
+"ub" = (
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/wall{
+	pixel_x = 24;
+	pixel_y = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_three)
+"uc" = (
+/obj/structure/undies_wardrobe/chestdrawer/walnut,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
 	},
 /obj/machinery/light/spot{
 	icon_state = "tube_map";
 	dir = 4
 	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/one_zero_four)
 "ue" = (
 /obj/effect/floor_decal/carpet{
 	icon_state = "brown_edges";
@@ -6177,11 +6128,28 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/liberty/hotel/hallway/west)
-"um" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/one_zero_three)
+"ul" = (
+/obj/structure/table/standard,
+/obj/machinery/computer{
+	icon_state = "computer";
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"un" = (
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 24;
+	pixel_y = 6
+	},
+/obj/machinery/button/alternate/door/bolts{
+	dir = 8;
+	pixel_x = 24;
+	pixel_y = -2
+	},
+/obj/structure/coatrack/walnut,
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_three)
 "ut" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /obj/structure/window/basic{
@@ -6198,6 +6166,13 @@
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/space)
+"uy" = (
+/obj/structure/bed/sofa/black{
+	icon_state = "couchblack_middle";
+	dir = 9
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_three)
 "uB" = (
 /obj/structure/closet/cabinet/walnut,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -6207,60 +6182,18 @@
 /turf/simulated/floor/wood/walnut,
 /area/space)
 "uF" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/liberty/hotel/room/one_zero_four)
-"uI" = (
-/obj/structure/flora/pottedplant/minitree,
-/turf/simulated/floor/tiled,
+/obj/structure/table/woodentable_reinforced/walnut,
+/turf/simulated/floor/carpet/blue2,
 /area/space)
-"uO" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/open,
-/area/space)
+"uG" = (
+/obj/structure/bed/chair/armchair/black,
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_three)
 "uU" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/space)
-"uZ" = (
-/obj/structure/coatrack/walnut,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 8
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/one_zero_two)
-"vh" = (
-/obj/structure/hygiene/toilet,
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/two_zero_two)
 "vl" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/purple/bordercorner,
@@ -6278,47 +6211,65 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
-"vm" = (
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/open,
+"vr" = (
+/turf/simulated/floor/carpet/blue2,
 /area/space)
-"vq" = (
-/obj/item/weapon/material/ashtray/glass,
-/obj/structure/table/woodentable/walnut,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
-"vz" = (
-/obj/effect/floor_decal/carpet/purple,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
+"vt" = (
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
 	dir = 8
 	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 10
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
+	dir = 4
 	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_three)
-"vC" = (
-/obj/item/weapon/material/ashtray/glass,
-/obj/structure/table/woodentable/walnut,
-/obj/item/modular_computer/telescreen/preset/generic{
-	pixel_x = -32
-	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"vu" = (
 /obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_three)
+"vx" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/liberty/hotel/room/one_zero_four)
-"vN" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/floor/plating,
+"vz" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/simulated/floor/carpet/blue2,
+/area/space)
+"vI" = (
+/obj/effect/floor_decal/carpet/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 5
+	},
+/turf/simulated/floor/carpet/red,
 /area/liberty/hotel/room/two_zero_two)
+"vJ" = (
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/open,
+/area/liberty/hotel/hallway/east)
 "vO" = (
 /obj/effect/floor_decal/spline/fancy/black,
 /obj/effect/floor_decal/spline/fancy/black/corner{
@@ -6327,6 +6278,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"vP" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/r_wall/prepainted,
+/area/liberty/hotel/room/three_zero_two)
 "vQ" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -6341,6 +6296,61 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"vV" = (
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = 22
+	},
+/obj/effect/floor_decal/carpet/purple,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 6
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_three)
+"wb" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/one_zero_three)
+"wc" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/floor/plating,
+/area/liberty/hotel/room/three_zero_three)
+"wh" = (
+/obj/structure/undies_wardrobe/chestdrawer/walnut,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/one_zero_two)
+"wi" = (
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/two_zero_one)
 "wk" = (
 /obj/machinery/door/blast/shutters{
 	icon_state = "shutter1";
@@ -6400,25 +6410,6 @@
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/r_wall/prepainted,
 /area/space)
-"wx" = (
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
-	dir = 10
-	},
-/obj/effect/floor_decal/corner/red/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"wz" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor{
-	icon_state = "open";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/three_zero_one)
 "wC" = (
 /obj/effect/wallframe_spawn/reinforced/polarized,
 /obj/machinery/door/firedoor,
@@ -6434,19 +6425,10 @@
 /obj/effect/floor_decal/corner/black/full,
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"wE" = (
-/obj/machinery/button/windowtint{
-	dir = 4;
-	pixel_x = -24;
-	pixel_y = 10
-	},
-/obj/item/device/flashlight/lamp/green{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
+"wF" = (
+/obj/structure/bed/chair/pew,
+/turf/simulated/floor/tiled,
+/area/space)
 "wG" = (
 /obj/effect/wallframe_spawn/reinforced/polarized,
 /obj/machinery/door/firedoor,
@@ -6454,21 +6436,30 @@
 /obj/effect/paint/white,
 /turf/simulated/floor/plating,
 /area/liberty/medbay/ward/two)
-"wP" = (
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
+"wK" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/two_zero_two)
+"wW" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/prepainted,
+/area/liberty/hotel/hallway/west)
+"wZ" = (
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
 	dir = 1
 	},
-/obj/effect/floor_decal/corner/red/border,
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"wQ" = (
-/obj/machinery/vending/cigarette{
-	icon_state = "cigs";
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
-/area/space)
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/hallway/east)
 "xa" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/corner/black/half,
@@ -6479,15 +6470,13 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/space)
-"xe" = (
-/obj/item/weapon/material/ashtray/glass,
-/obj/structure/table/woodentable/walnut,
-/obj/item/modular_computer/telescreen/preset/generic{
-	pixel_x = -32
-	},
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_two)
+"xf" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/maintenance,
+/obj/effect/paint_stripe/green,
+/turf/simulated/floor/tiled/techmaint,
+/area/liberty/medbay/hallway/two)
 "xi" = (
 /obj/structure/table/woodentable/walnut,
 /obj/structure/flora/pottedplant/small,
@@ -6497,7 +6486,39 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"xm" = (
+"xu" = (
+/obj/structure/bed/chair/comfy/black{
+	icon_state = "comfychair_preview";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet{
+	dir = 9;
+	icon_state = "brown_edges"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/carpet,
+/area/space)
+"xy" = (
+/obj/effect/floor_decal/carpet/red{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/room/two_zero_two)
+"xz" = (
+/obj/structure/bed/chair/comfy/black,
+/turf/simulated/floor/carpet/blue2,
+/area/space)
+"xF" = (
 /obj/structure/hygiene/sink{
 	dir = 4;
 	pixel_x = 12
@@ -6523,80 +6544,11 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/two_zero_one)
-"xp" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/two_zero_one)
-"xs" = (
-/obj/effect/paint_stripe/green,
-/obj/effect/paint/white,
-/turf/simulated/wall,
-/area/space)
-"xt" = (
-/turf/simulated/floor/plating,
-/area/liberty/hotel/room/three_zero_two)
-"xu" = (
-/obj/structure/bed/chair/comfy/black{
-	icon_state = "comfychair_preview";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet{
-	icon_state = "brown_edges";
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet{
-	icon_state = "brown_edges";
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet{
-	dir = 9;
-	icon_state = "brown_edges"
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/carpet,
-/area/space)
-"xv" = (
-/obj/structure/bed/sofa/black{
-	icon_state = "couchblack_middle";
-	dir = 9
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
-"xz" = (
-/obj/structure/bed/chair/armchair/black,
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_two)
-"xC" = (
-/obj/structure/closet/cabinet/walnut,
-/obj/effect/floor_decal/carpet/red,
-/obj/effect/floor_decal/carpet/red{
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 10
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
 "xH" = (
 /obj/structure/lattice,
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
 /turf/space,
-/area/space)
-"xM" = (
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/red/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/old_cargo,
 /area/space)
 "xN" = (
 /obj/effect/floor_decal/carpet{
@@ -6613,38 +6565,29 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/liberty/hotel/hallway/east)
-"xS" = (
-/obj/structure/bed/sofa/black/left{
-	icon_state = "couchblack_left";
-	dir = 4
+"xQ" = (
+/obj/structure/bed/sofa/black/right{
+	icon_state = "couchblack_right";
+	dir = 8
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24;
-	pixel_y = 0
-	},
-/obj/effect/floor_decal/carpet/red{
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
 	dir = 1
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 8
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_three)
+"xU" = (
+/obj/structure/bed/sofa/black/left{
+	icon_state = "couchblack_left";
+	dir = 1
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 9
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 8
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
-"xT" = (
-/obj/machinery/door/airlock/civilian,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/three_zero_three)
 "xX" = (
+/obj/structure/table/woodentable/walnut,
+/obj/machinery/light/spot,
 /turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/hallway/east)
+/area/liberty/hotel/room/three_zero_two)
 "ya" = (
 /obj/structure/bed/sofa/black/right{
 	icon_state = "couchblack_right";
@@ -6682,26 +6625,6 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"ym" = (
-/obj/structure/closet/cabinet/walnut,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 5
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 4
-	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_two)
 "yr" = (
 /obj/structure/bed/sofa/black{
 	icon_state = "couchblack_middle";
@@ -6712,30 +6635,37 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"yw" = (
-/obj/machinery/door/unpowered/simple/wood,
+"yB" = (
+/obj/machinery/button/alternate/door/bolts{
+	dir = 1;
+	pixel_x = 33;
+	pixel_y = -24
+	},
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_x = 24;
+	pixel_y = -24
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/one_zero_four)
+"yH" = (
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/three_zero_three)
-"yA" = (
-/obj/structure/bed/chair/wood/walnut{
-	dir = 1
-	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24;
-	pixel_y = 0
-	},
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_two)
-"yE" = (
-/obj/effect/floor_decal/corner/red/border,
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/old_cargo,
 /area/space)
+"yN" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/hallway/east)
+"yQ" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/prepainted,
+/area/liberty/hotel/room/two_zero_two)
 "yV" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
@@ -6743,6 +6673,10 @@
 	},
 /turf/simulated/open,
 /area/space)
+"yZ" = (
+/obj/structure/flora/pottedplant/minitree,
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_three)
 "zc" = (
 /obj/structure/flora/pottedplant/minitree,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -6757,23 +6691,6 @@
 /obj/machinery/door/airlock/medical/liberty,
 /turf/simulated/floor/tiled/white/monotile,
 /area/liberty/medbay/ward/three)
-"zt" = (
-/obj/structure/table/woodentable/walnut,
-/obj/machinery/light/spot,
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
-"zA" = (
-/obj/effect/floor_decal/carpet/blue,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 10
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_three)
 "zB" = (
 /obj/effect/floor_decal/carpet/red,
 /obj/structure/bed/chair/wood/maple{
@@ -6801,34 +6718,57 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"zS" = (
+"zV" = (
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/two_zero_two)
-"Ad" = (
-/obj/structure/table/woodentable/walnut,
-/obj/item/weapon/material/ashtray/glass,
-/obj/effect/floor_decal/carpet/red{
-	dir = 4
+/area/liberty/hotel/room/two_zero_one)
+"zX" = (
+/obj/structure/hygiene/shower{
+	pixel_y = 18
 	},
-/obj/effect/floor_decal/carpet/red,
-/obj/effect/floor_decal/carpet/red{
-	dir = 6
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
-"Af" = (
-/obj/effect/floor_decal/carpet/blue,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
+/obj/structure/curtain/open/shower,
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
 	dir = 10
 	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_two)
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 10
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 9
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/liberty/hotel/room/one_zero_three)
+"Af" = (
+/obj/item/weapon/material/ashtray/glass,
+/obj/structure/table/woodentable/walnut,
+/obj/item/modular_computer/telescreen/preset/generic{
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_two)
 "Ag" = (
 /obj/effect/floor_decal/carpet/red{
 	dir = 1
@@ -6850,20 +6790,6 @@
 "Am" = (
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/ward/three)
-"An" = (
-/obj/machinery/light_switch{
-	dir = 8;
-	pixel_x = 24;
-	pixel_y = 6
-	},
-/obj/machinery/button/alternate/door/bolts{
-	dir = 8;
-	pixel_x = 24;
-	pixel_y = -2
-	},
-/obj/structure/coatrack/walnut,
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
 "As" = (
 /obj/structure/bed/sofa/black/right{
 	icon_state = "couchblack_right";
@@ -6875,37 +6801,64 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/three_zero_one)
-"AC" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/floor/plating,
-/area/liberty/hotel/room/three_zero_three)
-"AD" = (
-/obj/item/weapon/material/ashtray/glass,
-/obj/structure/table/woodentable/walnut,
-/obj/item/modular_computer/telescreen/preset/generic{
-	pixel_x = -32
+"AZ" = (
+/obj/structure/iv_drip,
+/obj/machinery/firealarm{
+	dir = 4;
+	icon_state = "casing";
+	pixel_x = 24
+	},
+/turf/simulated/floor/tiled/white,
+/area/liberty/medbay/ward/one)
+"Bb" = (
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
+	dir = 1
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/hallway/east)
+"Bq" = (
+/obj/structure/bed/sofa/black/right{
+	icon_state = "couchblack_right";
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_two)
+"Br" = (
+/obj/structure/bookcase/manuals/research_and_development,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 6
+	},
+/turf/simulated/floor/wood/walnut,
+/area/space)
+"By" = (
+/obj/structure/table/glass,
+/obj/structure/flora/pottedplant/deskfern,
+/turf/simulated/floor/carpet/blue2,
+/area/space)
+"BF" = (
+/obj/structure/bed/sofa/black/left{
+	icon_state = "couchblack_left";
+	dir = 4
 	},
 /obj/effect/floor_decal/corner/black/full,
 /turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_three)
-"AJ" = (
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 8
+/area/liberty/hotel/room/two_zero_one)
+"BG" = (
+/obj/machinery/light_switch{
+	icon_state = "crema_switch";
+	pixel_x = -23;
+	pixel_y = 28
 	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_three)
-"AK" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/three_zero_three)
-"AV" = (
-/obj/structure/hygiene/shower{
-	pixel_y = 18
-	},
-/obj/structure/curtain/open/shower,
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/two_zero_two)
+"BJ" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/yellow/bordercorner,
 /obj/effect/floor_decal/corner/yellow/bordercorner{
@@ -6920,45 +6873,12 @@
 	icon_state = "bordercolorcorner";
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_two)
-"AZ" = (
-/obj/structure/iv_drip,
-/obj/machinery/firealarm{
-	dir = 4;
-	icon_state = "casing";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/white,
-/area/liberty/medbay/ward/one)
-"Br" = (
-/obj/structure/bookcase/manuals/research_and_development,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 6
-	},
-/turf/simulated/floor/wood/walnut,
-/area/space)
-"Bv" = (
-/obj/structure/bed/chair/wood/walnut,
-/obj/machinery/alarm{
-	pixel_y = 22
-	},
-/obj/effect/floor_decal/corner/black/full,
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 8
+/obj/structure/closet/secure_closet/wall{
+	pixel_x = 24;
+	pixel_y = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/one_zero_four)
-"BF" = (
-/obj/structure/bed/sofa/black/left{
-	icon_state = "couchblack_left";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/two_zero_one)
 "BO" = (
 /obj/effect/floor_decal/carpet/red{
 	dir = 1
@@ -6971,32 +6891,28 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"BU" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	dir = 4
-	},
-/obj/effect/floor_decal/spline/fancy/black{
-	dir = 8
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/two_zero_two)
 "BX" = (
-/obj/effect/floor_decal/carpet{
-	icon_state = "brown_edges";
-	dir = 1
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 1
-	},
+/obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/carpet/red,
-/area/liberty/hotel/hallway/east)
+/area/space)
 "Cb" = (
 /obj/structure/closet,
 /turf/simulated/floor/tiled{
 	icon_state = "techmaint"
 	},
 /area/space)
+"Cd" = (
+/obj/effect/floor_decal/carpet/purple,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 10
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_three)
 "Cg" = (
 /obj/structure/flora/pottedplant/bamboo,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -7005,6 +6921,27 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Cj" = (
+/obj/structure/bed/chair/wood/walnut{
+	dir = 1
+	},
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24;
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_three)
+"Cl" = (
+/obj/item/weapon/material/ashtray/glass,
+/obj/structure/table/woodentable/walnut,
+/obj/item/modular_computer/telescreen/preset/generic{
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_three)
 "Co" = (
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/storage)
@@ -7031,6 +6968,11 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
+"CD" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/two_zero_two)
 "CH" = (
 /obj/effect/paint_stripe/green,
 /obj/effect/paint/white,
@@ -7057,22 +6999,15 @@
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/space)
-"CN" = (
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22
+"CK" = (
+/obj/item/weapon/material/ashtray/glass,
+/obj/structure/table/woodentable/walnut,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
 	},
-/obj/effect/floor_decal/carpet/purple,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 6
-	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_four)
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_three)
 "CS" = (
 /obj/effect/floor_decal/carpet{
 	dir = 4;
@@ -7088,78 +7023,44 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/liberty/hotel/hallway/west)
-"CW" = (
-/obj/machinery/light_switch{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/blue,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 6
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_two)
 "Dh" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/machinery/photocopier,
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"Dm" = (
-/obj/effect/floor_decal/carpet,
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/hallway/east)
-"Du" = (
-/obj/structure/table/woodentable/walnut,
-/obj/item/device/radio/intercom{
-	dir = 4;
-	icon_state = "intercom";
-	pixel_x = -24
+"Dq" = (
+/obj/structure/closet/cabinet/walnut,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/two_zero_two)
-"Dw" = (
-/obj/structure/hygiene/toilet,
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 5
 	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_two)
+"Dr" = (
+/obj/structure/coatrack/walnut,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
 	dir = 1
 	},
 /obj/machinery/light/spot{
 	icon_state = "tube_map";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_two)
-"DC" = (
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
 	dir = 8
 	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 9
-	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_two)
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/one_zero_four)
 "DD" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/yellow/bordercorner,
@@ -7177,13 +7078,22 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/one_zero_one)
-"DI" = (
-/obj/machinery/alarm{
-	pixel_y = 22
+"DG" = (
+/obj/structure/bed/sofa/black/left{
+	icon_state = "couchblack_left";
+	dir = 10
 	},
-/obj/structure/closet/cabinet/walnut,
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/carpet/blue2,
+/area/space)
+"DK" = (
+/obj/structure/bed/chair/wood/walnut{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/three_zero_three)
 "DL" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -7195,6 +7105,27 @@
 /obj/structure/bed/sofa/teal/right,
 /turf/simulated/floor/tiled/old_cargo,
 /area/space)
+"DO" = (
+/obj/structure/hygiene/shower{
+	pixel_y = 18
+	},
+/obj/structure/curtain/open/shower,
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_four)
 "DX" = (
 /obj/structure/bed/chair/wood/maple{
 	icon_state = "wooden_chair_preview";
@@ -7202,250 +7133,14 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"Ek" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/two_zero_one)
-"Eo" = (
-/obj/effect/floor_decal/spline/fancy/black/corner{
-	icon_state = "spline_fancy_corner";
-	dir = 4
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/hallway/east)
-"Eq" = (
-/obj/effect/floor_decal/carpet{
-	icon_state = "brown_edges";
-	dir = 1
-	},
-/obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/carpet,
-/area/space)
-"Ey" = (
-/obj/effect/floor_decal/borderfloorwhite{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/green/border{
-	icon_state = "bordercolor";
-	dir = 1
-	},
-/turf/simulated/floor/wood/maple,
-/area/liberty/medbay/ward/one)
-"EA" = (
-/obj/structure/table/glass,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_three)
-"EE" = (
-/obj/effect/floor_decal/carpet/red,
-/obj/effect/floor_decal/spline/fancy/black/corner,
-/obj/effect/floor_decal/spline/fancy/black/corner{
-	dir = 8
-	},
-/turf/simulated/floor/carpet/red,
-/area/space)
-"EP" = (
-/obj/effect/paint_stripe/green,
-/obj/effect/paint/white,
-/turf/simulated/wall/r_wall,
-/area/liberty/medbay/ward/one)
-"ER" = (
+"DY" = (
+/turf/simulated/floor/plating,
+/area/liberty/hotel/room/three_zero_two)
+"Ei" = (
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/prepainted,
-/area/liberty/hotel/room/three_zero_two)
-"EX" = (
-/obj/structure/hygiene/toilet,
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_four)
-"EY" = (
-/obj/structure/table/woodentable/walnut,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 6
-	},
-/turf/simulated/floor/wood/walnut,
-/area/space)
-"Fb" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/hallway/east)
-"Fd" = (
-/obj/structure/bed/sofa/black/left{
-	icon_state = "couchblack_left";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
-"Fh" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/medical/liberty,
-/turf/simulated/floor/tiled/white/monotile,
-/area/liberty/medbay/locker_room)
-"Fj" = (
-/obj/effect/floor_decal/carpet/red{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/red,
-/area/space)
-"Fn" = (
-/obj/structure/hygiene/shower{
-	pixel_y = 18
-	},
-/obj/structure/curtain/open/shower,
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_four)
-"Fo" = (
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/purple/bordercorner,
-/obj/effect/floor_decal/corner/purple/bordercorner{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/purple/bordercorner{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/purple/bordercorner{
-	dir = 4
-	},
-/obj/structure/table/marble,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
-"FA" = (
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_tile,
-/area/space)
-"FH" = (
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"FK" = (
-/obj/effect/floor_decal/spline/fancy/black/corner{
-	dir = 8
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/hallway/east)
-"FO" = (
-/obj/structure/bed/chair/pew,
-/turf/simulated/floor/tiled,
-/area/space)
-"Gj" = (
-/obj/machinery/button/alternate/door/bolts{
-	dir = 1;
-	pixel_x = 33;
-	pixel_y = -24
-	},
-/obj/machinery/light_switch{
-	dir = 1;
-	pixel_x = 24;
-	pixel_y = -24
-	},
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/one_zero_three)
-"Gp" = (
-/obj/structure/table/marble,
-/obj/machinery/chemical_dispenser/bar_coffee/full{
-	icon_state = "coffee_dispenser";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"Gu" = (
-/turf/simulated/floor/wood/maple,
-/area/liberty/medbay/hallway/two)
-"Gv" = (
-/obj/structure/hygiene/shower{
-	pixel_y = 18
-	},
-/obj/structure/curtain/open/shower,
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_three)
-"GE" = (
-/obj/structure/bed/sofa/black/right{
-	icon_state = "couchblack_right";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/two_zero_one)
-"GI" = (
+"Em" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
 	pixel_x = -12
@@ -7469,6 +7164,197 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/three_zero_two)
+"Eq" = (
+/obj/effect/floor_decal/carpet{
+	icon_state = "brown_edges";
+	dir = 1
+	},
+/obj/structure/table/woodentable/walnut,
+/turf/simulated/floor/carpet,
+/area/space)
+"Ey" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	icon_state = "bordercolor";
+	dir = 1
+	},
+/turf/simulated/floor/wood/maple,
+/area/liberty/medbay/ward/one)
+"EE" = (
+/obj/effect/floor_decal/carpet/red,
+/obj/effect/floor_decal/spline/fancy/black/corner,
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/red,
+/area/space)
+"EP" = (
+/obj/effect/paint_stripe/green,
+/obj/effect/paint/white,
+/turf/simulated/wall/r_wall,
+/area/liberty/medbay/ward/one)
+"EX" = (
+/obj/item/modular_computer/telescreen{
+	pixel_y = 24
+	},
+/obj/structure/undies_wardrobe/chestdrawer/walnut,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 9
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_three)
+"EY" = (
+/obj/structure/table/woodentable/walnut,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 6
+	},
+/turf/simulated/floor/wood/walnut,
+/area/space)
+"Fh" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/medical/liberty,
+/turf/simulated/floor/tiled/white/monotile,
+/area/liberty/medbay/locker_room)
+"Fj" = (
+/obj/effect/floor_decal/carpet/red{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/red,
+/area/space)
+"Fo" = (
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/purple/bordercorner,
+/obj/effect/floor_decal/corner/purple/bordercorner{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/bordercorner{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/purple/bordercorner{
+	dir = 4
+	},
+/obj/structure/table/marble,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"Fv" = (
+/obj/structure/table/glass,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_three)
+"FA" = (
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_tile,
+/area/space)
+"FJ" = (
+/obj/structure/bed/chair/wood/walnut,
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_two)
+"FK" = (
+/obj/effect/floor_decal/spline/fancy/black/corner{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/hallway/east)
+"FW" = (
+/obj/machinery/light_switch{
+	icon_state = "crema_switch";
+	pixel_x = -23;
+	pixel_y = 28
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 5
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/room/two_zero_two)
+"Gn" = (
+/obj/structure/bed/chair/wood/walnut{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_two)
+"Gp" = (
+/obj/structure/table/marble,
+/obj/machinery/chemical_dispenser/bar_coffee/full{
+	icon_state = "coffee_dispenser";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"Gr" = (
+/obj/structure/bed/chair/pew/left,
+/turf/simulated/floor/tiled,
+/area/space)
+"Gu" = (
+/turf/simulated/floor/wood/maple,
+/area/liberty/medbay/hallway/two)
+"GB" = (
+/obj/machinery/alarm{
+	alarm_id = null;
+	dir = 8;
+	icon_state = "alarm0";
+	pixel_x = 24
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 4
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 4
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/room/two_zero_two)
+"GE" = (
+/obj/structure/bed/sofa/black/right{
+	icon_state = "couchblack_right";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/two_zero_one)
 "GR" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -7482,17 +7368,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"GV" = (
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
-"GX" = (
-/obj/machinery/door/firedoor{
-	icon_state = "open";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
 "GY" = (
 /obj/effect/floor_decal/carpet,
 /obj/effect/floor_decal/carpet{
@@ -7505,6 +7380,18 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/liberty/hotel/hallway/east)
+"He" = (
+/obj/structure/bed/chair/wood/walnut{
+	dir = 1
+	},
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24;
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_two)
 "Hf" = (
 /obj/structure/bed/chair/comfy/green{
 	icon_state = "comfychair_preview";
@@ -7518,6 +7405,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/ward/one)
+"Hg" = (
+/obj/effect/floor_decal/corner/red/bordercorner,
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
+	dir = 9
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "Hi" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -7542,71 +7437,126 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
-"Hy" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/three_zero_three)
-"Hz" = (
-/obj/structure/bed/chair/wood/walnut{
-	dir = 8
+"Hm" = (
+/obj/structure/railing/mapped{
+	dir = 4
 	},
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_three)
+/turf/simulated/open,
+/area/space)
+"Hn" = (
+/obj/structure/closet/cabinet/walnut,
+/obj/effect/floor_decal/carpet/red,
+/obj/effect/floor_decal/carpet/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 10
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/room/two_zero_two)
+"Ho" = (
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 8
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_two)
+"Hs" = (
+/obj/machinery/door/airlock/civilian,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/two_zero_one)
+"Hz" = (
+/obj/structure/bed/chair/wood/walnut,
+/obj/machinery/alarm{
+	pixel_y = 22
+	},
+/obj/effect/floor_decal/corner/black/full,
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_two)
 "HB" = (
 /obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/tiled,
 /area/space)
-"HQ" = (
-/obj/structure/railing/mapped,
-/turf/simulated/open,
-/area/liberty/hotel/hallway/east)
-"HS" = (
-/obj/machinery/door/airlock/civilian,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/two_zero_two)
-"HZ" = (
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22
+"HD" = (
+/obj/item/modular_computer/telescreen{
+	pixel_y = 24
 	},
-/obj/effect/floor_decal/carpet/purple,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 4
+/obj/structure/undies_wardrobe/chestdrawer/walnut,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 8
 	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 6
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
 	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_two)
-"Ia" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	dir = 4
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 9
 	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/hallway/east)
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_two)
+"HE" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/simulated/floor/tiled,
+/area/space)
 "Ie" = (
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22
+/obj/structure/hygiene/toilet,
+/obj/effect/floor_decal/corner/black/full,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map";
+	pixel_y = 0
 	},
-/obj/effect/floor_decal/carpet/purple,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 4
 	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 6
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
 	},
-/turf/simulated/floor/carpet/purple,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/one_zero_three)
-"Ii" = (
+"In" = (
+/turf/simulated/floor/wood/maple,
+/area/liberty/medbay/oncall_room)
+"Ip" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/obj/structure/table/woodentable/walnut,
+/obj/item/device/flashlight/lamp/green{
+	pixel_x = -3;
+	pixel_y = 16
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 5
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_three)
+"Iq" = (
+/obj/structure/hygiene/toilet,
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/yellow/bordercorner,
 /obj/effect/floor_decal/corner/yellow/bordercorner{
@@ -7621,15 +7571,12 @@
 	icon_state = "bordercolorcorner";
 	dir = 1
 	},
-/obj/structure/closet/secure_closet/wall{
-	pixel_x = 24;
-	pixel_y = 10
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_four)
-"In" = (
-/turf/simulated/floor/wood/maple,
-/area/liberty/medbay/oncall_room)
+/area/liberty/hotel/room/three_zero_two)
 "Ir" = (
 /obj/structure/table/rack,
 /obj/item/weapon/storage/napkin_pack/full,
@@ -7669,6 +7616,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/ward/two)
+"Iv" = (
+/obj/machinery/door/airlock/civilian,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_two)
 "Iw" = (
 /obj/effect/floor_decal/corner/white/half{
 	icon_state = "bordercolorhalf";
@@ -7688,18 +7639,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/ward/two)
+"Ix" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_three)
 "Iy" = (
 /obj/structure/table/woodentable/walnut,
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"Iz" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
 "IA" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
@@ -7710,30 +7659,49 @@
 	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/ward/two)
-"IK" = (
-/obj/structure/bed/chair/wood/walnut{
+"IM" = (
+/obj/structure/closet/cabinet/walnut,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24;
-	pixel_y = 0
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 4
 	},
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_three)
-"IS" = (
-/obj/structure/bed/chair/wood/walnut{
-	dir = 1
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 5
 	},
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24;
-	pixel_y = 0
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 4
 	},
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/carpet/purple,
 /area/liberty/hotel/room/one_zero_four)
+"IN" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/two_zero_two)
+"IP" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/liberty/hotel/room/three_zero_three)
+"IT" = (
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "IU" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 8
@@ -7745,44 +7713,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"IW" = (
-/obj/structure/hygiene/shower{
-	pixel_y = 18
-	},
-/obj/structure/curtain/open/shower,
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 10
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 10
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 9
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/liberty/hotel/room/two_zero_one)
 "Jd" = (
 /obj/structure/bed/sofa/black/left{
 	icon_state = "couchblack_left";
@@ -7797,54 +7727,74 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"Jj" = (
-/obj/structure/hygiene/shower{
-	pixel_y = 18
+"Jl" = (
+/obj/machinery/door/unpowered/simple/wood,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_three)
+"Jx" = (
+/obj/machinery/door/unpowered/simple/wood,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/two_zero_two)
+"Jy" = (
+/obj/machinery/button/alternate/door/bolts{
+	dir = 1;
+	pixel_x = 33;
+	pixel_y = -24
 	},
-/obj/structure/curtain/open/shower,
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 10
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_x = 24;
+	pixel_y = -24
 	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
 	dir = 1
 	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 10
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals6{
-	icon_state = "steel_decals6";
-	dir = 9
-	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/one_zero_three)
-"Jw" = (
-/obj/effect/paint_stripe/green,
-/obj/effect/paint/white,
-/turf/simulated/wall/r_wall,
-/area/space)
-"JF" = (
-/obj/structure/railing/mapped{
+"JA" = (
+/obj/structure/bed/sofa/black/left{
+	icon_state = "couchblack_left";
 	dir = 4
 	},
-/turf/simulated/open,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24;
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 9
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 8
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/room/two_zero_two)
+"JF" = (
+/obj/machinery/alarm{
+	pixel_y = 22
+	},
+/obj/structure/closet/cabinet/walnut,
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_two)
+"JI" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/hallway/east)
 "JJ" = (
 /obj/effect/floor_decal/carpet/red,
@@ -7872,11 +7822,10 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"JM" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/three_zero_two)
+"JN" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/prepainted,
+/area/liberty/hotel/room/three_zero_one)
 "JR" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -7884,10 +7833,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"JU" = (
-/obj/machinery/door/airlock/civilian,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/three_zero_two)
 "Ky" = (
 /obj/structure/bed/sofa/black/left{
 	icon_state = "couchblack_left";
@@ -7896,15 +7841,38 @@
 /obj/effect/floor_decal/corner/black/full,
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/two_zero_one)
-"KD" = (
-/obj/effect/floor_decal/spline/fancy/black{
+"KG" = (
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 8
 	},
-/obj/effect/floor_decal/spline/fancy/black{
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"KK" = (
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 4
 	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/two_zero_two)
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/wall{
+	pixel_x = 24;
+	pixel_y = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_two)
 "KM" = (
 /obj/effect/floor_decal/corner/black/half,
 /obj/effect/floor_decal/corner/black/half,
@@ -7914,78 +7882,22 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/space)
-"KP" = (
-/obj/structure/undies_wardrobe/chestdrawer/walnut,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 4
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/one_zero_four)
-"KR" = (
-/obj/item/modular_computer/telescreen{
-	pixel_y = 24
-	},
-/obj/structure/undies_wardrobe/chestdrawer/walnut,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 8
-	},
-/obj/effect/floor_decal/carpet/blue{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 9
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_two)
-"KS" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/one_zero_one)
 "KT" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"Lc" = (
-/obj/item/weapon/bedsheet/double/brown,
-/obj/structure/bed/double/walnut,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 4
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 4
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_two)
-"Lq" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled,
-/area/space)
-"Lt" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/obj/structure/table/woodentable/walnut,
-/obj/item/device/flashlight/lamp/green{
-	pixel_x = -3;
-	pixel_y = 16
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 4
-	},
+"KX" = (
 /obj/effect/floor_decal/carpet/blue{
 	dir = 1
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 6
 	},
 /obj/effect/floor_decal/carpet/blue{
 	icon_state = "blue1_edges";
@@ -7993,6 +7905,66 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/liberty/hotel/room/three_zero_two)
+"KZ" = (
+/obj/structure/hygiene/shower{
+	pixel_y = 18
+	},
+/obj/structure/curtain/open/shower,
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 10
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 10
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 9
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/liberty/hotel/room/two_zero_two)
+"La" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/one_zero_one)
+"Lc" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/prepainted,
+/area/liberty/hotel/room/one_zero_one)
+"Lj" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/floor/plating,
+/area/liberty/hotel/room/two_zero_two)
+"Lk" = (
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_three)
+"Lq" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled,
+/area/space)
 "Lu" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
@@ -8000,13 +7972,6 @@
 	},
 /turf/simulated/open,
 /area/space)
-"Lv" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_one)
 "Lw" = (
 /obj/structure/bed/chair/wood/walnut{
 	dir = 8
@@ -8022,14 +7987,6 @@
 	},
 /turf/simulated/floor/carpet,
 /area/space)
-"Lx" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
-"Ly" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/three_zero_two)
 "Lz" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -8037,33 +7994,22 @@
 /obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/space)
-"LD" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/liberty/hotel/room/one_zero_three)
-"LI" = (
-/obj/machinery/light_switch{
-	icon_state = "crema_switch";
-	pixel_x = -23;
-	pixel_y = 28
+"LC" = (
+/obj/structure/bed/chair/office/dark,
+/turf/simulated/floor/tiled,
+/area/space)
+"LG" = (
+/obj/structure/bed/chair/wood/walnut,
+/obj/machinery/alarm{
+	pixel_y = 22
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/red{
+/obj/effect/floor_decal/corner/black/full,
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
 	dir = 8
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 5
-	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 9
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_four)
 "LJ" = (
 /obj/structure/closet/secure_closet/personal/patient,
 /obj/effect/floor_decal/borderfloorwhite{
@@ -8125,18 +8071,25 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"LS" = (
-/obj/structure/coatrack/walnut,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
+"LN" = (
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 24
 	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 8
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 4
 	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/one_zero_three)
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 6
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_two)
+"LP" = (
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/hallway/east)
 "Md" = (
 /obj/effect/floor_decal/spline/fancy/black/corner{
 	icon_state = "spline_fancy_corner";
@@ -8152,54 +8105,88 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"Mo" = (
-/obj/structure/bed/chair/padded/red{
-	icon_state = "chair_preview";
-	dir = 4
+"Mv" = (
+/obj/structure/coatrack/walnut,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
 	},
-/turf/simulated/floor/tiled,
-/area/space)
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/one_zero_three)
+"My" = (
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 8
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_three)
 "MF" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/device/flashlight/lamp/green,
 /obj/effect/floor_decal/carpet,
 /turf/simulated/floor/carpet,
 /area/space)
-"MK" = (
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 8
-	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_four)
-"MV" = (
-/obj/item/weapon/material/ashtray/glass,
-/obj/structure/table/woodentable/walnut,
+"MG" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/prepainted,
+/area/liberty/hotel/hallway/east)
+"MH" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	icon_state = "spline_fancy";
 	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/three_zero_three)
-"Na" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/liberty/hotel/room/two_zero_two)
+"MM" = (
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 6
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_three)
+"MU" = (
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "Nb" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/weapon/paper_bin,
 /turf/simulated/floor/carpet,
 /area/space)
-"Ng" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/two_zero_two)
-"Ni" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/floor/plating,
-/area/liberty/hotel/room/three_zero_two)
+"Nc" = (
+/obj/structure/hygiene/toilet,
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/two_zero_one)
 "Nj" = (
 /obj/structure/bed/sofa/black{
 	icon_state = "couchblack_middle";
@@ -8210,35 +8197,20 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"Nq" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/liberty/hotel/room/three_zero_one)
-"Nu" = (
-/obj/effect/wallframe_spawn/reinforced/polarized,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/space)
-"NA" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/two_zero_two)
-"NS" = (
-/obj/structure/lattice,
-/turf/simulated/floor/wood/walnut,
-/area/space)
-"NV" = (
-/obj/structure/reagent_dispensers/water_cooler{
-	icon_state = "water_cooler";
-	dir = 8
+"Nl" = (
+/obj/machinery/button/windowtint{
+	dir = 4;
+	pixel_x = -24;
+	pixel_y = 10
 	},
-/obj/effect/floor_decal/spline/fancy/black,
+/obj/item/device/flashlight/lamp/green{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/structure/table/woodentable/walnut,
 /turf/simulated/floor/wood/walnut,
-/area/space)
-"Oa" = (
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/hallway/east)
-"Oh" = (
+/area/liberty/hotel/room/three_zero_two)
+"No" = (
 /obj/structure/hygiene/toilet,
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/yellow/bordercorner,
@@ -8259,7 +8231,99 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_three)
+/area/liberty/hotel/room/one_zero_four)
+"Nu" = (
+/obj/effect/wallframe_spawn/reinforced/polarized,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/space)
+"Nw" = (
+/obj/structure/flora/pottedplant/large,
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/two_zero_two)
+"NL" = (
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 9
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_three)
+"NM" = (
+/obj/structure/hygiene/shower{
+	pixel_y = 18
+	},
+/obj/structure/curtain/open/shower,
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 10
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 10
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals6{
+	icon_state = "steel_decals6";
+	dir = 9
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/liberty/hotel/room/two_zero_one)
+"NO" = (
+/obj/item/weapon/material/ashtray/glass,
+/obj/structure/table/woodentable/walnut,
+/obj/item/modular_computer/telescreen/preset/generic{
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_four)
+"NS" = (
+/obj/structure/lattice,
+/turf/simulated/floor/wood/walnut,
+/area/space)
+"NV" = (
+/obj/structure/reagent_dispensers/water_cooler{
+	icon_state = "water_cooler";
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/simulated/floor/wood/walnut,
+/area/space)
+"Ob" = (
+/obj/structure/bed/chair/wood{
+	icon_state = "wooden_chair_preview";
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "Oj" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/structure/railing/mapped,
@@ -8307,6 +8371,10 @@
 /obj/item/weapon/towel/random,
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/ward/one)
+"OA" = (
+/obj/structure/table/glass,
+/turf/simulated/floor/carpet/blue2,
+/area/space)
 "OB" = (
 /obj/structure/bed/chair/wood/walnut{
 	dir = 4
@@ -8334,20 +8402,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"OR" = (
-/obj/machinery/light_switch{
-	dir = 8;
-	pixel_x = 24;
-	pixel_y = 6
-	},
-/obj/machinery/button/alternate/door/bolts{
-	dir = 8;
-	pixel_x = 24;
-	pixel_y = -2
-	},
-/obj/structure/coatrack/walnut,
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_three)
 "Pd" = (
 /obj/machinery/bookbinder,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -8356,29 +8410,31 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"Pe" = (
-/obj/structure/bed/chair/wood/walnut,
-/obj/machinery/alarm{
-	pixel_y = 22
+"Pj" = (
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = 22
 	},
-/obj/effect/floor_decal/corner/black/full,
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 8
+/obj/effect/floor_decal/carpet/purple,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_two)
-"Pf" = (
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 6
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_four)
+"Pn" = (
 /obj/structure/hygiene/sink{
-	dir = 4;
-	pixel_x = 12
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/item/weapon/storage/mirror{
+	pixel_x = -32
 	},
 /obj/effect/floor_decal/corner/black/full,
-/obj/item/weapon/storage/mirror{
-	dir = 4;
-	pixel_x = 32;
-	pixel_y = 0
-	},
 /obj/effect/floor_decal/corner/yellow/bordercorner,
 /obj/effect/floor_decal/corner/yellow/bordercorner{
 	icon_state = "bordercolorcorner";
@@ -8386,23 +8442,14 @@
 	},
 /obj/effect/floor_decal/corner/yellow/bordercorner{
 	icon_state = "bordercolorcorner";
-	dir = 1
+	dir = 8
 	},
 /obj/effect/floor_decal/corner/yellow/bordercorner{
 	icon_state = "bordercolorcorner";
-	dir = 8
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/two_zero_two)
-"Pj" = (
-/obj/structure/bed/chair/armchair/black,
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_three)
-"Pl" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/liberty/hotel/room/three_zero_three)
+/area/liberty/hotel/room/one_zero_four)
 "Ps" = (
 /obj/machinery/chemical_dispenser/bar_coffee/full{
 	step_x = 0;
@@ -8418,6 +8465,14 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Pw" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_two)
 "Px" = (
 /obj/effect/floor_decal/carpet/red,
 /obj/effect/floor_decal/spline/fancy/black/corner{
@@ -8426,22 +8481,23 @@
 /turf/simulated/floor/carpet/red,
 /area/space)
 "PC" = (
-/obj/machinery/button/alternate/door/bolts{
-	dir = 1;
-	pixel_x = 33;
-	pixel_y = -24
+/obj/structure/bed/sofa/black/left{
+	icon_state = "couchblack_left";
+	dir = 4
 	},
-/obj/machinery/light_switch{
-	dir = 1;
-	pixel_x = 24;
-	pixel_y = -24
+/turf/simulated/floor/carpet/blue2,
+/area/space)
+"PH" = (
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
+	dir = 6
 	},
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/one_zero_four)
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "PM" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/structure/flora/pottedplant/smallcactus,
@@ -8459,12 +8515,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/space)
-"PR" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	dir = 8
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/hallway/east)
 "PS" = (
 /obj/effect/paint_stripe/green,
 /obj/effect/paint/white,
@@ -8478,42 +8528,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"PX" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/floor/plating,
-/area/liberty/hotel/room/two_zero_one)
-"Qa" = (
-/obj/structure/closet/cabinet/walnut,
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/purple{
-	icon_state = "purple_edges";
-	dir = 5
-	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 4
-	},
-/turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_three)
-"Qg" = (
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
+"PZ" = (
+/obj/machinery/door/airlock/civilian,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/two_zero_two)
 "Qq" = (
 /obj/structure/table/woodentable/walnut,
 /obj/machinery/computer,
@@ -8523,11 +8541,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"Qv" = (
-/obj/structure/flora/pottedplant/large,
-/obj/effect/floor_decal/spline/fancy/black,
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/two_zero_two)
 "Qx" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/purple/bordercorner,
@@ -8545,54 +8558,13 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
-"QK" = (
-/obj/structure/hygiene/sink{
-	dir = 8;
-	pixel_x = -12
-	},
-/obj/item/weapon/storage/mirror{
-	pixel_x = -32
-	},
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+"QC" = (
+/obj/machinery/door/firedoor{
+	icon_state = "open";
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_four)
-"QL" = (
-/obj/structure/hygiene/sink{
-	dir = 8;
-	pixel_x = -12
-	},
-/obj/item/weapon/storage/mirror{
-	pixel_x = -32
-	},
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_three)
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
 "QN" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 4
@@ -8603,15 +8575,9 @@
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_one)
 "QO" = (
-/obj/structure/bed/chair/wood/walnut{
-	dir = 8
-	},
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
+/obj/effect/floor_decal/carpet,
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/hallway/east)
 "QP" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	icon_state = "spline_fancy";
@@ -8624,42 +8590,13 @@
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/ward/one)
-"QY" = (
-/obj/effect/floor_decal/carpet/blue{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/blue,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 6
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 5
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_three)
-"Ra" = (
-/obj/structure/table/glass,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
-"Rb" = (
-/obj/structure/bed/padded,
+"Rf" = (
 /obj/effect/floor_decal/carpet/purple{
 	icon_state = "purple_edges";
-	dir = 4
+	dir = 8
 	},
-/obj/item/weapon/bedsheet/brown,
 /turf/simulated/floor/carpet/purple,
-/area/liberty/hotel/room/one_zero_three)
+/area/liberty/hotel/room/one_zero_four)
 "Rg" = (
 /obj/structure/table/woodentable/walnut,
 /obj/effect/floor_decal/carpet{
@@ -8668,14 +8605,6 @@
 	},
 /turf/simulated/floor/carpet,
 /area/space)
-"Rk" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor{
-	icon_state = "open";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/three_zero_two)
 "Rw" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -8685,26 +8614,37 @@
 /obj/item/weapon/newspaper,
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"RE" = (
-/obj/structure/bed/sofa/black/right{
-	icon_state = "couchblack_right";
+"Rx" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/space)
+"RA" = (
+/obj/structure/bed/padded,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
 	dir = 4
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 8
+/obj/item/weapon/bedsheet/brown,
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_four)
+"RB" = (
+/obj/structure/bed/chair/wood/walnut{
+	dir = 1
 	},
-/obj/effect/floor_decal/carpet/red,
-/obj/effect/floor_decal/carpet/red{
-	dir = 10
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24;
+	pixel_y = 0
 	},
-/obj/machinery/button/windowtint{
-	id = "rd_windows";
-	pixel_x = 6;
-	pixel_y = -24;
-	range = 11
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_four)
+"RG" = (
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_two)
 "RI" = (
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/ward/one)
@@ -8720,6 +8660,9 @@
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"RR" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/liberty/hotel/room/three_zero_two)
 "RT" = (
 /obj/structure/bed/sofa/black{
 	icon_state = "couchblack_middle";
@@ -8745,29 +8688,28 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/hallway/east)
-"RY" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/obj/structure/table/woodentable/walnut,
-/obj/item/device/flashlight/lamp/green{
-	pixel_x = -3;
-	pixel_y = 16
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/blue{
+"RX" = (
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
 	dir = 1
 	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 5
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 8
 	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_three)
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 9
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_four)
+"Sb" = (
+/obj/machinery/button/alternate/door/bolts{
+	pixel_x = 0;
+	pixel_y = 28
+	},
+/turf/space,
+/area/space)
 "Sf" = (
 /obj/structure/bed/sofa/black/left{
 	icon_state = "couchblack_left";
@@ -8784,49 +8726,39 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"Sl" = (
-/obj/effect/floor_decal/carpet/red{
+"Sr" = (
+/obj/item/weapon/bedsheet/double/brown,
+/obj/structure/bed/double/walnut,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
 	dir = 4
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 1
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 4
 	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 5
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_one)
-"Sn" = (
-/obj/machinery/door/unpowered/simple/wood,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/two_zero_one)
-"So" = (
-/obj/machinery/door/unpowered/simple/wood,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/floor/carpet/blue,
 /area/liberty/hotel/room/three_zero_two)
-"Sq" = (
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/prepainted,
-/area/liberty/hotel/room/one_zero_two)
-"Su" = (
-/obj/effect/floor_decal/corner/red/bordercorner,
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
-	dir = 9
+"Sz" = (
+/obj/structure/reagent_dispensers/water_cooler{
+	icon_state = "water_cooler";
+	dir = 8
 	},
-/turf/simulated/floor/tiled/old_cargo,
+/turf/simulated/floor/tiled,
 /area/space)
-"Sv" = (
-/obj/machinery/alarm{
-	pixel_y = 22
-	},
-/obj/structure/closet/cabinet/walnut,
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_two)
 "SA" = (
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/ward/two)
+"SB" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/liberty/hotel/room/three_zero_one)
+"SG" = (
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 8
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_two)
 "SJ" = (
 /obj/structure/bed/padded,
 /obj/machinery/light_switch{
@@ -8849,23 +8781,21 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"SL" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/one_zero_two)
 "SM" = (
-/obj/structure/coatrack/walnut,
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
 	dir = 1
 	},
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
 	dir = 8
 	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/one_zero_four)
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 9
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_two)
 "SN" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 8
@@ -8875,50 +8805,70 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"SO" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/floor/plating,
-/area/liberty/hotel/hallway/west)
 "SS" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/liberty,
 /turf/simulated/floor/tiled/white/monotile,
 /area/liberty/medbay/hallway/two)
-"SW" = (
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/open,
-/area/liberty/hotel/hallway/east)
-"SY" = (
-/obj/structure/flora/pottedplant/minitree,
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_three)
-"Tf" = (
-/obj/structure/bed/sofa/black/right{
-	icon_state = "couchblack_right";
-	dir = 8
-	},
+"SV" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/prepainted,
+/area/liberty/hotel/room/three_zero_two)
+"SX" = (
+/obj/item/weapon/material/ashtray/glass,
+/obj/structure/table/woodentable/walnut,
 /obj/effect/floor_decal/spline/fancy/black{
 	icon_state = "spline_fancy";
 	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/three_zero_two)
-"Tq" = (
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 8
+"Td" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/one_zero_two)
+"Th" = (
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
+	dir = 1
 	},
-/turf/simulated/floor/carpet/blue,
+/obj/effect/floor_decal/corner/red/border,
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"Tj" = (
+/obj/structure/bed/chair/wood/walnut,
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/three_zero_three)
-"TB" = (
-/obj/effect/paint_stripe/yellow,
+"Tk" = (
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = 22
+	},
+/obj/effect/floor_decal/carpet/purple,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 6
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_two)
+"Tm" = (
+/obj/machinery/alarm{
+	pixel_y = 22
+	},
+/obj/structure/closet/cabinet/walnut,
+/obj/effect/floor_decal/corner/black/full,
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_three)
+"Tt" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/three_zero_two)
+/area/liberty/hotel/room/two_zero_two)
 "TH" = (
 /obj/effect/paint_stripe/green,
 /obj/effect/paint/white,
@@ -8936,33 +8886,38 @@
 /turf/simulated/floor/wood/walnut,
 /area/space)
 "TL" = (
-/obj/structure/flora/pottedplant/minitree,
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_two)
-"Ua" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/three_zero_three)
-"Ui" = (
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/prepainted,
+/area/liberty/hotel/room/one_zero_two)
+"TM" = (
+/obj/structure/bed/sofa/black/left{
+	icon_state = "couchblack_left";
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
+/turf/simulated/floor/carpet/blue2,
+/area/space)
+"TZ" = (
+/obj/effect/floor_decal/carpet{
+	dir = 4;
+	icon_state = "brown_edges"
 	},
-/obj/structure/closet/secure_closet/wall{
-	pixel_x = 24;
-	pixel_y = 10
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_two)
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/hallway/west)
+"Ub" = (
+/obj/effect/floor_decal/carpet/purple,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 10
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_four)
 "Uk" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/shutters,
@@ -9004,18 +8959,16 @@
 /obj/effect/floor_decal/corner/black/full,
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"Uy" = (
-/obj/structure/bed/sofa/black/left{
-	icon_state = "couchblack_left";
-	dir = 1
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/three_zero_three)
 "Uz" = (
 /obj/effect/paint_stripe/green,
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/cmo)
+"UG" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_one)
 "UO" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
@@ -9084,6 +9037,50 @@
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/carpet/red,
 /area/space)
+"Vi" = (
+/obj/structure/undies_wardrobe/chestdrawer/walnut,
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/one_zero_three)
+"Vj" = (
+/obj/effect/floor_decal/corner/red/border{
+	icon_state = "bordercolor";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
+"Vn" = (
+/obj/structure/hygiene/shower{
+	pixel_y = 18
+	},
+/obj/structure/curtain/open/shower,
+/obj/effect/floor_decal/corner/black/full,
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/three_zero_two)
 "Vo" = (
 /obj/structure/bookcase/manuals/medical,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -9091,6 +9088,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Vr" = (
+/obj/structure/railing/mapped,
+/turf/simulated/open,
+/area/liberty/hotel/hallway/east)
 "Vs" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
@@ -9140,30 +9141,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"VD" = (
-/obj/structure/bed/chair/wood/walnut,
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_two)
-"VL" = (
-/obj/effect/floor_decal/carpet/blue{
-	dir = 1
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/blue,
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 6
-	},
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 5
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_two)
 "VM" = (
 /obj/structure/bed/sofa/black/left{
 	icon_state = "couchblack_left";
@@ -9187,26 +9164,17 @@
 	},
 /turf/simulated/floor/carpet,
 /area/space)
-"VO" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
+"VQ" = (
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 12
 	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/hallway/east)
-"Wa" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	dir = 4
-	},
-/obj/structure/table/woodentable_reinforced/walnut,
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 4
-	},
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/hallway/east)
-"Wd" = (
 /obj/effect/floor_decal/corner/black/full,
+/obj/item/weapon/storage/mirror{
+	dir = 4;
+	pixel_x = 32;
+	pixel_y = 0
+	},
 /obj/effect/floor_decal/corner/yellow/bordercorner,
 /obj/effect/floor_decal/corner/yellow/bordercorner{
 	icon_state = "bordercolorcorner";
@@ -9222,42 +9190,35 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"Wh" = (
-/obj/effect/floor_decal/corner/black/full,
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/three_zero_three)
-"Wi" = (
-/obj/structure/bed/chair/wood/walnut,
-/obj/machinery/alarm{
-	pixel_y = 22
+"VT" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/shutters,
+/obj/machinery/door/firedoor,
+/obj/effect/paint_stripe/green,
+/turf/simulated/floor/plating,
+/area/liberty/medbay/cmo)
+"VV" = (
+/obj/machinery/door/airlock/civilian,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_one)
+"Wa" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 4
 	},
-/obj/effect/floor_decal/corner/black/full,
+/obj/structure/table/woodentable_reinforced/walnut,
 /obj/machinery/light/spot{
 	icon_state = "tube_map";
-	dir = 8
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_three)
-"Wu" = (
-/obj/effect/floor_decal/corner/red/border{
-	icon_state = "bordercolor";
-	dir = 5
-	},
-/obj/effect/floor_decal/corner/red/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"Wv" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/railing/mapped{
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/hallway/east)
+"Wo" = (
+/obj/structure/bed/sofa/black/left{
+	icon_state = "couchblack_left";
 	dir = 1
 	},
-/turf/simulated/open,
-/area/space)
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/three_zero_two)
 "Wz" = (
 /obj/structure/table/standard,
 /obj/machinery/light{
@@ -9277,6 +9238,23 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"WE" = (
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 10
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_three)
+"WJ" = (
+/obj/structure/table/woodentable_reinforced/walnut,
+/obj/machinery/photocopier/faxmachine,
+/turf/simulated/floor/carpet/blue2,
+/area/space)
 "WN" = (
 /obj/structure/bookcase/manuals/xenoarchaeology,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -9284,6 +9262,13 @@
 	dir = 10
 	},
 /turf/simulated/floor/wood/walnut,
+/area/space)
+"WO" = (
+/obj/structure/bed/chair/comfy/black{
+	icon_state = "comfychair_preview";
+	dir = 1
+	},
+/turf/simulated/floor/carpet/blue2,
 /area/space)
 "WS" = (
 /obj/structure/bed/sofa/black/right,
@@ -9298,13 +9283,35 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/space)
-"Xp" = (
-/obj/effect/floor_decal/carpet{
-	icon_state = "brown_edges";
+"Xi" = (
+/obj/structure/closet/cabinet/walnut,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
 	dir = 1
 	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/hallway/east)
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 5
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_three)
+"Xo" = (
+/obj/structure/bed/padded,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 4
+	},
+/obj/item/weapon/bedsheet/brown,
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_three)
 "Xq" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 4
@@ -9314,9 +9321,49 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Xw" = (
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/effect/floor_decal/corner/black/full,
+/obj/item/weapon/storage/mirror{
+	dir = 4;
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner,
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/yellow/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/liberty/hotel/room/one_zero_three)
+"XB" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/space)
 "XG" = (
 /obj/structure/table/woodentable/walnut,
 /turf/simulated/floor/carpet/red,
+/area/space)
+"XI" = (
+/obj/structure/table/woodentable_reinforced/walnut,
+/obj/machinery/photocopier,
+/turf/simulated/floor/carpet/blue2,
 /area/space)
 "XK" = (
 /obj/structure/table/marble,
@@ -9339,38 +9386,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"XY" = (
-/obj/item/weapon/bedsheet/brown,
-/obj/structure/bed/padded,
-/obj/effect/floor_decal/carpet/red,
-/obj/effect/floor_decal/carpet/red{
-	dir = 4
-	},
-/obj/effect/floor_decal/carpet/red{
-	dir = 6
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/room/two_zero_two)
-"Ye" = (
-/obj/machinery/door/airlock/civilian,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/three_zero_one)
-"Yh" = (
-/obj/effect/floor_decal/carpet/blue{
-	icon_state = "blue1_edges";
-	dir = 8
-	},
-/turf/simulated/floor/carpet/blue,
-/area/liberty/hotel/room/three_zero_two)
 "Yi" = (
 /obj/machinery/papershredder,
 /obj/effect/floor_decal/spline/fancy/black,
 /turf/simulated/floor/wood/walnut,
-/area/space)
-"Ym" = (
-/obj/structure/bed/chair/pew/left,
-/turf/simulated/floor/tiled,
 /area/space)
 "Yn" = (
 /obj/structure/table/woodentable/walnut,
@@ -9378,25 +9397,18 @@
 /obj/effect/floor_decal/carpet,
 /turf/simulated/floor/carpet,
 /area/space)
-"Yt" = (
-/obj/effect/floor_decal/carpet{
-	dir = 4;
-	icon_state = "brown_edges"
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/red,
-/area/liberty/hotel/hallway/west)
-"Yw" = (
-/obj/machinery/door/unpowered/simple/wood,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/two_zero_two)
 "YB" = (
 /obj/structure/bed,
 /obj/item/weapon/bedsheet/medical,
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/ward/two)
+"YC" = (
+/obj/structure/reagent_dispensers/water_cooler{
+	icon_state = "water_cooler";
+	dir = 8
+	},
+/turf/simulated/floor/carpet/blue2,
+/area/space)
 "YE" = (
 /obj/structure/table/marble,
 /obj/effect/floor_decal/corner/black/full,
@@ -9413,6 +9425,50 @@
 /obj/machinery/floor_light,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
+"YK" = (
+/obj/effect/paint_stripe/green,
+/obj/effect/paint/white,
+/turf/simulated/wall,
+/area/space)
+"YL" = (
+/obj/machinery/door/unpowered/simple/wood,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/three_zero_two)
+"YO" = (
+/obj/effect/floor_decal/carpet/blue{
+	dir = 1
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/blue,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 6
+	},
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 5
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_three)
+"YP" = (
+/obj/item/weapon/bedsheet/double/brown,
+/obj/structure/bed/double/walnut,
+/obj/effect/floor_decal/carpet/blue{
+	icon_state = "blue1_edges";
+	dir = 4
+	},
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 4
+	},
+/turf/simulated/floor/carpet/blue,
+/area/liberty/hotel/room/three_zero_three)
+"YQ" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/liberty/hotel/room/two_zero_one)
 "YR" = (
 /obj/structure/flora/pottedplant/fern,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -9421,23 +9477,31 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
-"YV" = (
-/obj/effect/floor_decal/corner/black/full,
-/obj/effect/floor_decal/corner/yellow/bordercorner,
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/yellow/bordercorner{
-	icon_state = "bordercolorcorner";
+"YS" = (
+/obj/effect/floor_decal/carpet/purple,
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
-/area/liberty/hotel/room/one_zero_three)
+/obj/effect/floor_decal/carpet/purple{
+	icon_state = "purple_edges";
+	dir = 10
+	},
+/turf/simulated/floor/carpet/purple,
+/area/liberty/hotel/room/one_zero_two)
+"Zb" = (
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/wall/r_wall/prepainted,
+/area/liberty/hotel/room/three_zero_one)
+"Zc" = (
+/obj/structure/flora/pottedplant/decorative,
+/turf/simulated/floor/tiled,
+/area/space)
+"Ze" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/two_zero_one)
 "Zr" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/weapon/book/manual,
@@ -9446,6 +9510,11 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Zs" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/floor/plating,
+/area/liberty/hotel/room/two_zero_one)
 "Zx" = (
 /obj/item/modular_computer/telescreen{
 	pixel_y = 24
@@ -9496,6 +9565,38 @@
 	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/ward/two)
+"ZP" = (
+/obj/effect/floor_decal/carpet/red,
+/obj/effect/floor_decal/carpet/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 6
+	},
+/obj/effect/floor_decal/carpet/red{
+	dir = 10
+	},
+/turf/simulated/floor/carpet/red,
+/area/liberty/hotel/room/two_zero_two)
+"ZY" = (
+/obj/machinery/button/alternate/door/bolts{
+	pixel_x = 0;
+	pixel_y = 28
+	},
+/obj/structure/coatrack/walnut,
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/two_zero_two)
+"ZZ" = (
+/obj/structure/bed/sofa/black/left,
+/turf/simulated/floor/carpet/blue2,
+/area/space)
 
 (1,1,1) = {"
 aa
@@ -16865,24 +16966,24 @@ aa
 aa
 ac
 af
-qt
-qt
-rE
-rE
-rE
-qt
-Ly
-Ly
-Ni
-Ni
-Ni
-Ly
-Ua
-Ua
-AC
-AC
-AC
-Ua
+SB
+SB
+pL
+pL
+pL
+SB
+RR
+RR
+kx
+kx
+kx
+RR
+IP
+IP
+wc
+wc
+wc
+IP
 aJ
 af
 xH
@@ -17067,24 +17168,24 @@ ae
 ae
 bn
 af
-qt
-oV
+SB
+Zb
 ci
 cv
 cG
-oV
-TB
-TB
-xz
-Ra
-Fd
-TB
-Hy
-Hy
-Pj
-EA
-Uy
-Ua
+Zb
+vP
+vP
+lE
+rj
+Wo
+vP
+qJ
+qJ
+uG
+Fv
+xU
+IP
 ac
 af
 xH
@@ -17269,24 +17370,24 @@ af
 af
 af
 af
-qt
-oV
+SB
+Zb
 cj
 As
 cH
-oV
-TB
-TB
-te
-Tf
-xv
-TB
-Hy
-Hy
-Wh
-ph
-ty
-Ua
+Zb
+vP
+vP
+RG
+Bq
+sY
+vP
+qJ
+qJ
+Lk
+xQ
+uy
+IP
 ac
 af
 xH
@@ -17471,25 +17572,25 @@ af
 af
 ag
 ag
-qt
-oV
-tk
-rE
-rE
-oV
-TB
-TB
-JU
-Ni
-Ni
-TB
-Hy
-Hy
-xT
-AC
-AC
-Ua
-Ua
+SB
+Zb
+VV
+pL
+pL
+Zb
+vP
+vP
+Iv
+kx
+kx
+vP
+qJ
+qJ
+pk
+wc
+wc
+IP
+IP
 ag
 xH
 aa
@@ -17673,25 +17774,25 @@ af
 ag
 aE
 aE
-Nq
+JN
 bS
 cj
 cw
 cI
 cX
-ER
-Sv
-te
-VD
-vq
-wE
-Pl
-DI
-Wh
-kn
-MV
-iu
-Ua
+SV
+JF
+RG
+FJ
+SX
+Nl
+mJ
+Tm
+Lk
+Tj
+CK
+tf
+IP
 ag
 td
 aa
@@ -17875,25 +17976,25 @@ af
 ag
 aE
 aI
-Nq
+JN
 bT
 cl
 cx
 pH
 cY
-ER
-KR
-Yh
-Af
-QO
-zt
-Pl
-ka
-Tq
-zA
-Hz
-jZ
-Ua
+SV
+HD
+Ho
+qN
+Gn
+xX
+mJ
+EX
+My
+WE
+DK
+pb
+IP
 ag
 td
 aa
@@ -18077,25 +18178,25 @@ af
 ag
 aE
 aI
-Nq
+JN
 bU
 cm
 cy
-Lv
+qv
 cZ
-ER
-Lt
-Lc
-CW
-Iz
-TL
-Pl
-RY
-or
-ox
-pl
-SY
-Ua
+SV
+lh
+Sr
+LN
+sy
+is
+mJ
+Ip
+YP
+MM
+MH
+yZ
+IP
 ag
 td
 aa
@@ -18104,7 +18205,7 @@ aa
 aa
 aa
 aa
-oF
+Sb
 aa
 aa
 aa
@@ -18279,25 +18380,25 @@ af
 ag
 aE
 aI
-Nq
-Nq
-Nq
-Nq
+JN
+JN
+JN
+JN
 Hj
-Nq
-ER
-ER
-ER
-ER
-So
-ER
-Pl
-Pl
-Pl
-Pl
-yw
-Pl
-Ua
+JN
+SV
+SV
+SV
+SV
+YL
+SV
+mJ
+mJ
+mJ
+mJ
+Jl
+mJ
+IP
 ag
 td
 ae
@@ -18481,25 +18582,25 @@ af
 ag
 aE
 aI
-Nq
+JN
 bV
 cn
-Nq
+JN
 cJ
 cY
-ER
-Dw
-GI
-ER
-rs
-zt
-Pl
-Oh
-QL
-Pl
-oo
-jZ
-Ua
+SV
+Iq
+Em
+SV
+pE
+xX
+mJ
+pU
+px
+mJ
+tp
+pb
+IP
 ag
 ag
 af
@@ -18683,25 +18784,25 @@ af
 ag
 aE
 aI
-Nq
+JN
 bW
 co
-Ye
+UG
 cK
 da
-ER
-AV
+SV
+Vn
 rl
-JM
-VL
-An
-Pl
-Gv
-lC
-AK
-QY
-OR
-Ua
+kt
+KX
+ob
+mJ
+kj
+ub
+Ix
+YO
+un
+IP
 ag
 ag
 af
@@ -18885,25 +18986,25 @@ af
 ag
 aE
 aI
-Nq
-Nq
-Nq
-Nq
-wz
-Nq
-ER
-ER
-ER
-ER
-Rk
-ER
-Pl
-Pl
-Pl
-Pl
-rr
-Hy
-Ua
+JN
+JN
+JN
+JN
+qd
+JN
+SV
+SV
+SV
+SV
+Pw
+SV
+mJ
+mJ
+mJ
+mJ
+nQ
+qJ
+IP
 ao
 ao
 ah
@@ -19089,22 +19190,22 @@ aE
 aI
 aI
 aI
-mz
+wW
 cz
 ue
 ue
 ue
-ss
+fw
 ue
 ue
 ue
 ue
 ue
-ss
+fw
 ue
 ue
 fi
-SO
+tT
 ab
 ab
 ab
@@ -19294,7 +19395,7 @@ aI
 cp
 CS
 kR
-Yt
+TZ
 kR
 kR
 kR
@@ -19303,10 +19404,10 @@ kR
 kR
 kR
 kR
-Yt
+TZ
 kR
 fj
-SO
+tT
 ab
 ab
 ab
@@ -19493,23 +19594,23 @@ aE
 aI
 aI
 aI
-sg
-sg
-sg
-sg
-sg
-sg
-sg
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
 ed
 ed
-qm
-qm
-qm
-qm
-qm
-qm
-kj
-Ek
+Ei
+Ei
+Ei
+Ei
+Ei
+Ei
+zV
+YQ
 ab
 ab
 ab
@@ -19693,28 +19794,28 @@ af
 ag
 aE
 aI
-sg
-sg
-sg
-sg
+Lc
+Lc
+Lc
+Lc
 cN
 db
 dl
 dF
-sg
+Lc
 xN
 GY
-qm
+Ei
 eI
 eR
-qm
+Ei
 fc
 fk
 fp
-Ek
-Ek
-Ek
-Ek
+YQ
+YQ
+YQ
+YQ
 ac
 af
 xH
@@ -19895,28 +19996,28 @@ ag
 ag
 aE
 aI
-sg
+Lc
 oC
 DD
-KS
+La
 cO
 dc
 dm
 ln
-KS
-Xp
-Dm
-xp
+La
+Bb
+QO
+Ze
 eJ
 Vv
-Sn
+md
 fd
-Sl
+dr
 fq
-PX
+Zs
 BF
 zM
-PX
+Zs
 ac
 af
 xH
@@ -20097,28 +20198,28 @@ ag
 ag
 aE
 aI
-sg
+Lc
 LK
 cq
-sg
+Lc
 cP
 dd
 dn
 dG
-sg
-Xp
-Dm
-qm
-qm
-fw
-qm
+Lc
+Bb
+QO
+Ei
+Ei
+Hs
+Ei
 Zx
 QN
 QN
-fw
+Hs
 sr
 sr
-PX
+Zs
 ac
 af
 xH
@@ -20299,28 +20400,28 @@ ag
 ag
 aE
 aI
-Sq
-Sq
-Sq
-Sq
-Sq
-Sq
-Sq
-Sq
-Sq
-BX
-Dm
-qm
-lu
-lG
-qm
+TL
+TL
+TL
+TL
+TL
+TL
+TL
+TL
+TL
+wZ
+QO
+Ei
+Nc
+wi
+Ei
 ff
 Ak
 wo
-PX
+Zs
 GE
 Ky
-PX
+Zs
 ac
 af
 af
@@ -20501,28 +20602,28 @@ ag
 ag
 aE
 aI
-Sq
+TL
 bY
 cr
-Sq
-Pe
-xe
-yA
-uZ
-Sq
-Xp
-Dm
-qm
-IW
-xm
-qm
+TL
+Hz
+Af
+He
+lC
+TL
+Bb
+QO
+Ei
+NM
+xF
+Ei
 fg
 fn
 mg
-kj
-kj
-kj
-Ek
+zV
+zV
+zV
+YQ
 ac
 af
 af
@@ -20703,28 +20804,28 @@ ag
 ag
 aE
 aI
-Sq
+TL
 bX
-Ui
-SL
-DC
-pA
-ft
-oA
-SL
-Xp
-Dm
-Na
-Na
-Na
-Na
-Na
-Na
-Na
-zS
-zS
-zS
-NA
+KK
+Td
+SM
+SG
+YS
+oJ
+Td
+Bb
+QO
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+jU
+jU
+jU
+Tt
 aa
 ah
 ah
@@ -20905,28 +21006,28 @@ ag
 ag
 aE
 aI
-Sq
-Sq
-Sq
-Sq
-ym
-rw
-HZ
-qK
-Sq
-Xp
-Dm
-Na
-qz
-Du
-Na
-Qv
-xS
-RE
-zS
-zS
-zS
-NA
+TL
+TL
+TL
+TL
+Dq
+tq
+Tk
+wh
+TL
+Bb
+QO
+yQ
+ZY
+lo
+yQ
+Nw
+JA
+my
+jU
+jU
+jU
+Tt
 aa
 aa
 aa
@@ -21110,25 +21211,25 @@ aI
 aI
 aI
 aI
-LD
-LD
-LD
-LD
-LD
-LD
-BX
-Dm
-Ng
-LI
-pU
-Yw
-kf
-hD
-Ad
-vN
+nL
+nL
+nL
+nL
+nL
+nL
+wZ
+QO
+CD
+FW
+ZP
+Jx
+BG
+vI
+jZ
+Lj
 Uq
 lv
-vN
+Lj
 ab
 ab
 ab
@@ -21309,28 +21410,28 @@ ag
 ag
 aE
 aI
-LD
-LD
-LD
-LD
-Wi
-AD
-IK
-LS
-LD
-Xp
-Dm
-Na
-Na
-HS
-Na
+nL
+nL
+nL
+nL
+kX
+Cl
+Cj
+Mv
+nL
+Bb
+QO
+yQ
+yQ
+PZ
+yQ
 fe
-BU
-BU
-HS
-KD
-KD
-vN
+wK
+wK
+PZ
+IN
+IN
+Lj
 ab
 ab
 ab
@@ -21511,28 +21612,28 @@ ag
 ag
 aE
 aI
-LD
-qZ
-YV
-um
-oE
-AJ
-vz
-Gj
-um
-Xp
-Dm
-Na
-vh
-Wd
-Na
-np
-sc
-xC
-vN
+nL
+Ie
+vu
+wb
+NL
+ph
+Cd
+Jy
+wb
+Bb
+QO
+yQ
+om
+ms
+yQ
+ki
+xy
+Hn
+Lj
 wD
 VM
-vN
+Lj
 ab
 ab
 ab
@@ -21713,28 +21814,28 @@ ag
 ag
 bo
 aI
-LD
-Jj
-ho
-LD
-Qa
-Rb
-Ie
-tU
-LD
-Xp
-Dm
-Na
-pu
-Pf
-Na
-tN
-ua
-XY
-zS
-zS
-zS
-NA
+nL
+zX
+Xw
+nL
+Xi
+Xo
+vV
+Vi
+nL
+Bb
+QO
+yQ
+KZ
+VQ
+yQ
+tG
+GB
+nB
+jU
+jU
+jU
+Tt
 ab
 ab
 ab
@@ -21915,25 +22016,25 @@ aE
 aE
 aE
 aI
-uF
-uF
-uF
-uF
-uF
-uF
-uF
-uF
-uF
-BX
-Dm
-Na
-Na
+qg
+qg
+qg
+qg
+qg
+qg
+qg
+qg
+qg
+wZ
+QO
+yQ
+yQ
 eU
-Na
-Na
-Na
-Na
-Na
+yQ
+yQ
+yQ
+yQ
+yQ
 oa
 ww
 aE
@@ -22117,17 +22218,17 @@ aI
 aI
 aI
 aI
-uF
-EX
-QK
-uF
-Bv
-vC
-IS
-SM
-uF
-Xp
-Dm
+qg
+No
+Pn
+qg
+LG
+NO
+RB
+Dr
+qg
+Bb
+QO
 oa
 aI
 aI
@@ -22319,18 +22420,18 @@ as
 dT
 as
 as
-uF
-Fn
-Ii
+qg
+DO
+BJ
 cB
-pj
-MK
-su
-PC
-fs
-Xp
-Dm
-Lx
+RX
+Rf
+Ub
+yB
+vx
+Bb
+QO
+rC
 aI
 aI
 aI
@@ -22516,22 +22617,22 @@ as
 Wz
 Nu
 ga
-FH
-FH
-FH
-wx
-qu
-uF
-uF
-uF
-uF
-ou
-sj
-CN
-KP
-uF
-Xp
-Dm
+vt
+vt
+vt
+Vj
+MU
+qg
+qg
+qg
+qg
+IM
+RA
+Pj
+uc
+qg
+Bb
+QO
 oa
 aI
 aI
@@ -22547,7 +22648,7 @@ az
 DX
 Fj
 EE
-GV
+yH
 Xq
 Xq
 Xq
@@ -22716,13 +22817,13 @@ em
 as
 as
 SJ
-eS
-wP
-Su
-Qg
-Qg
-xM
-qu
+BX
+Th
+Hg
+IT
+IT
+PH
+MU
 kA
 XK
 Gp
@@ -22732,7 +22833,7 @@ oa
 oa
 oa
 oa
-tL
+sf
 sm
 oa
 aI
@@ -22919,13 +23020,13 @@ WN
 as
 as
 as
-wP
-yE
+Th
+qx
 as
 as
 as
-qu
-qu
+MU
+MU
 pV
 RL
 as
@@ -22934,8 +23035,8 @@ aV
 aV
 aV
 oa
-VO
-pd
+kN
+id
 oa
 aI
 aI
@@ -23121,13 +23222,13 @@ Br
 as
 Wz
 Nu
-wP
-yE
+Th
+qx
 Nu
 JL
 as
 OI
-qu
+MU
 pV
 RL
 as
@@ -23135,14 +23236,14 @@ aV
 aV
 aV
 aV
-Lx
-VO
-pd
-oi
-oi
-oi
-oi
-oi
+rC
+kN
+id
+MG
+MG
+MG
+MG
+MG
 oa
 ap
 aS
@@ -23322,29 +23423,29 @@ em
 as
 as
 SJ
-eS
-wP
-yE
-eS
+BX
+Th
+qx
+BX
 Um
 as
 DN
-qu
-qu
-qu
+MU
+MU
+MU
 ck
 aV
 aV
 do
 bg
 oa
-VO
-pd
-oi
-oi
-oi
-oi
-oi
+kN
+id
+MG
+MG
+MG
+MG
+MG
 oa
 ap
 aS
@@ -23525,8 +23626,8 @@ Mn
 as
 as
 as
-wP
-yE
+Th
+qx
 as
 as
 as
@@ -23540,13 +23641,13 @@ HB
 as
 gF
 oa
-Fb
-pd
-oi
-oi
-Oa
-Oa
-oi
+JI
+id
+MG
+MG
+qy
+qy
+MG
 oa
 ap
 aS
@@ -23727,8 +23828,8 @@ sR
 as
 Wz
 Nu
-wP
-yE
+Th
+qx
 Nu
 JL
 as
@@ -23737,18 +23838,18 @@ FA
 FA
 as
 Cb
-FO
+wF
 aV
-FO
+wF
 Cb
 oa
-VO
-pd
-oi
-oi
+kN
+id
+MG
+MG
 eW
-Oa
-oi
+qy
+MG
 oa
 ap
 aS
@@ -23928,10 +24029,10 @@ of
 as
 as
 SJ
-eS
-Wu
-xM
-eS
+BX
+KG
+PH
+BX
 Um
 as
 FA
@@ -23939,18 +24040,18 @@ FA
 FA
 as
 Cb
-Ym
+Gr
 aV
-Ym
+Gr
 Cb
 oa
-VO
-pd
-oi
-oi
-nl
-nl
-oi
+kN
+id
+MG
+MG
+LP
+LP
+MG
 oa
 aq
 cQ
@@ -24143,16 +24244,16 @@ as
 as
 as
 aV
-FO
+wF
 Cb
 oa
-VO
-pd
-oi
-oi
-nl
-nl
-oi
+kN
+id
+MG
+MG
+LP
+LP
+MG
 oa
 oa
 oa
@@ -24163,7 +24264,7 @@ az
 DX
 Fj
 Px
-GV
+yH
 SN
 IU
 SN
@@ -24345,21 +24446,21 @@ aV
 aV
 as
 aV
-Ym
+Gr
 Cb
 oa
-VO
-pd
-sB
-HQ
+kN
+id
+hB
+Vr
 nu
-PR
+tk
 RV
 oa
 aI
 aI
 aI
-GV
+yH
 NS
 ay
 ay
@@ -24550,26 +24651,26 @@ as
 as
 as
 oa
-Fb
-pd
-JF
-SW
-VO
-xX
-pd
+JI
+id
+fs
+vJ
+kN
+pj
+id
 oa
 aI
 oa
 oa
 oa
 ch
-GX
+QC
 ch
 oa
 oa
 oa
 oa
-GX
+QC
 oa
 aE
 aE
@@ -24752,14 +24853,14 @@ aI
 aI
 aI
 oa
-VO
+kN
 FK
-PR
-PR
-Eo
-xX
-pd
-GV
+tk
+tk
+rA
+pj
+id
+yH
 aI
 oa
 ak
@@ -24953,14 +25054,14 @@ as
 aI
 aI
 aI
-GV
-VO
-xX
-xX
-xX
-xX
-xX
-pd
+yH
+kN
+pj
+pj
+pj
+pj
+pj
+id
 oa
 aI
 oa
@@ -25158,7 +25259,7 @@ aI
 oa
 yg
 Wa
-Ia
+yN
 tV
 eX
 fa
@@ -25360,7 +25461,7 @@ bK
 oa
 oa
 oa
-GX
+QC
 oa
 oa
 oa
@@ -25579,7 +25680,7 @@ oa
 oa
 oa
 oa
-GX
+QC
 oa
 aE
 jt
@@ -25776,7 +25877,7 @@ kD
 tY
 tY
 tY
-GV
+yH
 Hl
 vl
 oa
@@ -26166,7 +26267,7 @@ aI
 aI
 aI
 aI
-xt
+DY
 aI
 aI
 aI
@@ -26575,22 +26676,22 @@ aI
 aI
 aI
 aI
+as
+as
+as
+dT
+as
+as
+as
 aI
 aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
+as
+as
+as
+dT
+as
+as
+as
 aI
 jt
 ag
@@ -26777,24 +26878,24 @@ aI
 aI
 aI
 aI
+as
+ul
+Lq
+aV
+mZ
+iu
+as
 aI
 aI
+as
+aV
+aV
+aV
+Lq
+aV
+at
 aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-jt
+at
 ag
 td
 ab
@@ -26979,24 +27080,24 @@ aI
 aI
 aI
 aI
+as
+LC
+Lq
+aV
+Lq
+Lq
+as
+as
+as
+as
+aV
+aV
+aV
+Lq
+aV
+at
 aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-jt
+at
 ag
 td
 ab
@@ -27172,31 +27273,31 @@ aV
 aV
 aV
 as
+aI
+aI
+aI
+aI
+aI
+aI
+aI
+aI
+aI
 as
+aV
+aV
+aV
+Ob
+aV
+at
+aV
+aV
+at
+aV
+aV
+aV
+aV
+aV
 as
-as
-as
-as
-as
-as
-as
-as
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
 aI
 jt
 ag
@@ -27374,33 +27475,33 @@ dT
 at
 dT
 as
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+aI
+aI
+aI
+aI
+aI
+aI
+aI
+aI
+aI
 as
+LC
+Lq
+aV
+aV
+aV
+dT
+aV
+aV
+dT
+aV
+aV
+aV
+Lq
+aV
+at
 aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-jt
+at
 ag
 td
 ab
@@ -27576,33 +27677,33 @@ aV
 aV
 aV
 as
-aV
-Lq
-Lq
-aV
-aV
-Lq
-Lq
-aV
+aI
+aI
+aI
+aI
+aI
+aI
+aI
+aI
+aI
 as
+rk
+Lq
+HE
+Sz
+rD
+at
+aV
+aV
+at
+aV
+aV
+aV
+Lq
+aV
+at
 aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-jt
+at
 ag
 td
 ab
@@ -27778,31 +27879,31 @@ aV
 aV
 aV
 as
-aV
-aV
-Lq
-aV
-aV
-Lq
+aI
+aI
+aI
+aI
+aI
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
+as
 aV
 aV
 as
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
-aI
+as
+as
+as
+as
+as
+as
 aI
 jt
 ag
@@ -27980,31 +28081,31 @@ aV
 aV
 aV
 as
-aV
-Lq
-Lq
-aV
-aV
-Lq
-Lq
-aV
-as
 aI
-as
-as
-as
-as
-as
-as
-as
 aI
-as
-as
-as
-as
 aI
-as
-as
+aI
+aI
+dT
+vr
+vr
+vr
+vr
+vr
+vr
+vr
+PC
+ok
+at
+aV
+aV
+dT
+aI
+aI
+aI
+aI
+aI
+aI
 aI
 jt
 ag
@@ -28182,30 +28283,30 @@ aV
 aV
 aV
 as
+as
+as
+as
+as
+as
+as
+vr
+vr
+vr
+lw
+lw
+lw
+vr
+vr
+mO
+at
 aV
 aV
-aV
-aV
-aV
-aV
-aV
-aV
+as
+as
+as
 as
 aI
 as
-ay
-ay
-ay
-ay
-ay
-as
-aI
-as
-Qq
-xu
-cL
-el
-PV
 as
 aI
 jt
@@ -28384,32 +28485,32 @@ aV
 aV
 aV
 as
+ay
+ay
+ay
+ay
+ay
 as
-aV
-aV
-aV
-aV
+uF
+vr
+xz
+OA
+By
+OA
+WO
+vr
+vr
+at
 aV
 aV
 as
+Qq
+xu
+cL
+el
+PV
 as
 aI
-as
-ay
-ay
-ay
-ay
-ay
-as
-aI
-as
-tI
-Rg
-Nb
-em
-Dh
-Oj
-uU
 at
 ag
 ag
@@ -28586,30 +28687,30 @@ aV
 aV
 aV
 as
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-as
-aI
-as
 ay
 ay
 ay
 ay
 ay
 as
-aI
+XI
+vr
+xz
+OA
+OA
+OA
+WO
+vr
+vr
+mM
+aV
+aV
 as
-uB
-oD
-qM
+tI
+Rg
+Nb
 em
-qP
+Dh
 Oj
 uU
 at
@@ -28788,32 +28889,32 @@ aV
 aV
 aV
 as
-aV
-Lq
-Lq
-aV
-aV
-Lq
-Lq
-aV
-as
-aI
-as
 ay
 ay
 ay
 ay
 ay
 as
-aI
+vz
+vr
+vr
+sW
+sW
+sW
+vr
+vr
+vr
+at
+aV
+aV
 as
-Rw
-ee
+uB
+oD
 qM
 em
-Yi
-as
-aI
+qP
+Oj
+uU
 jt
 jt
 ab
@@ -28990,30 +29091,30 @@ aV
 aV
 aV
 as
-aV
-aV
-Lq
-aV
-aV
-Lq
+ay
+ay
+ay
+ay
+ay
+as
+ZZ
+vr
+vr
+vr
+vr
+vr
+vr
+vr
+uF
+at
 aV
 aV
 as
-aI
-as
-ay
-ay
-ay
-ay
-ay
-dT
-aI
-as
-nT
-cA
-pX
-nx
-Vc
+Rw
+ee
+qM
+em
+Yi
 as
 aI
 aI
@@ -29192,30 +29293,30 @@ aV
 aV
 aV
 as
-aV
-Lq
-Lq
-aV
-aV
-Lq
-Lq
-aV
-as
-aI
-as
 ay
 ay
 ay
 ay
 ay
 as
-aI
+DG
+TM
+jh
+uF
+WJ
+uF
+YC
+vr
+uF
+at
+aV
+aV
 as
-US
-tn
-dp
-WC
-EY
+nT
+cA
+pX
+nx
+Vc
 as
 aI
 aI
@@ -29394,32 +29495,32 @@ aV
 aV
 aV
 as
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-as
-as
+ay
+ay
+ay
+ay
+ay
 as
 as
 at
-dT
+at
+at
+as
+at
+at
 at
 as
 as
-dT
+aV
+aV
 as
+US
+tn
+dp
+WC
+EY
 as
-at
-dT
-at
-as
-as
-as
+aI
 aI
 jt
 ab
@@ -29597,31 +29698,31 @@ at
 dT
 as
 as
-as
-as
+at
 dT
+at
+as
+as
+Zc
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+as
+as
+at
 dT
+at
 as
 as
 as
-as
-as
-uI
-Mo
-aV
-aV
-aV
-Mo
-Mo
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-dT
 aI
 jt
 ab
@@ -29822,8 +29923,8 @@ aV
 aV
 aV
 aV
-wQ
-as
+aV
+dT
 aI
 jt
 ab
@@ -30404,7 +30505,7 @@ aV
 aV
 aV
 aV
-Wv
+XB
 gG
 gG
 gG
@@ -30416,7 +30517,7 @@ yV
 aV
 aV
 aV
-Wv
+XB
 gG
 gG
 gG
@@ -30606,7 +30707,7 @@ aV
 aV
 aV
 aV
-vm
+Rx
 bg
 bg
 bg
@@ -30618,7 +30719,7 @@ eK
 aV
 aV
 aV
-vm
+Rx
 bg
 bg
 bg
@@ -30808,7 +30909,7 @@ aV
 aV
 aV
 aV
-vm
+Rx
 bg
 bg
 bg
@@ -30820,7 +30921,7 @@ eK
 aV
 aV
 aV
-vm
+Rx
 bg
 bg
 bg
@@ -31010,7 +31111,7 @@ aV
 aV
 aV
 aV
-vm
+Rx
 bg
 bg
 bg
@@ -31022,7 +31123,7 @@ eK
 aV
 aV
 aV
-vm
+Rx
 bg
 bg
 bg
@@ -31212,7 +31313,7 @@ aV
 aV
 aV
 aV
-uO
+Hm
 gF
 gF
 gF
@@ -31224,7 +31325,7 @@ Lu
 aV
 aV
 aV
-uO
+Hm
 gF
 gF
 gF
@@ -32240,7 +32341,7 @@ fS
 gq
 gH
 gV
-tS
+VT
 hF
 if
 iw
@@ -32644,7 +32745,7 @@ fU
 gs
 gJ
 gX
-tS
+VT
 bx
 Gu
 iy
@@ -32846,7 +32947,7 @@ fV
 fV
 fV
 gY
-tS
+VT
 hH
 Gu
 iz
@@ -32859,7 +32960,7 @@ CH
 CH
 CH
 Cp
-Jw
+kl
 ab
 aa
 aa
@@ -33430,17 +33531,17 @@ ab
 as
 aI
 as
-ba
-ba
-ba
-ba
+ds
+ds
+ds
+ds
 dg
 dq
-dI
-dI
-dI
-dI
-ez
+dq
+dq
+dq
+ds
+ds
 as
 as
 aV
@@ -33632,18 +33733,18 @@ ab
 bp
 aI
 bp
-ba
-ba
-ba
-ba
+ds
+ds
+ds
+ds
 dg
-dr
-dJ
-dJ
-dJ
-dJ
-eA
-as
+dq
+dq
+dq
+dq
+ds
+ds
+at
 aV
 aV
 aV
@@ -33667,7 +33768,7 @@ jP
 jP
 jP
 sJ
-Jw
+kl
 ab
 aa
 aa
@@ -33834,17 +33935,17 @@ ab
 bp
 aI
 bp
-ba
-ba
+ds
+ds
 cC
-ba
+ds
 dg
-ds
-ds
-ds
-ds
-ds
-ds
+eS
+eS
+eS
+eS
+eS
+eS
 ck
 aV
 aV
@@ -34036,17 +34137,17 @@ ab
 bp
 aI
 bp
-ba
-ba
+ds
+ds
 cC
-ba
+ds
 dg
-ds
-ds
-ds
-ds
-ds
-ds
+eS
+eS
+eS
+eS
+eS
+eS
 eM
 aV
 aV
@@ -34238,17 +34339,17 @@ ab
 bp
 aI
 bp
-ba
-ba
+ds
+ds
 cC
-ba
+ds
 dg
-ds
-ds
-ds
-ds
-ds
-ds
+eS
+eS
+eS
+eS
+eS
+eS
 ck
 aV
 aV
@@ -34440,18 +34541,18 @@ ab
 bp
 aI
 bp
-ba
-ba
-ba
-ba
+ds
+ds
+ds
+ds
 dg
 dq
-dI
-dI
-dI
-dI
-ez
-as
+dq
+dq
+dq
+ds
+ds
+at
 aV
 aV
 aV
@@ -34475,7 +34576,7 @@ QS
 QS
 QS
 EP
-Jw
+kl
 ab
 aa
 aa
@@ -34642,17 +34743,17 @@ ab
 as
 aI
 as
-ba
-ba
-ba
-ba
+ds
+ds
+ds
+ds
 dg
-dr
-dJ
-dJ
-dJ
-dJ
-eA
+dq
+dq
+dq
+dq
+ds
+ds
 as
 as
 aV
@@ -35283,7 +35384,7 @@ QS
 QS
 QS
 EP
-Jw
+kl
 ab
 aa
 aa
@@ -35677,7 +35778,7 @@ hj
 GR
 hG
 in
-rn
+pN
 iV
 jd
 jp
@@ -37294,7 +37395,7 @@ hx
 hU
 iq
 iL
-oX
+xf
 aI
 as
 ab
@@ -37693,12 +37794,12 @@ aI
 aI
 aI
 aI
-xs
+YK
 as
 eQ
 eQ
 as
-xs
+YK
 aI
 as
 ab
@@ -37895,12 +37996,12 @@ aI
 aI
 aI
 aI
-xs
+YK
 as
 eQ
 eQ
 as
-xs
+YK
 aI
 as
 ab
@@ -38097,12 +38198,12 @@ aI
 aI
 aI
 aI
-xs
+YK
 as
 bk
 bk
 as
-xs
+YK
 aI
 as
 ab
@@ -38299,12 +38400,12 @@ aI
 aI
 aI
 aI
-xs
+YK
 as
 bk
 bk
 as
-xs
+YK
 aI
 as
 ab
@@ -38501,12 +38602,12 @@ aI
 aI
 aI
 aI
-xs
+YK
 as
 as
 as
 as
-xs
+YK
 aI
 as
 ab
@@ -38703,12 +38804,12 @@ aI
 aI
 aI
 aI
-xs
-xs
-xs
-xs
-xs
-xs
+YK
+YK
+YK
+YK
+YK
+YK
 aI
 as
 ab
