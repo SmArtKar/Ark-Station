@@ -28,6 +28,7 @@
 
 /obj/effect/overmap/visitable/sector/luciusspace
 	name = "Empty Sector"
+	icon_state = "dust"
 	in_space = 1
 	hide_from_reports = TRUE
 
