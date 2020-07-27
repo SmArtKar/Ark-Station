@@ -172,15 +172,15 @@ var/list/ai_verbs_default = list(
 
 	create_powersupply()
 
-	hud_list[HEALTH_HUD]      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank")
-	hud_list[STATUS_HUD]      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank")
-	hud_list[LIFE_HUD] 		  = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank")
-	hud_list[ID_HUD]          = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank")
-	hud_list[WANTED_HUD]      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank")
-	hud_list[IMPLOYAL_HUD]    = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank")
-	hud_list[IMPCHEM_HUD]     = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank")
-	hud_list[IMPTRACK_HUD]    = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank")
-	hud_list[SPECIALROLE_HUD] = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank")
+	hud_list[HEALTH_HUD]      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[STATUS_HUD]      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[LIFE_HUD] 		  = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[ID_HUD]          = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[WANTED_HUD]      = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[IMPLOYAL_HUD]    = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[IMPCHEM_HUD]     = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[IMPTRACK_HUD]    = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
+	hud_list[SPECIALROLE_HUD] = new /image/hud_overlay('code_ark/icons/huds.dmi', src, "hudblank") //ARK
 
 	ai_list += src
 	..()

@@ -398,8 +398,8 @@
 
 /turf/simulated/floor/beach/water/New()
 	..()
-//ARL	overlays += image("icon"='icons/misc/beach.dmi',"icon_state"="water5","layer"=MOB_LAYER+0.1)
-	overlays += image(icon = 'code_ark/icons/misc/beach.dmi', icon_state = overlay_deepness, layer = MOB_LAYER + 0.1)//INF
+//ARK	overlays += image("icon"='icons/misc/beach.dmi',"icon_state"="water5","layer"=MOB_LAYER+0.1)
+	overlays += image(icon = 'code_ark/icons/misc/beach.dmi', icon_state = overlay_deepness, layer = MOB_LAYER + 0.1) //ARK
 
 /turf/simulated/floor/crystal
 	name = "crystal floor"
