@@ -240,6 +240,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/liberty/sfp/hallway/one_north)
+"aN" = (
+/obj/machinery/light_switch,
+/turf/simulated/floor/tiled,
+/area/liberty/hotel/room/two_zero_two)
 "aP" = (
 /turf/simulated/floor/plating,
 /area/space)
@@ -506,14 +510,6 @@
 /obj/item/weapon/pen/fancy,
 /turf/simulated/floor/carpet/blue,
 /area/liberty/sfp/chief)
-"bp" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 6
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "bq" = (
 /obj/effect/floor_decal/corner/grey{
 	icon_state = "corner_white";
@@ -813,18 +809,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/chief)
-"bV" = (
-/obj/structure/table/rack,
-/obj/effect/floor_decal/spline/plain/red{
-	icon_state = "spline_plain";
-	dir = 5
-	},
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
 "bW" = (
 /obj/machinery/hologram/holopad/longrange,
 /turf/simulated/floor/tiled/techmaint,
@@ -2403,10 +2387,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/lobby)
-"eS" = (
-/obj/structure/railing/mapped,
-/turf/simulated/floor/tiled/techfloor,
-/area/space)
 "eU" = (
 /obj/structure/bed/chair/padded/blue{
 	dir = 4
@@ -2486,11 +2466,9 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/lobby)
-"fd" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor,
+"ff" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled,
 /area/space)
 "fg" = (
 /obj/effect/floor_decal/corner/grey{
@@ -6031,6 +6009,13 @@
 	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/reception)
+"mz" = (
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 10
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
 "mA" = (
 /obj/machinery/disposal,
 /obj/effect/floor_decal/corner/black/mono,
@@ -6563,10 +6548,6 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor/tiled/techmaint,
-/area/space)
-"nY" = (
-/obj/effect/floor_decal/spline/fancy/black,
-/turf/simulated/floor/tiled,
 /area/space)
 "nZ" = (
 /obj/structure/table/marble,
@@ -9196,11 +9177,24 @@
 /obj/structure/lattice,
 /turf/space,
 /area/space)
-"sL" = (
-/obj/structure/railing/mapped{
-	dir = 1
+"sK" = (
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
 	},
-/turf/simulated/floor/grass,
+/obj/effect/floor_decal/borderfloorblack{
+	icon_state = "borderfloor_white";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 8
+	},
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 4
+	},
+/turf/simulated/floor/wood,
 /area/space)
 "sP" = (
 /obj/structure/table/standard,
@@ -9324,6 +9318,15 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/liberty/medbay/operating)
+"ta" = (
+/obj/effect/floor_decal/corner/black/full,
+/obj/machinery/floor_light/prebuilt,
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 4
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/liberty/hotel/room/two_zero_two)
 "tc" = (
 /obj/structure/table/standard,
 /obj/item/device/flashlight/lamp,
@@ -9694,6 +9697,21 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/operating)
+"tP" = (
+/obj/structure/table/standard,
+/obj/machinery/computer/modular/preset/supply_public{
+	icon_state = "computer";
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/brown,
+/obj/effect/floor_decal/corner/brown{
+	icon_state = "corner_white";
+	dir = 1
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
 "tR" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /obj/structure/iv_drip,
@@ -9910,8 +9928,9 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/space)
-"uj" = (
+"ul" = (
 /obj/structure/table/marble,
+/obj/item/weapon/storage/box/cups,
 /turf/simulated/floor/tiled/white,
 /area/space)
 "uq" = (
@@ -9935,31 +9954,12 @@
 "uz" = (
 /turf/simulated/open,
 /area/liberty/sfp/hallway/one_south)
-"uA" = (
-/obj/effect/floor_decal/corner/black/full,
-/obj/machinery/floor_light/prebuilt,
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 8
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/liberty/hotel/room/two_zero_two)
-"uC" = (
-/obj/machinery/door/airlock/maintenance,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/two_zero_two)
 "uH" = (
 /obj/machinery/computer,
 /turf/simulated/floor/tiled,
 /area/space)
 "uJ" = (
 /turf/simulated/wall/titanium,
-/area/space)
-"uK" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/monotile,
 /area/space)
 "uO" = (
 /obj/effect/floor_decal/corner/grey{
@@ -9969,6 +9969,29 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
+"uQ" = (
+/obj/effect/floor_decal/corner/yellow/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"uR" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"uW" = (
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "uX" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/brown/bordercorner{
@@ -9998,17 +10021,43 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /turf/simulated/floor/plating,
 /area/space)
-"vg" = (
-/obj/structure/table/standard,
-/obj/effect/floor_decal/corner/brown,
-/obj/effect/floor_decal/corner/brown{
-	icon_state = "corner_white";
+"vc" = (
+/obj/structure/table/marble,
+/obj/effect/floor_decal/corner/lime/mono,
+/obj/effect/floor_decal/corner/black/mono,
+/obj/effect/floor_decal/corner/black/mono,
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
 	dir = 1
 	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/liberty/hotel/room/two_zero_two)
+"vi" = (
+/obj/effect/floor_decal/industrial/warning,
 /obj/machinery/light{
-	dir = 8
+	dir = 1;
+	icon_state = "tube_map";
+	pixel_y = 0
 	},
-/obj/item/device/flashlight/lamp,
+/turf/simulated/floor/tiled/monotile,
+/area/space)
+"vm" = (
+/obj/machinery/power/apc/hyper,
+/turf/simulated/floor/tiled,
+/area/liberty/hotel/room/two_zero_two)
+"vn" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/computer/modular/preset/supply_public{
+	icon_state = "computer";
+	dir = 4
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"vq" = (
+/obj/item/weapon/stool,
+/obj/effect/floor_decal/corner/brown/diagonal,
 /turf/simulated/floor/tiled{
 	icon_state = "techmaint"
 	},
@@ -10019,26 +10068,27 @@
 /turf/simulated/floor/plating,
 /area/liberty/sfp/office)
 "vy" = (
-/obj/effect/floor_decal/corner/beige/diagonal,
-/obj/machinery/vending/cigarette{
-	icon_state = "cigs";
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/wallframe_spawn/reinforced,
+/obj/effect/paint_stripe/white,
+/turf/simulated/floor/plating,
+/area/space)
+"vz" = (
+/obj/item/weapon/stool/wood,
+/turf/simulated/floor/wood/maple,
 /area/space)
 "vA" = (
-/obj/effect/floor_decal/techfloor{
-	icon_state = "techfloor_edges";
-	dir = 1
+/obj/effect/floor_decal/corner/brown{
+	dir = 9
 	},
-/obj/effect/floor_decal/industrial/stop_sign,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 4
 	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"vD" = (
+/obj/effect/paint_stripe/white,
+/turf/simulated/wall/r_wall/prepainted,
 /area/space)
 "vE" = (
 /obj/effect/floor_decal/corner/black/full,
@@ -10064,22 +10114,15 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"vF" = (
-/obj/item/weapon/stool,
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "vH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
-"vK" = (
-/obj/effect/floor_decal/corner/white/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+"vM" = (
+/obj/machinery/light/navigation,
+/turf/simulated/floor/shuttle_ceiling,
 /area/space)
 "vN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -10087,9 +10130,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
-"vW" = (
-/turf/simulated/floor/wood/walnut,
-/area/liberty/hotel/room/two_zero_two)
+"vQ" = (
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "vZ" = (
 /obj/effect/wallframe_spawn,
 /obj/effect/floor_decal/industrial/warning{
@@ -10123,6 +10170,11 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/liberty/sfp/hallway/one_north)
+"wC" = (
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/turf/simulated/open,
+/area/space)
 "wI" = (
 /obj/effect/floor_decal/corner/grey{
 	icon_state = "corner_white";
@@ -10140,6 +10192,23 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
+"wO" = (
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/open,
+/area/space)
+"wP" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 8
+	},
+/obj/structure/bed/chair/office/light,
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
 "wQ" = (
 /obj/structure/hygiene/toilet{
 	dir = 1
@@ -10166,20 +10235,6 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/hotel/room/two_zero_two)
-"wS" = (
-/obj/machinery/disposal,
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled,
-/area/space)
-"wT" = (
-/obj/effect/floor_decal/borderfloorwhite/corner{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/purple/bordercorner{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "wX" = (
 /turf/simulated/floor/airless,
 /area/liberty/sfp/chief)
@@ -10194,15 +10249,8 @@
 /obj/effect/floor_decal/corner/sfp_blue/diagonal,
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/sfp/dorm)
-"xc" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/machinery/door/firedoor{
-	icon_state = "open";
-	dir = 8
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
+"xa" = (
+/turf/simulated/floor/wood,
 /area/space)
 "xd" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -10212,18 +10260,11 @@
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
 /area/space)
-"xj" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/liberty/hotel/room/two_zero_two)
 "xl" = (
 /obj/machinery/computer{
 	icon_state = "computer";
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
-/area/space)
-"xp" = (
-/obj/machinery/vending/snack,
 /turf/simulated/floor/tiled,
 /area/space)
 "xq" = (
@@ -10236,41 +10277,8 @@
 	},
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/reception)
-"xr" = (
-/obj/machinery/vending/cigarette,
-/turf/simulated/floor/tiled,
-/area/space)
-"xs" = (
-/obj/machinery/vending/coffee{
-	icon_state = "coffee";
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/space)
-"xy" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/grass,
-/area/space)
-"xz" = (
-/obj/effect/floor_decal/corner/black/full,
-/obj/machinery/floor_light/prebuilt,
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 4
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/liberty/hotel/room/two_zero_two)
-"xE" = (
-/obj/structure/bed/chair/padded/red{
-	icon_state = "chair_preview";
-	dir = 8
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
+"xw" = (
+/turf/simulated/wall/prepainted,
 /area/space)
 "xG" = (
 /turf/simulated/floor/tiled/monotile,
@@ -10282,24 +10290,13 @@
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
-"xL" = (
-/obj/item/weapon/stool/wood,
-/turf/simulated/floor/wood/maple,
-/area/space)
 "xO" = (
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
 "xT" = (
-/obj/structure/table/standard,
-/obj/item/weapon/storage/box/cups,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 21
-	},
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
+/obj/effect/paint_stripe/green,
+/obj/effect/paint/white,
+/turf/simulated/wall,
 /area/space)
 "xY" = (
 /obj/effect/floor_decal/corner/grey{
@@ -10308,26 +10305,38 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_north)
-"yb" = (
+"yg" = (
 /obj/structure/table/marble,
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/white,
 /area/space)
-"yi" = (
-/obj/effect/paint_stripe/green,
-/obj/effect/paint/white,
-/turf/simulated/wall,
-/area/liberty/medbay/hallway/one)
-"ym" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 9
+"yh" = (
+/obj/effect/floor_decal/corner/black/full,
+/obj/machinery/floor_light/prebuilt,
+/obj/machinery/light/spot{
+	icon_state = "tube_map";
+	dir = 8
 	},
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/liberty/hotel/room/two_zero_two)
+"ym" = (
+/obj/machinery/vending/cola{
+	icon_state = "Cola_Machine";
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/tiled,
 /area/space)
+"yn" = (
+/obj/effect/floor_decal/corner/grey{
+	icon_state = "corner_white";
+	dir = 5
+	},
+/obj/structure/table/reinforced,
+/obj/structure/sign/double/solgovflag/right{
+	pixel_y = 24
+	},
+/obj/item/weapon/book/manual/sol_sop,
+/turf/simulated/floor/tiled/techmaint,
+/area/liberty/sfp/office)
 "yo" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
 /obj/effect/floor_decal/spline/fancy/black/corner{
@@ -10342,23 +10351,6 @@
 	},
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/hotel/room/two_zero_two)
-"yp" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 9
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/space)
-"yq" = (
-/obj/machinery/vending/magivend,
-/turf/simulated/floor/tiled,
-/area/space)
 "ys" = (
 /obj/effect/floor_decal/corner/sfp_blue/diagonal,
 /obj/machinery/button/alternate/door/bolts{
@@ -10389,21 +10381,24 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/hotel/room/two_zero_two)
-"yO" = (
-/obj/machinery/door/blast/shutters{
-	icon_state = "shutter1";
+"yV" = (
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
 	dir = 8
 	},
-/obj/machinery/door/firedoor,
-/obj/effect/paint/white,
-/obj/effect/paint_stripe/green,
-/turf/simulated/floor/plating,
-/area/liberty/medbay/chemistry)
-"yV" = (
-/obj/machinery/atm{
-	pixel_x = -28
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/obj/effect/floor_decal/borderfloorblack{
+	icon_state = "borderfloor_white";
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 6
+	},
+/turf/simulated/floor/wood,
 /area/space)
 "yW" = (
 /obj/effect/floor_decal/corner/black/half{
@@ -10420,6 +10415,10 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/hotel/room/two_zero_two)
+"yX" = (
+/obj/machinery/door/airlock/lift,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
 "yZ" = (
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/operating)
@@ -10444,6 +10443,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
+/area/liberty/hotel/room/two_zero_two)
+"zg" = (
+/turf/simulated/wall/r_wall/prepainted,
 /area/liberty/hotel/room/two_zero_two)
 "zh" = (
 /obj/structure/table/marble,
@@ -10476,22 +10478,41 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/reception)
-"zq" = (
-/obj/effect/floor_decal/industrial/warning/corner{
+"zl" = (
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloorblack{
+	icon_state = "borderfloor_white";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 4
+	},
+/turf/simulated/floor/wood,
 /area/space)
 "zs" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/liberty/sfp/armory)
-"zt" = (
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 8
+"zy" = (
+/obj/effect/floor_decal/corner/grey{
+	icon_state = "corner_white";
+	dir = 10
 	},
+/obj/structure/table/reinforced,
+/obj/machinery/photocopier/faxmachine,
+/turf/simulated/floor/tiled/techmaint,
+/area/liberty/sfp/office)
+"zz" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "zD" = (
@@ -10515,12 +10536,19 @@
 /obj/effect/floor_decal/corner/grey/half,
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/hotel/room/two_zero_two)
-"zH" = (
-/obj/machinery/door/firedoor,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/blast/shutters,
-/turf/simulated/floor/tiled/monotile,
+"zK" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/beach/water,
 /area/space)
+"zL" = (
+/obj/structure/table/woodentable/walnut,
+/turf/simulated/floor/carpet/green,
+/area/liberty/hotel/room/two_zero_two)
 "zM" = (
 /obj/effect/floor_decal/corner/grey{
 	icon_state = "corner_white";
@@ -10532,16 +10560,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
-"zN" = (
-/obj/machinery/fabricator,
-/obj/structure/reagent_dispensers/acid{
-	density = 0;
-	pixel_x = 0;
-	pixel_y = -32
-	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/techfloor,
-/area/space)
 "zO" = (
 /obj/structure/flora/ausbushes/fernybush,
 /obj/structure/railing/mapped{
@@ -10549,24 +10567,48 @@
 	},
 /turf/simulated/floor/grass,
 /area/space)
-"zR" = (
-/obj/effect/floor_decal/corner/green/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
-"zU" = (
-/obj/machinery/power/apc/hyper,
-/turf/simulated/floor/tiled,
-/area/liberty/hotel/room/two_zero_two)
-"zW" = (
-/obj/machinery/vending/dinnerware{
-	icon_state = "dinnerware";
+"zT" = (
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/grass,
 /area/space)
 "zX" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/liberty/sfp/armory)
+"zY" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/effect/paint_stripe/yellow,
+/turf/simulated/floor/plating,
+/area/liberty/hotel/room/two_zero_two)
+"zZ" = (
+/obj/effect/floor_decal/borderfloorwhite{
+	icon_state = "borderfloor_white";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/purple/border{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
+"Aa" = (
+/obj/structure/table/standard,
+/obj/machinery/computer/modular/preset/supply_public,
+/obj/effect/floor_decal/corner/brown{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/green,
+/area/space)
+"Ab" = (
+/obj/structure/closet/secure_closet/wall{
+	pixel_x = 24;
+	pixel_y = 10
+	},
+/turf/space,
+/area/space)
 "Aj" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 4
@@ -10592,18 +10634,53 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
+"At" = (
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "Aw" = (
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/wall,
 /area/liberty/hotel/room/two_zero_two)
 "Ax" = (
-/obj/structure/table/standard,
+/obj/effect/shuttle_landmark/liberty/hangar/lucius,
+/turf/space,
+/area/space)
+"Ay" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/space)
+"AC" = (
+/obj/effect/floor_decal/corner/pink/diagonal,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "AF" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/sfp/hallway/one_south)
+"AH" = (
+/obj/machinery/door/blast/shutters{
+	icon_state = "shutter1";
+	dir = 8
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/paint/white,
+/obj/effect/paint_stripe/green,
+/turf/simulated/floor/plating,
+/area/liberty/medbay/chemistry)
+"AL" = (
+/obj/machinery/disposal,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled,
+/area/space)
 "AM" = (
 /obj/structure/bed/chair/wood/maple{
 	icon_state = "wooden_chair_preview";
@@ -10619,6 +10696,32 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
+"AR" = (
+/obj/structure/hygiene/sink{
+	pixel_y = 18
+	},
+/obj/item/weapon/storage/mirror{
+	pixel_y = 33
+	},
+/obj/effect/floor_decal/corner/red/bordercorner,
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/bordercorner{
+	icon_state = "bordercolorcorner";
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/black{
+	icon_state = "spline_fancy";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile,
+/area/liberty/hotel/room/two_zero_two)
 "AU" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
 /area/space)
@@ -10636,6 +10739,13 @@
 "Ba" = (
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/hallway/one)
+"Bd" = (
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 9
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
 "Bh" = (
 /obj/effect/floor_decal/corner/white{
 	icon_state = "corner_white";
@@ -10647,90 +10757,37 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/lobby)
-"Bq" = (
-/obj/machinery/vending/cigarette{
-	icon_state = "cigs";
-	dir = 8
+"Bk" = (
+/obj/effect/floor_decal/corner/blue/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"Br" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 9
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
+/obj/machinery/power/apc/high{
+	dir = 8;
+	icon_state = "apc0";
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"Bu" = (
+/obj/machinery/vending/soda,
 /turf/simulated/floor/tiled,
 /area/space)
 "Bv" = (
 /obj/machinery/vending/lavatory,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/liberty/hotel/room/two_zero_two)
-"BA" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/light{
-	dir = 1;
-	icon_state = "tube_map";
-	pixel_y = 0
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/space)
-"BB" = (
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 8
-	},
-/obj/effect/floor_decal/borderfloorblack{
-	icon_state = "borderfloor_white";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 8
-	},
-/turf/simulated/floor/wood,
-/area/space)
-"BC" = (
-/obj/structure/table/standard,
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/obj/item/weapon/pen,
-/obj/item/weapon/pen/blue,
-/obj/item/weapon/pen/red,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
-"BE" = (
-/obj/effect/floor_decal/borderfloorblack,
-/obj/effect/floor_decal/corner/lightgrey/border,
-/obj/machinery/light,
-/turf/simulated/floor/wood,
-/area/space)
 "BF" = (
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/sfp/hallway/one_south)
-"BJ" = (
-/obj/effect/floor_decal/corner/grey{
-	icon_state = "corner_white";
-	dir = 5
-	},
-/obj/structure/table/reinforced,
-/obj/structure/sign/double/solgovflag/right{
-	pixel_y = 24
-	},
-/obj/item/weapon/book/manual/sol_sop,
-/turf/simulated/floor/tiled/techmaint,
-/area/liberty/sfp/office)
 "BK" = (
-/obj/effect/floor_decal/corner/grey{
-	icon_state = "corner_white";
-	dir = 10
-	},
-/obj/structure/table/reinforced,
-/obj/machinery/photocopier,
-/turf/simulated/floor/tiled/techmaint,
-/area/liberty/sfp/office)
+/obj/effect/paint_stripe/green,
+/obj/effect/paint/white,
+/turf/simulated/wall,
+/area/liberty/medbay/hallway/one)
 "BL" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -10743,6 +10800,20 @@
 /obj/effect/floor_decal/corner/black/mono,
 /turf/simulated/floor/tiled/old_cargo,
 /area/liberty/hotel/room/two_zero_two)
+"BP" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"BS" = (
+/obj/effect/floor_decal/corner/brown,
+/obj/effect/floor_decal/corner/brown{
+	icon_state = "corner_white";
+	dir = 1
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
 "BT" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
 /obj/effect/floor_decal/spline/fancy/black/corner{
@@ -10754,41 +10825,9 @@
 	},
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/hotel/room/two_zero_two)
-"BW" = (
-/obj/machinery/disposal,
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/machinery/light{
-	dir = 1;
-	icon_state = "tube_map";
-	pixel_y = 0
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
-"BX" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/paint_stripe/yellow,
-/turf/simulated/floor/plating,
-/area/liberty/hotel/room/two_zero_two)
 "Ca" = (
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 4
-	},
-/obj/effect/floor_decal/borderfloorblack{
-	icon_state = "borderfloor_white";
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 6
-	},
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "Cb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
@@ -10796,6 +10835,15 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
+/area/space)
+"Ci" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/beach/water,
 /area/space)
 "Cl" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -10821,9 +10869,24 @@
 /obj/effect/floor_decal/spline/fancy/black/corner,
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/hotel/room/two_zero_two)
-"Cs" = (
-/obj/effect/floor_decal/corner/pink/diagonal,
+"Co" = (
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"Cp" = (
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled,
+/area/space)
+"Cq" = (
+/obj/machinery/vending/magivend,
+/turf/simulated/floor/tiled,
 /area/space)
 "Ct" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
@@ -10836,12 +10899,16 @@
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/hotel/room/two_zero_two)
 "Cu" = (
-/obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/carpet/green,
-/area/liberty/hotel/room/two_zero_two)
-"Cx" = (
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/liberty/hotel/room/two_zero_two)
+/obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/industrial/arrow,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"Cw" = (
+/obj/machinery/vending/games,
+/turf/simulated/floor/tiled,
+/area/space)
 "Cy" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
 /obj/effect/floor_decal/spline/fancy/black/corner,
@@ -10861,9 +10928,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"CK" = (
-/obj/effect/floor_decal/corner/lightgrey/border,
-/turf/simulated/floor/holofloor/tiled/dark,
+"CC" = (
+/obj/machinery/fabricator,
+/obj/structure/reagent_dispensers/acid{
+	density = 0;
+	pixel_x = 0;
+	pixel_y = -32
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor,
+/area/space)
+"CI" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/open,
 /area/space)
 "CM" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -10883,6 +10962,22 @@
 /obj/effect/floor_decal/spline/fancy/wood/cee,
 /turf/simulated/floor/exoplanet/grass,
 /area/liberty/hotel/room/two_zero_two)
+"CV" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 8
+	},
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24;
+	pixel_y = 0;
+	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
 "CW" = (
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/hallway/one)
@@ -10913,17 +11008,15 @@
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
-"Dc" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 10
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
-"De" = (
-/obj/structure/table/standard,
+"Dd" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled{
 	icon_state = "techmaint"
 	},
@@ -10936,13 +11029,6 @@
 /obj/effect/paint/white,
 /turf/simulated/floor/plating,
 /area/liberty/medbay/operating)
-"Dk" = (
-/turf/simulated/open,
-/area/liberty/hotel/room/two_zero_two)
-"Dq" = (
-/obj/machinery/door/airlock/lift,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/space)
 "Dr" = (
 /obj/effect/floor_decal/corner/grey{
 	icon_state = "corner_white";
@@ -10962,6 +11048,12 @@
 	},
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/hotel/room/two_zero_two)
+"Dw" = (
+/obj/effect/wallframe_spawn/reinforced/polarized,
+/obj/machinery/door/firedoor,
+/obj/structure/sign/firstaid,
+/turf/simulated/floor/plating,
+/area/liberty/sfp/recreation)
 "Dx" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	icon_state = "map_on";
@@ -10969,9 +11061,9 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
-"DB" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	dir = 8
+"DD" = (
+/obj/machinery/atm{
+	pixel_x = -28
 	},
 /turf/simulated/floor/tiled,
 /area/space)
@@ -11000,16 +11092,6 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/liberty/sfp/dorm)
-"DL" = (
-/obj/effect/floor_decal/techfloor,
-/obj/effect/floor_decal/industrial/stop_sign{
-	icon_state = "stop_sign";
-	dir = 1
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "DM" = (
 /turf/simulated/wall/liberty/sfp_blue,
 /area/liberty/sfp/dorm)
@@ -11037,28 +11119,46 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
-"DT" = (
-/obj/structure/railing/mapped{
-	dir = 1
+"DX" = (
+/obj/structure/table/standard,
+/obj/machinery/computer/modular/preset/supply_public{
+	icon_state = "computer";
+	dir = 4
 	},
-/obj/structure/railing/mapped{
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"DZ" = (
+/obj/item/weapon/stool,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/holofloor/beach/water,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
 /area/space)
-"DV" = (
-/obj/structure/table/rack,
-/turf/simulated/floor/tiled,
-/area/space)
-"Eb" = (
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+"Ea" = (
+/obj/effect/paint_stripe/white,
+/turf/simulated/wall/prepainted,
 /area/space)
 "Ec" = (
 /obj/effect/paint_stripe/green,
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/preop_ward)
+"Ed" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 21
+	},
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
 "Ee" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -11067,14 +11167,34 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_two)
-"Ef" = (
-/obj/effect/overlay/palmtree_l,
-/turf/simulated/floor/grass,
+"Eg" = (
+/obj/structure/table/rack,
+/obj/effect/floor_decal/spline/plain/red,
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_cargo,
 /area/space)
 "Ei" = (
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/chemistry)
-"Ek" = (
+"En" = (
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch,
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"Eo" = (
+/obj/effect/floor_decal/corner/grey{
+	icon_state = "corner_white";
+	dir = 10
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/photocopier,
+/turf/simulated/floor/tiled/techmaint,
+/area/liberty/sfp/office)
+"Ep" = (
 /obj/structure/bed/chair{
 	icon_state = "chair_preview";
 	dir = 4
@@ -11085,19 +11205,13 @@
 	},
 /obj/effect/floor_decal/borderfloorblack{
 	icon_state = "borderfloor_white";
-	dir = 10
+	dir = 8
 	},
 /obj/effect/floor_decal/corner/lightgrey/border{
 	icon_state = "bordercolor";
-	dir = 10
+	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/space)
-"En" = (
-/obj/machinery/door/firedoor,
-/obj/effect/floor_decal/industrial/hatch,
-/obj/machinery/atmospherics/pipe/simple/hidden/universal,
-/turf/simulated/floor/tiled/techfloor/grid,
 /area/space)
 "Es" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -11115,20 +11229,9 @@
 /obj/effect/floor_decal/corner/grey/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/hotel/room/two_zero_two)
-"Ey" = (
-/turf/simulated/wall/prepainted,
-/area/space)
-"EA" = (
-/obj/structure/table/marble,
-/obj/item/weapon/storage/box/cups,
-/turf/simulated/floor/tiled/white,
-/area/space)
 "EB" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
 /area/liberty/sfp/recreation)
-"EC" = (
-/turf/simulated/floor/wood/maple,
-/area/space)
 "EF" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/brown/bordercorner,
@@ -11173,23 +11276,6 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/plating,
-/area/space)
-"ES" = (
-/obj/structure/closet/secure_closet/quartermaster,
-/obj/effect/floor_decal/corner/brown{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/brown{
-	icon_state = "corner_white";
-	dir = 1
-	},
-/obj/machinery/light{
-	icon_state = "tube_map";
-	dir = 4
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
 /area/space)
 "ET" = (
 /obj/effect/floor_decal/corner/black/full,
@@ -11236,24 +11322,22 @@
 /turf/simulated/floor/tiled,
 /area/liberty/hotel/room/two_zero_two)
 "Fe" = (
-/obj/structure/bed/chair/office/comfy/yellow{
-	icon_state = "comfyofficechair_preview";
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters/open,
+/obj/machinery/door/airlock/multi_tile/medical/liberty,
+/turf/simulated/floor/tiled/white/monotile,
+/area/liberty/medbay/reception)
+"Fi" = (
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/brown,
-/obj/effect/floor_decal/corner/brown{
-	icon_state = "corner_white";
-	dir = 1
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
 	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
-"Fh" = (
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/holofloor/beach/water,
+/turf/simulated/floor/tiled,
 /area/space)
 "Fm" = (
 /obj/structure/flora/ausbushes/ywflowers,
@@ -11289,24 +11373,28 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
-"FB" = (
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 8
+"Fo" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"Fu" = (
+/obj/machinery/papershredder,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
 	},
-/obj/effect/floor_decal/borderfloorblack{
-	icon_state = "borderfloor_white";
-	dir = 10
+/area/space)
+"Fy" = (
+/obj/machinery/disposal,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map";
+	pixel_y = 0
 	},
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 10
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
 	},
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 4
-	},
-/turf/simulated/floor/wood,
 /area/space)
 "FC" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -11322,50 +11410,7 @@
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
-"FJ" = (
-/obj/effect/floor_decal/corner/b_green/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
-"FK" = (
-/obj/structure/table/rack,
-/obj/effect/floor_decal/spline/plain/red{
-	icon_state = "spline_plain";
-	dir = 10
-	},
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
-"FS" = (
-/obj/structure/hygiene/sink{
-	pixel_y = 18
-	},
-/obj/item/weapon/storage/mirror{
-	pixel_y = 33
-	},
-/obj/effect/floor_decal/corner/red/bordercorner,
-/obj/effect/floor_decal/corner/red/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/red/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/red/bordercorner{
-	icon_state = "bordercolorcorner";
-	dir = 1
-	},
-/obj/effect/floor_decal/spline/fancy/black{
-	icon_state = "spline_fancy";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/old_tile,
-/area/liberty/hotel/room/two_zero_two)
-"FT" = (
-/obj/effect/wallframe_spawn/reinforced,
+"FV" = (
 /turf/simulated/floor/plating,
 /area/liberty/hotel/room/two_zero_two)
 "FX" = (
@@ -11449,25 +11494,37 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/hotel/room/two_zero_two)
-"GK" = (
-/obj/structure/closet/secure_closet/wall{
-	pixel_x = 24;
-	pixel_y = 10
+"GE" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 9
 	},
-/turf/space,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_grid,
 /area/space)
-"GO" = (
+"GL" = (
+/obj/structure/table/rack,
+/obj/effect/floor_decal/spline/plain/red{
+	icon_state = "spline_plain";
+	dir = 5
+	},
 /obj/structure/window/reinforced{
 	icon_state = "rwindow";
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/old_cargo,
 /area/space)
-"GX" = (
-/obj/machinery/vending/games,
-/turf/simulated/floor/tiled,
+"GR" = (
+/turf/simulated/floor/wood/maple,
 /area/space)
+"Hb" = (
+/turf/simulated/open,
+/area/liberty/hotel/room/two_zero_two)
 "Hh" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 8
@@ -11478,23 +11535,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_two)
-"Hj" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 4
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
-"Hl" = (
-/obj/machinery/vending/coffee,
-/turf/simulated/floor/tiled,
-/area/space)
 "Hr" = (
 /obj/effect/floor_decal/corner/red/bordercorner,
 /obj/effect/floor_decal/corner/red/bordercorner{
@@ -11523,34 +11563,25 @@
 /turf/simulated/floor/tiled/freezer,
 /area/liberty/hotel/room/two_zero_two)
 "HA" = (
-/obj/item/weapon/stool,
+/obj/effect/paint_stripe/white,
+/turf/simulated/wall,
+/area/space)
+"HE" = (
 /obj/effect/floor_decal/corner/brown/diagonal,
-/obj/machinery/light{
+/obj/machinery/vending/coffee{
+	icon_state = "coffee";
 	dir = 8
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled{
 	icon_state = "techmaint"
 	},
 /area/space)
-"HC" = (
-/obj/effect/paint_stripe/white,
-/turf/simulated/wall/r_wall/prepainted,
-/area/space)
-"HF" = (
-/obj/effect/floor_decal/corner/lime/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
 "HI" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 6
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	pixel_y = 0;
-	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
-	},
-/turf/simulated/floor/tiled/steel_grid,
+/obj/effect/floor_decal/borderfloorblack,
+/obj/effect/floor_decal/corner/lightgrey/border,
+/obj/machinery/light,
+/turf/simulated/floor/wood,
 /area/space)
 "HK" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
@@ -11558,42 +11589,68 @@
 /turf/simulated/floor/plating,
 /area/space)
 "HN" = (
-/obj/structure/table/standard,
-/obj/machinery/computer/modular/preset/supply_public{
-	icon_state = "computer";
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/brown,
-/obj/effect/floor_decal/corner/brown{
-	icon_state = "corner_white";
-	dir = 1
+/obj/structure/bed/chair/padded/red{
+	icon_state = "chair_preview";
+	dir = 8
 	},
 /turf/simulated/floor/tiled{
 	icon_state = "techmaint"
 	},
 /area/space)
+"HP" = (
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "HQ" = (
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/sfp/dorm)
+"HR" = (
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/space)
 "HX" = (
 /turf/simulated/wall/liberty/sfp_blue,
 /area/liberty/sfp/office)
-"Ig" = (
-/turf/simulated/wall/r_wall/liberty/sfp_blue,
-/area/liberty/sfp/armory)
-"Il" = (
+"HY" = (
 /obj/effect/overlay/palmtree_r,
 /turf/simulated/floor/grass,
 /area/space)
+"Id" = (
+/obj/effect/floor_decal/corner/mauve/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"If" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled,
+/area/space)
+"Ig" = (
+/turf/simulated/wall/r_wall/liberty/sfp_blue,
+/area/liberty/sfp/armory)
+"Ih" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 10
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"Ij" = (
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/two_zero_two)
 "It" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/liberty/sfp/office)
-"Iw" = (
-/obj/effect/paint_stripe/green,
-/obj/effect/paint/white,
-/turf/simulated/wall,
+"Iu" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/tiled,
 /area/space)
 "Ix" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
@@ -11607,9 +11664,10 @@
 	},
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/hotel/room/two_zero_two)
-"IA" = (
+"Iy" = (
+/obj/machinery/vending/props,
 /turf/simulated/floor/tiled,
-/area/liberty/hotel/room/two_zero_two)
+/area/space)
 "IF" = (
 /obj/machinery/atmospherics/unary/engine{
 	dir = 8
@@ -11622,14 +11680,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
-"IN" = (
-/obj/effect/floor_decal/corner/beige/diagonal,
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
 /area/space)
 "IO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
@@ -11648,25 +11698,15 @@
 	},
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/hotel/room/two_zero_two)
-"IS" = (
-/obj/effect/wallframe_spawn/reinforced/polarized,
-/obj/machinery/door/firedoor,
-/obj/structure/sign/firstaid,
-/turf/simulated/floor/plating,
-/area/liberty/sfp/recreation)
-"IV" = (
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 8
+"IX" = (
+/obj/effect/floor_decal/techfloor{
+	icon_state = "techfloor_edges";
+	dir = 1
 	},
-/turf/simulated/floor/tiled,
-/area/space)
-"IZ" = (
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 4
+/obj/effect/floor_decal/industrial/stop_sign,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
 	},
-/turf/simulated/floor/tiled,
 /area/space)
 "Ja" = (
 /obj/machinery/light,
@@ -11700,46 +11740,27 @@
 	},
 /turf/simulated/floor/airless,
 /area/space)
-"Jo" = (
+"Jn" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
-/area/liberty/hotel/room/two_zero_two)
-"Jt" = (
-/obj/effect/floor_decal/borderfloorwhite{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/purple/border{
-	dir = 8
-	},
-/obj/structure/bed/chair/office/light,
-/turf/simulated/floor/tiled/white/monotile,
 /area/space)
-"JD" = (
-/obj/machinery/door/firedoor{
-	icon_state = "open";
-	dir = 8
-	},
-/obj/machinery/door/blast/shutters/open{
-	icon_state = "shutter1";
-	dir = 4
-	},
+"Jo" = (
+/obj/machinery/door/blast/shutters,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
-"JH" = (
-/obj/effect/floor_decal/techfloor{
-	icon_state = "techfloor_edges";
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/arrow{
-	icon_state = "arrow";
-	dir = 1
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
+"Jt" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/carpet/green,
 /area/space)
 "JJ" = (
 /turf/simulated/floor/tiled/white/monotile,
 /area/liberty/medbay/hallway/one)
+"JK" = (
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
 "JO" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/machinery/atmospherics/unary/vent_pump,
@@ -11757,6 +11778,24 @@
 /obj/effect/floor_decal/spline/fancy/wood/cee,
 /turf/simulated/floor/exoplanet/grass,
 /area/liberty/hotel/room/two_zero_two)
+"JS" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"JU" = (
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/space)
 "JW" = (
 /obj/structure/table/standard,
 /obj/item/weapon/towel/random,
@@ -11764,23 +11803,38 @@
 /obj/effect/floor_decal/corner/sfp_blue/diagonal,
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/sfp/dorm)
-"JX" = (
-/obj/effect/paint_stripe/white,
-/turf/simulated/wall,
-/area/space)
-"JY" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/blast/shutters/open,
-/obj/machinery/door/airlock/multi_tile/medical/liberty,
-/turf/simulated/floor/tiled/white/monotile,
-/area/liberty/medbay/reception)
 "JZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
+/area/space)
+"Ka" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"Kg" = (
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
+	},
+/obj/effect/floor_decal/borderfloorblack{
+	icon_state = "borderfloor_white";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 10
+	},
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 4
+	},
+/turf/simulated/floor/wood,
 /area/space)
 "Kh" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
@@ -11803,28 +11857,24 @@
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/liberty/hotel/room/two_zero_two)
-"Kn" = (
-/obj/effect/floor_decal/corner/blue/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
-"Ky" = (
-/obj/structure/railing/mapped{
+"Kv" = (
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
 	dir = 1
 	},
-/obj/structure/lattice,
-/turf/space,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"Kz" = (
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 5
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "KE" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_two)
-"KF" = (
-/obj/structure/closet,
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "KH" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/grey{
@@ -11857,10 +11907,6 @@
 /obj/effect/floor_decal/steeldecal/steel_decals4,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
-"Lc" = (
-/obj/effect/shuttle_landmark/liberty/hangar/lucius,
-/turf/space,
-/area/space)
 "Lk" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/brown/bordercorner,
@@ -11923,6 +11969,10 @@
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/reception)
+"LE" = (
+/obj/machinery/vending/snack,
+/turf/simulated/floor/tiled,
+/area/space)
 "LF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	icon_state = "intact";
@@ -11930,17 +11980,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
-"LG" = (
-/obj/machinery/light_switch,
+"LK" = (
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
-/area/liberty/hotel/room/two_zero_two)
+/area/space)
 "LM" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/liberty/sfp/hallway/one_north)
-"LN" = (
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled,
-/area/space)
 "LR" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch,
@@ -11951,23 +12000,17 @@
 /turf/simulated/wall/liberty/sfp_blue,
 /area/liberty/sfp/interrogation)
 "LW" = (
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 1
+/obj/machinery/vending/coffee{
+	icon_state = "coffee";
+	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled,
 /area/space)
-"Ma" = (
-/obj/structure/table/standard,
-/obj/machinery/computer/modular/preset/supply_public{
-	icon_state = "computer";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
+"Mf" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/liberty/hotel/room/two_zero_two)
 "Mh" = (
 /obj/effect/floor_decal/corner/red/bordercorner,
 /obj/effect/floor_decal/corner/red/bordercorner{
@@ -11988,6 +12031,13 @@
 	},
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/hotel/room/two_zero_two)
+"Mi" = (
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 8
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
 "Mj" = (
 /obj/effect/floor_decal/corner/black/half{
 	icon_state = "bordercolorhalf";
@@ -12009,8 +12059,11 @@
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/hotel/room/two_zero_two)
 "Ml" = (
-/obj/effect/floor_decal/corner/grey/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/structure/closet,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
 /area/space)
 "Mm" = (
 /obj/machinery/door/firedoor,
@@ -12033,22 +12086,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"Mo" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 8
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 24;
-	pixel_y = 0;
-	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "Mq" = (
 /obj/machinery/power/terminal{
 	icon_state = "term";
@@ -12077,13 +12114,22 @@
 	},
 /turf/simulated/floor/grass,
 /area/space)
-"ML" = (
-/obj/structure/table/marble,
-/obj/machinery/chemical_dispenser/bar_coffee/full{
-	icon_state = "coffee_dispenser";
-	dir = 8
+"Mv" = (
+/obj/effect/floor_decal/techfloor,
+/obj/effect/floor_decal/industrial/stop_sign{
+	icon_state = "stop_sign";
+	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"My" = (
+/turf/simulated/wall,
+/area/liberty/hotel/room/two_zero_two)
+"MR" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "MT" = (
 /obj/effect/floor_decal/spline/fancy/black{
@@ -12114,8 +12160,8 @@
 "MY" = (
 /turf/simulated/wall/r_titanium,
 /area/space)
-"Nl" = (
-/obj/effect/floor_decal/corner/beige/diagonal,
+"Nd" = (
+/obj/effect/floor_decal/corner/green/diagonal,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "Nq" = (
@@ -12130,20 +12176,35 @@
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/liberty/hotel/room/two_zero_two)
-"Nt" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/holofloor/beach/water,
+"Ns" = (
+/obj/structure/table/marble,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled,
 /area/space)
 "Nv" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /turf/simulated/floor/plating,
 /area/space)
+"Nw" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/brown,
+/obj/effect/floor_decal/corner/brown{
+	icon_state = "corner_white";
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/device/flashlight/lamp,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"Ny" = (
+/obj/machinery/door/airlock/maintenance,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/liberty/hotel/room/two_zero_two)
 "NA" = (
 /obj/effect/floor_decal/corner/lime/diagonal,
 /obj/effect/floor_decal/spline/fancy/black{
@@ -12178,7 +12239,10 @@
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
 "NG" = (
-/obj/machinery/vending/fashionvend,
+/obj/machinery/vending/coffee{
+	icon_state = "coffee";
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/space)
 "NM" = (
@@ -12194,26 +12258,14 @@
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/liberty/hotel/room/two_zero_two)
-"NN" = (
-/obj/machinery/door/firedoor{
-	icon_state = "open";
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/space)
 "NP" = (
 /obj/effect/paint_stripe/green,
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/operating_storage)
-"NT" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 9
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/steel_grid,
+"NS" = (
+/obj/structure/closet,
+/turf/simulated/floor/plating,
 /area/space)
 "NU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
@@ -12222,12 +12274,18 @@
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
-"Oc" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 10
+"Ob" = (
+/obj/effect/floor_decal/techfloor{
+	icon_state = "techfloor_edges";
+	dir = 1
 	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled,
+/obj/effect/floor_decal/industrial/arrow{
+	icon_state = "arrow";
+	dir = 1
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
 /area/space)
 "Oe" = (
 /obj/effect/floor_decal/corner/grey{
@@ -12271,21 +12329,15 @@
 /turf/simulated/floor/plating,
 /area/liberty/sfp/reception)
 "Op" = (
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 6
+/obj/machinery/door/firedoor{
+	icon_state = "open";
+	dir = 8
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
-"Oq" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/machinery/computer/modular/preset/supply_public{
-	icon_state = "computer";
+/obj/machinery/door/blast/shutters/open{
+	icon_state = "shutter1";
 	dir = 4
 	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "Or" = (
 /obj/machinery/atmospherics/pipe/simple/visible/blue{
@@ -12295,10 +12347,14 @@
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
 /area/space)
-"Ov" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/paint_stripe/white,
-/turf/simulated/floor/plating,
+"Os" = (
+/obj/effect/floor_decal/borderfloorwhite/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/purple/bordercorner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "Ow" = (
 /obj/machinery/door/firedoor{
@@ -12329,17 +12385,9 @@
 /obj/structure/curtain/open/shower,
 /turf/simulated/floor/tiled/old_tile,
 /area/liberty/sfp/dorm)
-"OI" = (
-/obj/structure/table/standard,
-/obj/machinery/computer/modular/preset/supply_public,
-/obj/effect/floor_decal/corner/brown{
-	dir = 5
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/carpet/green,
-/area/space)
+"OK" = (
+/turf/simulated/floor/tiled,
+/area/liberty/hotel/room/two_zero_two)
 "OO" = (
 /obj/structure/table/standard,
 /obj/machinery/light{
@@ -12352,9 +12400,16 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/carpet/blue,
 /area/liberty/sfp/dorm)
-"Pe" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/carpet/green,
+"OR" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 9
+	},
+/obj/machinery/disposal,
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"Pd" = (
+/obj/effect/overlay/palmtree_l,
+/turf/simulated/floor/grass,
 /area/space)
 "Pg" = (
 /obj/effect/floor_decal/corner/white{
@@ -12389,6 +12444,16 @@
 /obj/structure/table/glass,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
+"Pi" = (
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"Pk" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor/tiled,
+/area/space)
 "Pl" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /turf/simulated/floor/plating,
@@ -12402,23 +12467,16 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_two)
+"Pq" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "Px" = (
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/r_wall/prepainted,
 /area/liberty/hotel/room/two_zero_two)
-"Py" = (
-/obj/machinery/microwave,
-/obj/structure/table/standard,
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/machinery/power/apc/high{
-	dir = 8;
-	icon_state = "apc0";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "Pz" = (
 /turf/simulated/floor/wood/maple,
 /area/liberty/medbay/chemistry)
@@ -12457,11 +12515,18 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/recreation)
 "PH" = (
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 9
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -24
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/item/weapon/pen,
+/obj/item/weapon/pen/blue,
+/obj/item/weapon/pen/red,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
 /area/space)
 "PL" = (
 /obj/machinery/door/firedoor,
@@ -12469,19 +12534,6 @@
 /obj/machinery/door/airlock/multi_tile/glass/sfp,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/liberty/sfp/hallway/one_north)
-"PO" = (
-/obj/effect/floor_decal/corner/grey{
-	icon_state = "corner_white";
-	dir = 10
-	},
-/obj/structure/table/reinforced,
-/obj/machinery/photocopier/faxmachine,
-/turf/simulated/floor/tiled/techmaint,
-/area/liberty/sfp/office)
-"PU" = (
-/obj/machinery/vending/props,
-/turf/simulated/floor/tiled,
-/area/space)
 "PV" = (
 /obj/structure/flora/ausbushes/pointybush,
 /obj/structure/railing/mapped{
@@ -12499,16 +12551,24 @@
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/liberty/hotel/room/two_zero_two)
+"PZ" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
+	},
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24;
+	pixel_y = 0;
+	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
 "Qa" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/medbay/exam)
-"Qb" = (
-/obj/machinery/vending/sovietsoda,
-/turf/simulated/floor/tiled,
-/area/space)
 "Qf" = (
 /obj/machinery/door/airlock/sfp,
 /obj/machinery/door/firedoor,
@@ -12546,10 +12606,6 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"Qn" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
 "Qo" = (
 /obj/effect/floor_decal/corner/grey{
 	icon_state = "corner_white";
@@ -12559,13 +12615,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
-"Qp" = (
-/obj/effect/floor_decal/techfloor,
-/obj/effect/floor_decal/industrial/arrow,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "Qq" = (
 /obj/structure/bed/chair/pew/left,
 /obj/effect/floor_decal/corner/grey{
@@ -12583,15 +12632,34 @@
 "Qx" = (
 /turf/simulated/wall,
 /area/liberty/medbay/hallway/one)
+"Qy" = (
+/obj/structure/bed/chair/office/comfy/yellow{
+	icon_state = "comfyofficechair_preview";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"QB" = (
+/obj/machinery/microwave,
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/power/apc/high{
+	dir = 8;
+	icon_state = "apc0";
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
 "QC" = (
 /obj/effect/paint_stripe/green,
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/chemistry)
-"QD" = (
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
-/area/space)
 "QF" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -12599,33 +12667,36 @@
 /obj/effect/overlay/palmtree_l,
 /turf/simulated/floor/grass,
 /area/space)
-"QJ" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 9
-	},
-/obj/machinery/disposal,
-/turf/simulated/floor/tiled/steel_grid,
+"QG" = (
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
-"QP" = (
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 21
-	},
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
+"QM" = (
+/obj/effect/floor_decal/corner/b_green/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
-"QQ" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/port,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/monotile,
+"QO" = (
+/obj/machinery/vending/cola{
+	icon_state = "Cola_Machine";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled,
 /area/space)
 "QS" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/interrogation)
+"QT" = (
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 6
+	},
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"QV" = (
+/obj/effect/floor_decal/corner/purple/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
 "QY" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/brown/bordercorner{
@@ -12646,12 +12717,12 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"Ra" = (
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 5
+"Rd" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
 	},
-/turf/simulated/floor/holofloor/tiled/dark,
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/steel_grid,
 /area/space)
 "Re" = (
 /obj/structure/table/standard,
@@ -12682,6 +12753,13 @@
 /obj/effect/paint/white,
 /turf/simulated/wall,
 /area/liberty/medbay/exam)
+"Rv" = (
+/obj/machinery/vending/dinnerware{
+	icon_state = "dinnerware";
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "Rw" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 4
@@ -12692,19 +12770,15 @@
 /obj/machinery/door/airlock,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/liberty/hotel/room/two_zero_two)
-"RA" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 5
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
+"RJ" = (
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/blast/shutters,
+/turf/simulated/floor/tiled/monotile,
 /area/space)
-"RE" = (
-/turf/simulated/wall,
-/area/liberty/hotel/room/two_zero_two)
-"RL" = (
-/turf/simulated/floor/wood,
+"RK" = (
+/obj/machinery/vending/sovietsoda,
+/turf/simulated/floor/tiled,
 /area/space)
 "RN" = (
 /obj/effect/floor_decal/corner/grey{
@@ -12713,16 +12787,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
-"RS" = (
-/obj/effect/floor_decal/corner/brown,
-/obj/effect/floor_decal/corner/brown{
-	icon_state = "corner_white";
-	dir = 1
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "RT" = (
 /obj/structure/flora/ausbushes/pointybush,
 /obj/structure/railing/mapped{
@@ -12741,25 +12805,6 @@
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/liberty/hotel/room/two_zero_two)
-"RY" = (
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 4
-	},
-/obj/effect/floor_decal/borderfloorblack{
-	icon_state = "borderfloor_white";
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 4
-	},
-/turf/simulated/floor/wood,
-/area/space)
 "Sc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -12775,6 +12820,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_two)
+"So" = (
+/obj/effect/floor_decal/spline/fancy/black,
+/turf/simulated/floor/tiled,
+/area/space)
 "Sp" = (
 /obj/effect/floor_decal/corner/white{
 	icon_state = "corner_white";
@@ -12786,9 +12835,24 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
+"Sr" = (
+/obj/effect/paint_stripe/green,
+/obj/effect/paint/white,
+/turf/simulated/wall{
+	alpha = 255
+	},
+/area/liberty/medbay/emergency)
 "St" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /turf/simulated/wall/titanium,
+/area/space)
+"Su" = (
+/obj/machinery/vending/cigarette{
+	icon_state = "cigs";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled,
 /area/space)
 "Sv" = (
 /obj/machinery/power/smes/buildable/preset/skrell,
@@ -12831,10 +12895,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
-"SJ" = (
-/obj/effect/floor_decal/corner/mauve/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
 "SK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /turf/simulated/floor/tiled,
@@ -12842,8 +12902,10 @@
 "SL" = (
 /turf/simulated/wall/liberty/sfp_blue,
 /area/liberty/sfp/recreation)
-"SO" = (
-/obj/structure/table/standard,
+"SR" = (
+/obj/effect/floor_decal/spline/fancy/black{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/space)
 "SS" = (
@@ -12867,14 +12929,6 @@
 	icon_state = "monotiledark"
 	},
 /area/liberty/hotel/room/two_zero_two)
-"Ti" = (
-/obj/machinery/vending/cola{
-	icon_state = "Cola_Machine";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled,
-/area/space)
 "Tj" = (
 /obj/machinery/door/firedoor{
 	icon_state = "open";
@@ -12908,16 +12962,13 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/liberty/sfp/dorm)
-"Tw" = (
-/obj/machinery/door/firedoor,
-/obj/effect/floor_decal/spline/fancy/black{
-	dir = 8
+"TD" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 5
 	},
-/turf/simulated/floor/tiled,
-/area/space)
-"Tz" = (
-/obj/structure/closet,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
 /area/space)
 "TE" = (
 /obj/effect/floor_decal/spline/fancy/black{
@@ -12926,14 +12977,17 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_two)
+"TF" = (
+/obj/structure/bed/chair/pew/left,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
 "TG" = (
 /obj/effect/floor_decal/corner/grey/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/sfp/lobby)
-"TI" = (
-/obj/machinery/vending/soda,
-/turf/simulated/floor/tiled,
-/area/space)
 "TJ" = (
 /obj/effect/floor_decal/corner/grey{
 	icon_state = "corner_white";
@@ -12945,9 +12999,9 @@
 /obj/structure/filingcabinet,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/office)
-"TM" = (
-/obj/effect/floor_decal/corner/paleblue/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+"TL" = (
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled,
 /area/space)
 "TN" = (
 /obj/structure/flora,
@@ -12963,30 +13017,25 @@
 /turf/simulated/floor/tiled,
 /area/space)
 "TS" = (
-/obj/effect/paint_stripe/white,
-/turf/simulated/wall/prepainted,
-/area/space)
-"TW" = (
-/obj/machinery/vending/coffee{
-	icon_state = "coffee";
-	dir = 8
+/obj/structure/closet/secure_closet/quartermaster,
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
 	},
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled,
+/obj/effect/floor_decal/corner/brown{
+	icon_state = "corner_white";
+	dir = 1
+	},
+/obj/machinery/light{
+	icon_state = "tube_map";
+	dir = 4
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
 /area/space)
 "TX" = (
 /turf/simulated/wall/liberty/sfp_blue,
 /area/liberty/sfp/hallway/one_north)
-"TY" = (
-/obj/effect/floor_decal/borderfloorwhite{
-	icon_state = "borderfloor_white";
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/purple/border{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "TZ" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/machinery/computer/crew{
@@ -12999,12 +13048,9 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/plating,
 /area/space)
-"Ub" = (
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 10
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
+"Uf" = (
+/obj/machinery/vending/fashionvend,
+/turf/simulated/floor/tiled,
 /area/space)
 "Uh" = (
 /obj/effect/floor_decal/corner/white{
@@ -13021,24 +13067,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/hallway/one_south)
-"Ui" = (
-/obj/structure/flora/ausbushes/palebush,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	icon_state = "spline_fancy";
-	dir = 8
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	icon_state = "spline_fancy";
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/grass,
-/area/liberty/hotel/room/two_zero_two)
 "Uj" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	icon_state = "spline_fancy";
@@ -13049,6 +13077,11 @@
 "Uw" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
 /area/liberty/sfp/interrogation)
+"Ux" = (
+/obj/effect/floor_decal/corner/grey/full,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
+/turf/simulated/floor/tiled,
+/area/space)
 "Uz" = (
 /obj/machinery/door/airlock/sfp,
 /obj/machinery/door/firedoor,
@@ -13057,14 +13090,6 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/liberty/sfp/dorm)
-"UC" = (
-/obj/structure/table/rack,
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+006
-	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/space)
 "UE" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled,
@@ -13089,10 +13114,17 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"UK" = (
-/obj/effect/floor_decal/corner/grey/full,
-/obj/effect/floor_decal/corner/lightgrey/diagonal,
-/turf/simulated/floor/tiled,
+"UG" = (
+/obj/structure/table/standard,
+/obj/item/weapon/storage/box/cups,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 21
+	},
+/obj/effect/floor_decal/corner/brown/diagonal,
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
 /area/space)
 "UL" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -13103,10 +13135,6 @@
 /obj/effect/paint_stripe/yellow,
 /turf/simulated/floor/plating,
 /area/liberty/hotel/room/two_zero_two)
-"UO" = (
-/obj/effect/floor_decal/corner/yellow/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
 "UP" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -13167,12 +13195,6 @@
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/pouch_auto/inaprovaline,
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
-"Vd" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "Ve" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/structure/table/marble,
@@ -13184,13 +13206,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"Vj" = (
-/obj/machinery/door/firedoor{
-	icon_state = "open";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/space)
 "Vk" = (
 /obj/effect/floor_decal/corner/black/full,
 /obj/effect/floor_decal/corner/brown/bordercorner{
@@ -13258,42 +13273,13 @@
 	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/liberty/hotel/room/two_zero_two)
-"Vt" = (
-/obj/machinery/door/blast/shutters,
-/turf/simulated/floor/holofloor/tiled/dark,
+"Vw" = (
+/obj/structure/table/marble,
+/turf/simulated/floor/tiled/white/monotile,
 /area/space)
-"Vu" = (
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 8
-	},
-/obj/effect/floor_decal/borderfloorblack{
-	icon_state = "borderfloor_white";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 8
-	},
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 4
-	},
-/turf/simulated/floor/wood,
-/area/space)
-"Vx" = (
-/obj/machinery/vending/cola{
-	icon_state = "Cola_Machine";
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/space)
-"VB" = (
-/obj/effect/floor_decal/spline/fancy/black{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/space)
+"VE" = (
+/turf/simulated/floor/wood/walnut,
+/area/liberty/hotel/room/two_zero_two)
 "VG" = (
 /obj/effect/floor_decal/corner/white{
 	icon_state = "corner_white";
@@ -13309,24 +13295,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
-"VJ" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 6
-	},
-/obj/structure/table/steel_reinforced,
-/turf/simulated/floor/tiled/steel_grid,
-/area/space)
-"VO" = (
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/space)
 "VS" = (
 /obj/structure/bed/chair/pew,
 /obj/effect/floor_decal/corner/grey{
@@ -13335,27 +13303,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
-"VW" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 10
-	},
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
+"VV" = (
+/obj/effect/floor_decal/corner/lightgrey/border,
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
-"Wc" = (
-/obj/structure/bed/chair{
-	icon_state = "chair_preview";
-	dir = 8
-	},
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 4
-	},
+"VX" = (
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled,
 /area/space)
 "Wm" = (
@@ -13376,19 +13329,30 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/liberty/sfp/dorm)
+"Wt" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/space)
+"Wv" = (
+/obj/structure/bed/chair/pew,
+/obj/effect/floor_decal/corner/brown/diagonal,
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -23;
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
 "Ww" = (
 /obj/machinery/smartfridge/chemistry,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white/monotile,
 /area/liberty/medbay/emergency)
-"WD" = (
-/obj/effect/floor_decal/corner/lightgrey/border{
-	icon_state = "bordercolor";
-	dir = 4
-	},
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
 "WE" = (
 /obj/structure/navlight_shuttle/red/alt{
 	icon_state = "navlight_red_alt";
@@ -13400,19 +13364,26 @@
 	},
 /turf/simulated/floor/shuttle_ceiling,
 /area/space)
-"WG" = (
-/obj/structure/table/rack,
-/obj/effect/floor_decal/spline/plain/red,
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/space)
 "WM" = (
 /obj/structure/barricade,
 /turf/simulated/floor/plating,
 /area/liberty/hotel/room/two_zero_two)
+"WN" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"WO" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass/port,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/monotile,
+/area/space)
 "WP" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
@@ -13449,15 +13420,11 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "Xg" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 9
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/railing/mapped{
+	dir = 1
 	},
-/obj/machinery/power/apc/high{
-	dir = 8;
-	icon_state = "apc0";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/grass,
 /area/space)
 "Xh" = (
 /obj/effect/floor_decal/corner/grey/mono,
@@ -13467,6 +13434,18 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/hotel/room/two_zero_two)
+"Xi" = (
+/obj/structure/table/rack,
+/obj/effect/floor_decal/spline/plain/red{
+	icon_state = "spline_plain";
+	dir = 10
+	},
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_cargo,
+/area/space)
 "Xn" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	icon_state = "spline_fancy";
@@ -13478,34 +13457,23 @@
 /obj/effect/floor_decal/corner/grey/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/liberty/hotel/room/two_zero_two)
+"Xr" = (
+/obj/effect/floor_decal/corner/lime/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
 "Xw" = (
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/liberty/sfp/hallway/one_south)
-"XC" = (
-/obj/machinery/light/navigation,
-/turf/simulated/floor/shuttle_ceiling,
+"XI" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/holofloor/beach/water,
 /area/space)
-"XE" = (
-/obj/structure/bed/chair/office/comfy/yellow{
-	icon_state = "comfyofficechair_preview";
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
-"XG" = (
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/machinery/vending/coffee{
-	icon_state = "coffee";
-	dir = 8
-	},
-/obj/machinery/light,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
+"XK" = (
+/obj/effect/floor_decal/corner/beige/diagonal,
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/space)
 "XL" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -13523,79 +13491,100 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/liberty/hotel/room/two_zero_two)
+"XO" = (
+/obj/structure/table/marble,
+/obj/machinery/chemical_dispenser/bar_coffee/full{
+	icon_state = "coffee_dispenser";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"XP" = (
+/obj/effect/floor_decal/corner/beige/diagonal,
+/obj/machinery/vending/cigarette{
+	icon_state = "cigs";
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "XQ" = (
 /turf/simulated/floor/tiled/white,
 /area/liberty/medbay/operating_storage)
-"XW" = (
-/obj/structure/table/marble,
-/obj/effect/floor_decal/corner/lime/mono,
-/obj/effect/floor_decal/corner/black/mono,
-/obj/effect/floor_decal/corner/black/mono,
-/obj/machinery/light/spot{
-	icon_state = "tube_map";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/old_cargo,
-/area/liberty/hotel/room/two_zero_two)
 "Ya" = (
 /turf/simulated/floor/airless,
 /area/liberty/sfp/office)
-"Yb" = (
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
 "Yf" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
 /area/liberty/sfp/hallway/one_north)
-"Yh" = (
-/obj/machinery/door/firedoor,
-/obj/effect/floor_decal/spline/fancy/black{
+"Yj" = (
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
+	},
+/obj/effect/floor_decal/borderfloorblack{
+	icon_state = "borderfloor_white";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/lightgrey/border{
+	icon_state = "bordercolor";
+	dir = 10
+	},
+/turf/simulated/floor/wood,
+/area/space)
+"Yo" = (
+/obj/structure/bed/chair{
+	icon_state = "chair_preview";
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/space)
-"Yj" = (
-/obj/structure/bed/chair/pew,
-/obj/effect/floor_decal/corner/brown/diagonal,
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -23;
-	pixel_y = 0
-	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
-"Yl" = (
-/obj/machinery/papershredder,
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
-	},
-/area/space)
-"Ym" = (
-/obj/structure/table/marble,
-/turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "Yr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/space)
-"Yt" = (
-/obj/effect/floor_decal/corner/lightgrey/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/space)
-"Yv" = (
-/obj/effect/paint_stripe/green,
-/obj/effect/paint/white,
-/turf/simulated/wall{
-	alpha = 255
+"Yu" = (
+/obj/structure/railing/mapped{
+	dir = 1
 	},
-/area/liberty/medbay/emergency)
+/obj/structure/lattice,
+/turf/space,
+/area/space)
 "YA" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
 /area/liberty/sfp/hallway/one_south)
+"YB" = (
+/obj/structure/flora/pottedplant/minitree,
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/brown{
+	icon_state = "corner_white";
+	dir = 8
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
+"YC" = (
+/obj/effect/floor_decal/corner/brown{
+	dir = 6
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
+/area/space)
 "YM" = (
 /obj/structure/bed/chair/shuttle/white{
 	icon_state = "shuttle_chair_preview";
@@ -13603,19 +13592,40 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
-"YV" = (
-/obj/effect/floor_decal/corner/purple/diagonal,
-/turf/simulated/floor/holofloor/tiled/dark,
+"YO" = (
+/obj/structure/bed/chair/office/comfy/yellow{
+	icon_state = "comfyofficechair_preview";
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/brown,
+/obj/effect/floor_decal/corner/brown{
+	icon_state = "corner_white";
+	dir = 1
+	},
+/turf/simulated/floor/tiled{
+	icon_state = "techmaint"
+	},
 /area/space)
 "YX" = (
 /turf/simulated/wall/r_wall/liberty/sfp_blue,
 /area/liberty/sfp/office)
-"Ze" = (
-/obj/structure/bed/chair/pew/left,
-/obj/effect/floor_decal/corner/brown/diagonal,
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
+"Zg" = (
+/obj/effect/floor_decal/corner/beige/diagonal,
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
 	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"Zj" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/space)
+"Zu" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/space)
 "ZC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -13637,24 +13647,31 @@
 /obj/item/weapon/flame/candle,
 /turf/simulated/floor/carpet/red,
 /area/liberty/hotel/room/two_zero_two)
-"ZM" = (
-/obj/structure/flora/pottedplant/minitree,
+"ZR" = (
 /obj/effect/floor_decal/corner/brown{
-	dir = 6
+	dir = 10
 	},
-/obj/effect/floor_decal/corner/brown{
-	icon_state = "corner_white";
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled,
+/area/space)
+"ZS" = (
+/obj/structure/flora/ausbushes/palebush,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/tiled{
-	icon_state = "techmaint"
+/obj/structure/railing/mapped{
+	dir = 4
 	},
-/area/space)
-"ZP" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
-/area/space)
+/obj/effect/floor_decal/spline/fancy/wood{
+	icon_state = "spline_fancy";
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	icon_state = "spline_fancy";
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/grass,
+/area/liberty/hotel/room/two_zero_two)
 "ZW" = (
 /obj/machinery/light/spot{
 	icon_state = "tube_map";
@@ -13662,6 +13679,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/liberty/hotel/room/two_zero_two)
+"ZZ" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/space)
 
 (1,1,1) = {"
 aa
@@ -23043,7 +23066,7 @@ aa
 aa
 aa
 aa
-GK
+Ab
 ah
 al
 al
@@ -24069,7 +24092,7 @@ aP
 aP
 aP
 aP
-Tz
+NS
 aP
 aP
 gr
@@ -24473,7 +24496,7 @@ aP
 aP
 aP
 aP
-Tz
+NS
 aP
 aP
 gr
@@ -25274,36 +25297,36 @@ DK
 Gr
 aP
 aP
-RE
-RE
-RE
-RE
-RE
-RE
-RE
-RE
+My
+My
+My
+My
+My
+My
+My
+My
 Aw
 Aw
 Aw
 Aw
 Aw
 Aw
-Cx
+Ij
 Aw
 Aw
 Aw
 Aw
 Aw
-xj
-FT
-FT
-FT
-xj
-FT
-FT
-FT
-xj
-xj
+zg
+Mf
+Mf
+Mf
+zg
+Mf
+Mf
+Mf
+zg
+zg
 aa
 aa
 ah
@@ -25476,19 +25499,19 @@ DM
 Gr
 aP
 aP
-RE
-zU
-IA
-IA
-IA
-IA
-IA
-IA
+My
+vm
+OK
+OK
+OK
+OK
+OK
+OK
 Aw
 Hw
 Hw
 Hw
-BX
+zY
 ld
 wp
 lG
@@ -25505,7 +25528,7 @@ oF
 oa
 Ee
 Px
-xj
+zg
 aa
 aa
 ah
@@ -25515,17 +25538,17 @@ an
 aa
 aa
 af
-Qn
-Qn
-Qn
+Fo
+Fo
+Fo
 af
-UO
-UO
-UO
+uQ
+uQ
+uQ
 af
-Nl
-Nl
-Nl
+XK
+XK
+XK
 af
 af
 af
@@ -25678,19 +25701,19 @@ Re
 Gr
 aP
 aP
-RE
-LG
-IA
-IA
-IA
-IA
-IA
-IA
+My
+aN
+OK
+OK
+OK
+OK
+OK
+OK
 Aw
 Hw
 Hw
 Hw
-BX
+zY
 le
 Cy
 lg
@@ -25707,7 +25730,7 @@ oy
 kT
 An
 Px
-xj
+zg
 aa
 aa
 ah
@@ -25717,17 +25740,17 @@ an
 aa
 aa
 af
-Qn
-Qn
-Qn
+Fo
+Fo
+Fo
 af
-UO
-UO
-UO
+uQ
+uQ
+uQ
 af
-Nl
-Nl
-Nl
+XK
+XK
+XK
 af
 af
 af
@@ -25880,9 +25903,9 @@ DK
 Gr
 aP
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
 Lw
 Lw
@@ -25892,7 +25915,7 @@ Aw
 Hw
 Hw
 Hw
-BX
+zY
 lf
 wp
 lh
@@ -25909,7 +25932,7 @@ oF
 kT
 qq
 Px
-xj
+zg
 aa
 aa
 ah
@@ -25919,17 +25942,17 @@ an
 aa
 aa
 af
-Qn
-Qn
-Qn
+Fo
+Fo
+Fo
 af
-UO
-UO
-UO
+uQ
+uQ
+uQ
 af
-Nl
-Nl
-Nl
+XK
+XK
+XK
 af
 af
 af
@@ -26082,9 +26105,9 @@ DM
 Gr
 aP
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
 PB
 PB
@@ -26095,13 +26118,13 @@ Aw
 lA
 Aw
 Aw
-XW
+vc
 wp
 lh
 lh
 lh
 Ds
-BX
+zY
 ax
 ax
 ax
@@ -26111,7 +26134,7 @@ pa
 kT
 AM
 Px
-xj
+zg
 aa
 aa
 ah
@@ -26284,18 +26307,18 @@ Gr
 aP
 aP
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
 Te
 Te
 Te
 Te
 Aw
-IA
-IA
-IA
+OK
+OK
+OK
 lA
 lg
 yo
@@ -26303,7 +26326,7 @@ Ix
 Ct
 Ct
 IP
-BX
+zY
 ay
 ay
 ay
@@ -26313,7 +26336,7 @@ Ex
 kT
 ox
 Px
-xj
+zg
 aa
 aa
 ah
@@ -26323,21 +26346,21 @@ an
 aa
 aa
 af
-FJ
-FJ
-FJ
+QM
+QM
+QM
 af
-zR
-zR
-zR
+Nd
+Nd
+Nd
 af
-HF
-HF
-HF
+Xr
+Xr
+Xr
 af
 af
-UK
-UK
+Ux
+Ux
 aa
 aa
 aa
@@ -26486,9 +26509,9 @@ Gr
 aP
 aP
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
 ly
 ly
@@ -26496,16 +26519,16 @@ ly
 ly
 Aw
 Fa
-IA
-IA
-BX
+OK
+OK
+zY
 lh
 lh
 mB
 lh
 zh
 BN
-BX
+zY
 Pp
 Sn
 Pp
@@ -26515,9 +26538,9 @@ Mr
 kU
 pg
 Px
-xj
-xj
-xj
+zg
+zg
+zg
 ah
 al
 al
@@ -26525,21 +26548,21 @@ an
 aa
 aa
 af
-FJ
-FJ
-FJ
+QM
+QM
+QM
 af
-zR
-zR
-zR
+Nd
+Nd
+Nd
 af
-HF
-HF
-HF
+Xr
+Xr
+Xr
 af
 af
-UK
-UK
+Ux
+Ux
 aa
 aa
 aa
@@ -26674,7 +26697,7 @@ Ig
 KN
 xG
 xY
-IS
+Dw
 dy
 dQ
 SB
@@ -26688,21 +26711,21 @@ Gr
 Gr
 Gr
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
-BX
-Cx
-BX
+zY
+Ij
+zY
 Aw
 Aw
-IA
-IA
-IA
+OK
+OK
+OK
 Aw
-BX
-BX
+zY
+zY
 Lw
 Lw
 Lw
@@ -26712,14 +26735,14 @@ JO
 ap
 Da
 RT
-Ui
+ZS
 Lw
 Xq
 Xq
 Px
 Px
 Px
-xj
+zg
 sJ
 al
 al
@@ -26727,21 +26750,21 @@ an
 aa
 aa
 af
-FJ
-FJ
-FJ
+QM
+QM
+QM
 af
-zR
-zR
-zR
+Nd
+Nd
+Nd
 af
-HF
-HF
-HF
+Xr
+Xr
+Xr
 af
 af
-UK
-UK
+Ux
+Ux
 aa
 aa
 aa
@@ -26890,25 +26913,25 @@ Tn
 wZ
 Gr
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
 KE
-vW
-vW
+VE
+VE
 Aw
-IA
-IA
-IA
-IA
-IA
-IA
-IA
+OK
+OK
+OK
+OK
+OK
+OK
+OK
 Lw
 pb
 pb
-uA
+yh
 nq
 kR
 kR
@@ -26921,7 +26944,7 @@ MT
 pr
 pB
 pD
-FT
+Mf
 ah
 al
 al
@@ -26942,8 +26965,8 @@ af
 af
 af
 af
-UK
-UK
+Ux
+Ux
 aa
 aa
 aa
@@ -27092,21 +27115,21 @@ ys
 DO
 Gr
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
 KE
-vW
-vW
+VE
+VE
 lA
-IA
-IA
-IA
-IA
-IA
+OK
+OK
+OK
+OK
+OK
 ZW
-IA
+OK
 Lw
 As
 kC
@@ -27123,7 +27146,7 @@ lP
 ov
 qk
 pE
-FT
+Mf
 ah
 al
 al
@@ -27131,13 +27154,13 @@ an
 aa
 aa
 af
-Kn
-Kn
-Kn
+Bk
+Bk
+Bk
 af
-TM
-TM
-TM
+zz
+zz
+zz
 af
 af
 af
@@ -27294,16 +27317,16 @@ OF
 JW
 Gr
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
 Aw
 Aw
 Aw
 Aw
-IA
-IA
+OK
+OK
 Lw
 Lw
 Lw
@@ -27325,7 +27348,7 @@ lP
 pA
 pC
 pF
-FT
+Mf
 ah
 al
 al
@@ -27333,13 +27356,13 @@ an
 aa
 aa
 af
-Kn
-Kn
-Kn
+Bk
+Bk
+Bk
 af
-TM
-TM
-TM
+zz
+zz
+zz
 af
 af
 af
@@ -27496,16 +27519,16 @@ Gr
 Gr
 Gr
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
 Aw
 Aw
 jk
 Aw
-IA
-IA
+OK
+OK
 Lw
 Lw
 Lw
@@ -27527,7 +27550,7 @@ TN
 Lw
 Lw
 Lw
-xj
+zg
 sJ
 al
 al
@@ -27535,13 +27558,13 @@ an
 aa
 aa
 af
-Kn
-Kn
-Kn
+Bk
+Bk
+Bk
 af
-TM
-TM
-TM
+zz
+zz
+zz
 af
 af
 af
@@ -27671,7 +27694,7 @@ aq
 as
 al
 al
-Ky
+Yu
 aJ
 wX
 aS
@@ -27698,16 +27721,16 @@ aP
 aP
 aP
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
-IA
+OK
 Aw
-Jo
+FV
 Aw
-IA
-IA
+OK
+OK
 Lw
 Lw
 kR
@@ -27729,7 +27752,7 @@ lP
 pr
 pB
 pD
-FT
+Mf
 ah
 al
 al
@@ -27900,16 +27923,16 @@ aP
 aP
 aP
 aP
-RE
-IA
-IA
+My
+OK
+OK
 lA
-IA
-IA
-IA
-IA
-IA
-IA
+OK
+OK
+OK
+OK
+OK
+OK
 Lw
 Lw
 kS
@@ -27931,7 +27954,7 @@ lP
 ov
 qk
 pE
-FT
+Mf
 ah
 al
 al
@@ -27939,13 +27962,13 @@ an
 aa
 aa
 af
-YV
-YV
-YV
+QV
+QV
+QV
 af
-SJ
-SJ
-SJ
+Id
+Id
+Id
 af
 af
 af
@@ -28102,25 +28125,25 @@ aP
 aP
 aP
 aP
-RE
-IA
-IA
-BX
-IA
-IA
-IA
-IA
-IA
-IA
+My
+OK
+OK
+zY
+OK
+OK
+OK
+OK
+OK
+OK
 Lw
 Lw
-Cx
-Cx
+Ij
+Ij
 Lw
 Lw
 pb
 pb
-xz
+ta
 nq
 kR
 kR
@@ -28133,7 +28156,7 @@ Xn
 pA
 pC
 pF
-FT
+Mf
 ah
 al
 al
@@ -28141,13 +28164,13 @@ an
 aa
 aa
 af
-YV
-YV
-YV
+QV
+QV
+QV
 af
-SJ
-SJ
-SJ
+Id
+Id
+Id
 af
 af
 af
@@ -28304,20 +28327,20 @@ aP
 aP
 aP
 aP
-RE
-IA
-IA
+My
+OK
+OK
 Aw
 Aw
 Aw
 Aw
 lA
-BX
+zY
 Lw
 Lw
 Lw
-Cx
-Cx
+Ij
+Ij
 Lw
 Lw
 Lw
@@ -28335,7 +28358,7 @@ Xq
 Lw
 Lw
 Px
-xj
+zg
 sJ
 al
 al
@@ -28343,13 +28366,13 @@ an
 aa
 aa
 af
-YV
-YV
-YV
+QV
+QV
+QV
 af
-SJ
-SJ
-SJ
+Id
+Id
+Id
 af
 af
 af
@@ -28511,13 +28534,13 @@ bP
 bP
 Aw
 jY
-vW
+VE
 Oh
-vW
+VE
 rm
 Lw
 ki
-vW
+VE
 Vk
 li
 vE
@@ -28535,8 +28558,8 @@ Hh
 ly
 Ta
 Lw
-Jo
-FT
+FV
+Mf
 aa
 ah
 al
@@ -28713,13 +28736,13 @@ bP
 bP
 Aw
 qr
-vW
-vW
-vW
+VE
+VE
+VE
 rr
 Lw
 ki
-vW
+VE
 Vk
 UT
 Mn
@@ -28736,9 +28759,9 @@ TE
 lj
 lj
 Xn
-uC
-Jo
-FT
+Ny
+FV
+Mf
 aa
 ah
 al
@@ -28747,13 +28770,13 @@ an
 aa
 aa
 af
-Eb
-Eb
-Eb
+QG
+QG
+QG
 af
-Cs
-Cs
-Cs
+AC
+AC
+AC
 af
 af
 af
@@ -28917,7 +28940,7 @@ Aw
 im
 im
 Oh
-vW
+VE
 rM
 Lw
 kj
@@ -28939,8 +28962,8 @@ qS
 rn
 Lw
 Lw
-Jo
-FT
+FV
+Mf
 aa
 ah
 al
@@ -28949,13 +28972,13 @@ an
 aa
 aa
 af
-Eb
-Eb
-Eb
+QG
+QG
+QG
 af
-Cs
-Cs
-Cs
+AC
+AC
+AC
 af
 af
 af
@@ -29116,11 +29139,11 @@ bg
 bP
 bP
 Aw
-vW
-vW
-vW
-vW
-vW
+VE
+VE
+VE
+VE
+VE
 pe
 Lw
 kB
@@ -29140,9 +29163,9 @@ qs
 AV
 ro
 Lw
-Jo
-Jo
-xj
+FV
+FV
+zg
 fG
 fG
 al
@@ -29151,13 +29174,13 @@ an
 aa
 aa
 af
-Eb
-Eb
-Eb
+QG
+QG
+QG
 af
-Cs
-Cs
-Cs
+AC
+AC
+AC
 af
 af
 af
@@ -29265,7 +29288,7 @@ aa
 aa
 aa
 aa
-XC
+vM
 NU
 MY
 MY
@@ -29279,7 +29302,7 @@ EP
 MY
 MY
 vH
-XC
+vM
 aa
 aa
 aa
@@ -29321,19 +29344,19 @@ Aw
 qM
 qP
 ri
-vW
-vW
+VE
+VE
 pe
 Lw
-vW
-vW
+VE
+VE
 ll
 EF
 Mn
 Gw
 mg
-Dk
-Dk
+Hb
+Hb
 Lw
 oz
 Cm
@@ -29342,9 +29365,9 @@ Lw
 Lw
 Lw
 Lw
-Jo
-Jo
-Jo
+FV
+FV
+FV
 aP
 fG
 al
@@ -29521,32 +29544,32 @@ bP
 bP
 Aw
 qN
-Cu
+zL
 rj
 rl
-vW
-vW
-Cx
-vW
-vW
+VE
+VE
+Ij
+VE
+VE
 lm
 EF
 Ql
 Gw
 mg
-Dk
-Dk
+Hb
+Hb
 Lw
-FS
+AR
 Mh
 Rw
 Vn
 qT
 Lw
-Jo
-Jo
-Jo
-Jo
+FV
+FV
+FV
+FV
 aP
 fG
 al
@@ -29555,17 +29578,17 @@ aG
 aa
 aa
 af
-Ml
-Ml
-Ml
+MR
+MR
+MR
 af
-Yt
-Yt
-Yt
+Ca
+Ca
+Ca
 af
-vK
-vK
-vK
+BP
+BP
+BP
 af
 af
 af
@@ -29725,8 +29748,8 @@ Aw
 qO
 qR
 rk
-vW
-vW
+VE
+VE
 rN
 Lw
 kD
@@ -29745,10 +29768,10 @@ Lw
 Lw
 Lw
 Lw
-Jo
-Jo
-Jo
-Jo
+FV
+FV
+FV
+FV
 aP
 fG
 al
@@ -29757,17 +29780,17 @@ al
 an
 aa
 af
-Ml
-Ml
-Ml
+MR
+MR
+MR
 af
-Yt
-Yt
-Yt
+Ca
+Ca
+Ca
 af
-vK
-vK
-vK
+BP
+BP
+BP
 af
 af
 af
@@ -29921,8 +29944,8 @@ bg
 bg
 bg
 bg
-NN
-NN
+LK
+LK
 Aw
 Aw
 Aw
@@ -29947,10 +29970,10 @@ Rw
 Vn
 wQ
 Lw
-Jo
-Jo
-Jo
-Jo
+FV
+FV
+FV
+FV
 aP
 fG
 al
@@ -29959,17 +29982,17 @@ al
 an
 aa
 af
-Ml
-Ml
-Ml
+MR
+MR
+MR
 af
-Yt
-Yt
-Yt
+Ca
+Ca
+Ca
 af
-vK
-vK
-vK
+BP
+BP
+BP
 af
 af
 af
@@ -30107,7 +30130,7 @@ HX
 HX
 TJ
 bN
-PO
+zy
 dq
 dJ
 FC
@@ -30125,20 +30148,20 @@ gd
 bg
 bP
 bP
-IA
-IA
-IA
-RE
+OK
+OK
+OK
+My
 jw
-IA
-IA
+OK
+OK
 yK
-IA
-IA
-IA
-IA
-IA
-IA
+OK
+OK
+OK
+OK
+OK
+OK
 Lw
 Lw
 Lw
@@ -30149,10 +30172,10 @@ Lw
 Lw
 Lw
 Lw
-Jo
-Jo
-Jo
-Jo
+FV
+FV
+FV
+FV
 aP
 fG
 al
@@ -30302,14 +30325,14 @@ an
 Ya
 YX
 YX
-BJ
+yn
 bN
 cd
 HX
 HX
 cS
 bN
-BK
+Eo
 dq
 dK
 FC
@@ -30327,34 +30350,34 @@ bP
 bg
 bP
 bP
-IA
-IA
-IA
+OK
+OK
+OK
 WM
-IA
-IA
-IA
+OK
+OK
+OK
 yK
-IA
-IA
-IA
-IA
-IA
-IA
-uC
-Jo
-Jo
-Jo
-Jo
-Jo
-Jo
-Jo
-Jo
-Jo
-Jo
-Jo
-Jo
-Jo
+OK
+OK
+OK
+OK
+OK
+OK
+Ny
+FV
+FV
+FV
+FV
+FV
+FV
+FV
+FV
+FV
+FV
+FV
+FV
+FV
 aP
 fG
 am
@@ -30500,7 +30523,7 @@ ar
 al
 aA
 al
-Ky
+Yu
 Ya
 Ya
 XL
@@ -30527,21 +30550,21 @@ bg
 bP
 bP
 bg
-NN
-NN
-Ey
-Ey
-Ey
-Ey
-Ey
+LK
+LK
+xw
+xw
+xw
+xw
+xw
 jy
-Ey
-Ey
-Ey
-Ey
-Vj
-Vj
-Vj
+xw
+xw
+xw
+xw
+HR
+HR
+HR
 lQ
 lQ
 lQ
@@ -30731,16 +30754,16 @@ bP
 bP
 bP
 bP
-Ey
-SO
-SO
-DV
-DV
+xw
+ff
+ff
+TL
+TL
 bP
-DV
-DV
+TL
+TL
 bP
-Ey
+xw
 bP
 bP
 bP
@@ -30748,17 +30771,17 @@ ZE
 bK
 mI
 nv
-Vd
-Ma
+Pi
+DX
 mI
 lQ
-KF
-Yj
-Vd
-HA
-Py
+Ml
+Wv
+Pi
+DZ
+QB
 lQ
-OI
+Aa
 rt
 jV
 bK
@@ -30933,35 +30956,35 @@ bP
 bP
 bP
 bP
-Ey
-SO
+xw
+ff
 bP
-DV
-DV
+TL
+TL
 bP
-DV
-DV
+TL
+TL
 bP
-Ey
+xw
 bP
 bP
 bP
 Mu
 bK
 mJ
-XE
-Vd
+Qy
+Pi
 oC
-BC
+PH
 lQ
-KF
-Ze
-Vd
-vF
-De
+Ml
+TF
+Pi
+vq
+Ka
 lQ
 tc
-Pe
+Jt
 jV
 bK
 aJ
@@ -31135,7 +31158,7 @@ hL
 bP
 bP
 bP
-Ey
+xw
 bP
 bP
 bP
@@ -31144,27 +31167,27 @@ bP
 bP
 bP
 bP
-Vt
+Jo
 bP
 bP
 bP
-sL
+zT
 bK
-Yl
-Vd
-Vd
-Vd
-Vd
-QQ
-Vd
-Vd
-Vd
+Fu
+Pi
+Pi
+Pi
+Pi
+WO
+Pi
+Pi
+Pi
 rP
 rP
 bK
 td
-xE
-VW
+HN
+uR
 fG
 aa
 aa
@@ -31332,41 +31355,41 @@ fD
 bP
 bP
 hL
-Ef
+Pd
 hL
 bP
 bP
 bP
-Ey
-DV
-DV
-DV
+xw
+TL
+TL
+TL
 bP
-DV
-DV
+TL
+TL
 bP
-DV
-Ey
+TL
+xw
 bP
 bP
 bP
-xy
+Xg
 bK
 mK
-Vd
+Pi
 oc
-xT
-Vd
+UG
+Pi
 lQ
-BW
-Vd
-QP
-Vd
-Vd
-QQ
-RA
-Yb
-Dc
+Fy
+Pi
+Ed
+Pi
+Pi
+WO
+TD
+JK
+Ih
 bK
 aJ
 aJ
@@ -31533,25 +31556,25 @@ Gx
 fE
 bP
 bP
-Il
+HY
 hL
 hL
 bP
 bP
 bP
-Ey
-Ey
-Ey
-Ey
+xw
+xw
+xw
+xw
 jy
-Ey
-Ey
+xw
+xw
 jy
-Ey
-Ey
-Vj
-Vj
-Vj
+xw
+xw
+HR
+HR
+HR
 lQ
 lQ
 bK
@@ -31566,9 +31589,9 @@ lQ
 bK
 bK
 lQ
-ES
-bp
-ZM
+TS
+YC
+YB
 bK
 aa
 aa
@@ -31688,7 +31711,7 @@ aa
 aa
 aa
 aa
-Lc
+Ax
 ac
 ac
 ac
@@ -31741,32 +31764,32 @@ bP
 bP
 bP
 bP
-Ey
-WG
-LN
-Ym
-xL
-EC
-Ym
-LN
+xw
+Eg
+VX
+Vw
+vz
+GR
+Vw
+VX
 ip
-Ey
+xw
 bP
 bP
 bP
 bK
-vg
+Nw
 mM
-RS
+BS
 mh
 bK
 pJ
-NT
-Xg
+WN
+Br
 pJ
-yp
-ym
-QJ
+GE
+vA
+OR
 lQ
 lQ
 pI
@@ -31945,22 +31968,22 @@ bP
 bP
 ae
 in
-LN
-Ym
-Ym
-Ym
-Ym
-LN
-bV
+VX
+Vw
+Vw
+Vw
+Vw
+VX
+GL
 ae
 bP
 bP
 bP
 bK
 mh
-RS
-Fe
-HN
+BS
+YO
+tP
 bK
 pj
 qV
@@ -31970,11 +31993,11 @@ qV
 qV
 sq
 lQ
-PH
-zt
-zt
-zt
-Ub
+Bd
+Mi
+Mi
+Mi
+mz
 fG
 bK
 bK
@@ -32142,18 +32165,18 @@ bP
 ae
 ae
 bg
-NN
-NN
-NN
-Ey
-LN
-LN
-LN
-LN
-LN
-LN
-LN
-LN
+LK
+LK
+LK
+xw
+VX
+VX
+VX
+VX
+VX
+VX
+VX
+VX
 ae
 bP
 bP
@@ -32164,19 +32187,19 @@ bK
 nz
 bK
 lQ
-BA
+vi
 qW
 rq
 rq
 rq
 sp
-uK
+Zu
 bK
-LW
+Kv
 af
 af
 af
-CK
+VV
 fG
 af
 af
@@ -32333,52 +32356,52 @@ aL
 aL
 aL
 aL
-aL
-aL
-aL
-aL
-aL
-aL
-aL
-aL
-aL
-aL
+xw
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
+wC
 ae
 bP
 bP
 bP
 ae
-LN
+VX
 iO
-FK
-LN
-LN
+Xi
+VX
+VX
 iO
-FK
-LN
+Xi
+VX
 ae
 bP
 bP
 bP
-Oc
-zH
+ZR
+RJ
 mO
 mO
 mO
-zH
+RJ
 pk
-JH
+Ob
 qu
 qu
 qu
-DL
-uK
-zH
+Mv
+Zu
+RJ
 te
 af
 af
 af
-CK
+VV
 Mm
 af
 af
@@ -32535,13 +32558,13 @@ aL
 aL
 aL
 aL
-aL
-aL
-aL
-fd
-fd
-fd
-eS
+xw
+wC
+wC
+wC
+wC
+wC
+wC
 ep
 ep
 ep
@@ -32549,38 +32572,38 @@ ae
 bP
 bP
 bP
-Ey
-LN
+xw
+VX
 ip
-WG
-LN
-LN
+Eg
+VX
+VX
 ip
-WG
-LN
-Ey
+Eg
+VX
+xw
 bP
 bP
 bP
-Oc
-zH
+ZR
+RJ
 mP
 mP
 mP
-zH
+RJ
 pk
-vA
+IX
 qu
 qu
 qu
-Qp
-uK
-zH
+Cu
+Zu
+RJ
 te
 af
-Ax
+Zj
 af
-CK
+VV
 Mm
 af
 af
@@ -32737,13 +32760,13 @@ aL
 aL
 aL
 aL
-aL
-aL
-eS
-ep
-ep
-fF
-eS
+xw
+wC
+wC
+Ay
+CI
+wO
+wC
 ep
 ep
 ep
@@ -32752,14 +32775,14 @@ bP
 bP
 bP
 ae
-LN
+VX
 ip
-WG
-LN
-LN
+Eg
+VX
+VX
 ip
-WG
-LN
+Eg
+VX
 ae
 bP
 bP
@@ -32767,22 +32790,22 @@ Ja
 lQ
 lQ
 bK
-xc
+JS
 bK
 lQ
-BA
+vi
 qY
 rs
 rs
 rs
 sr
-uK
+Zu
 bK
-LW
+Kv
 af
-Ax
+Zj
 af
-CK
+VV
 fG
 af
 af
@@ -32939,13 +32962,13 @@ aL
 aL
 aL
 aL
-aL
-aL
-eS
-ep
+xw
+wC
+wC
+Wt
 ep
 fF
-eS
+wC
 ep
 ep
 ep
@@ -32954,25 +32977,25 @@ bP
 bP
 bP
 jy
-LN
-bV
+VX
+GL
 in
-LN
-LN
-bV
+VX
+VX
+GL
 in
-LN
+VX
 jy
 bP
 bP
 bP
 bK
-Hj
+Dd
 mQ
-Vd
-Oq
+Pi
+vn
 bK
-zq
+ZZ
 qZ
 qZ
 qZ
@@ -32980,11 +33003,11 @@ qZ
 qZ
 st
 lQ
-Ra
-WD
-Ax
-WD
-Op
+Kz
+Co
+Zj
+Co
+QT
 fG
 bK
 bK
@@ -33136,57 +33159,57 @@ fG
 fG
 fG
 fG
-HC
-TS
-TS
-TS
-TS
-TS
-TS
-TS
-TS
-TS
-TS
-TS
+vD
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
 ae
 ae
 ae
-JX
-NN
-NN
-NN
-Ey
-LN
-GO
-GO
-LN
-LN
-GO
-GO
-LN
+HA
+LK
+LK
+LK
+xw
+VX
+Cp
+Cp
+VX
+VX
+Cp
+Cp
+VX
 ae
 bP
 bP
 bP
 bK
-Vd
-Vd
-Vd
-Vd
+Pi
+Pi
+Pi
+Pi
 bK
 pm
 pN
-VJ
-VJ
+Rd
+Rd
 pL
-HI
+PZ
 pL
 lQ
 lQ
 IK
-JX
+HA
 IK
-JX
+HA
 fG
 aa
 aa
@@ -33337,7 +33360,7 @@ aa
 aa
 aa
 iN
-ZP
+Jn
 bP
 bP
 bP
@@ -33347,44 +33370,44 @@ bP
 bP
 bP
 bP
-QD
+If
 bP
 bP
 bP
 bP
 bP
-QD
+If
 bP
 bP
 bP
-Ey
+xw
 iq
-TW
-yb
-LN
-LN
-wS
-Ti
-Bq
-Ey
+LW
+Ns
+VX
+VX
+AL
+QO
+Su
+xw
 bP
 bP
 bP
 bK
-Mo
+CV
 mS
 mS
-XG
+HE
 lQ
 lQ
 lQ
 bK
 bK
-Vj
+HR
 lQ
 lQ
 lQ
-Vx
+ym
 bP
 bP
 bP
@@ -33539,39 +33562,39 @@ aa
 aa
 aa
 iN
-ZP
-IZ
+Jn
+uW
 bP
 bP
 bP
 bP
 bP
 hM
-VB
-VB
-Yh
-VB
-VB
-VB
-VB
-VB
-Yh
+SR
+SR
+At
+SR
+SR
+SR
+SR
+SR
+At
 bP
 bP
 bP
-Ey
-Ey
+xw
+xw
 ae
 ae
-Vj
-Vj
+HR
+HR
 ae
 ae
-Ey
-Ey
-Vj
-Vj
-Vj
+xw
+xw
+HR
+HR
+HR
 lQ
 lQ
 bK
@@ -33584,15 +33607,15 @@ ep
 ep
 pK
 lQ
-xp
-yV
+LE
+DD
 bP
 bP
 bP
 bP
 bP
 bP
-zW
+Rv
 fG
 aa
 aa
@@ -33741,36 +33764,36 @@ aa
 aa
 aa
 fG
-HC
-SO
+vD
+ff
 bP
 bP
 bP
 bP
 bP
-nY
-RL
-BE
-TS
+So
+xa
+HI
+Ea
 qL
-TS
-TS
-TS
-TS
-TS
+Ea
+Ea
+Ea
+Ea
+Ea
 bP
 bP
 bP
-Ey
-Ey
+xw
+xw
 iP
 bP
 bP
 bP
 bP
 jm
-Ey
-Ey
+xw
+xw
 bP
 bP
 bP
@@ -33786,7 +33809,7 @@ lQ
 lQ
 lQ
 lQ
-Qb
+RK
 bP
 bP
 bP
@@ -33794,7 +33817,7 @@ bP
 bP
 bP
 bP
-xs
+NG
 fG
 fG
 aa
@@ -33943,20 +33966,20 @@ aa
 aa
 aa
 iN
-ZP
-IV
+Jn
+vQ
 bP
 bP
-SO
-SO
+ff
+ff
 bP
-nY
-RY
-Ca
-TS
+So
+zl
+yV
+Ea
 aP
 aP
-TS
+Ea
 fQ
 bP
 bP
@@ -33995,9 +34018,9 @@ bP
 bP
 bP
 bP
-SO
-SO
-Ov
+ff
+ff
+vy
 iN
 aa
 aa
@@ -34145,20 +34168,20 @@ aa
 aa
 aa
 iN
-ZP
-IZ
+Jn
+uW
 bP
 bP
-TS
-NG
+Ea
+Uf
 bP
-nY
-BB
-Ek
-TS
+So
+Ep
+Yj
+Ea
 aP
 aP
-TS
+Ea
 fQ
 bP
 bP
@@ -34199,7 +34222,7 @@ bP
 bP
 bP
 bP
-Ov
+vy
 iN
 aa
 aa
@@ -34347,23 +34370,23 @@ aa
 aa
 aa
 fG
-HC
-SO
+vD
+ff
 bP
 bP
-TS
-xr
+Ea
+Pk
 bP
-nY
-RL
-BE
-TS
-TS
+So
+xa
+HI
+Ea
+Ea
 ae
-TS
-TS
-TS
-TS
+Ea
+Ea
+Ea
+Ea
 bP
 bP
 bP
@@ -34381,7 +34404,7 @@ bP
 bP
 bP
 bP
-Ef
+Pd
 mU
 mk
 mW
@@ -34390,17 +34413,17 @@ po
 kX
 bP
 bP
-TS
-TS
-Wc
-Wc
-Wc
+Ea
+Ea
+Yo
+Yo
+Yo
 bP
-Ey
+xw
 bP
-Wc
-Wc
-Wc
+Yo
+Yo
+Yo
 fG
 iN
 aa
@@ -34549,28 +34572,28 @@ aa
 aa
 aa
 iN
-ZP
-IV
+Jn
+vQ
 bP
 bP
-SO
-SO
+ff
+ff
 bP
-nY
-RY
-Ca
-TS
-TS
-TS
-TS
-TS
-TS
-TS
-bP
-bP
+So
+zl
+yV
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
 bP
 bP
-DT
+bP
+bP
+Ci
 is
 is
 is
@@ -34586,23 +34609,23 @@ bP
 mk
 mV
 hL
-Il
+HY
 mW
 mU
-GX
+Cw
 bP
 bP
-TS
-TS
-VO
-VO
-VO
+Ea
+Ea
+Fi
+Fi
+Fi
 bP
-Ey
+xw
 bP
-VO
-VO
-VO
+Fi
+Fi
+Fi
 fG
 fG
 aa
@@ -34751,28 +34774,28 @@ aa
 aa
 aa
 iN
-ZP
-IZ
+Jn
+uW
 bP
 bP
 bP
 bP
 bP
-nY
-BB
-Ek
-TS
-TS
+So
+Ep
+Yj
+Ea
+Ea
 bP
 bP
 bP
-Dq
-Dq
+yX
+yX
 bP
 bP
 bP
 bP
-Fh
+XI
 it
 it
 it
@@ -34785,12 +34808,12 @@ bP
 bP
 bP
 bP
-IZ
-IZ
+uW
+uW
 bP
 bP
-IZ
-IZ
+uW
+uW
 bP
 bP
 bP
@@ -34805,7 +34828,7 @@ bP
 bP
 bP
 bP
-Ov
+vy
 iN
 aa
 aa
@@ -34953,28 +34976,28 @@ aa
 aa
 aa
 fG
-HC
-SO
+vD
+ff
 bP
 bP
 bP
 bP
 bP
-nY
-RL
-BE
-TS
-TS
+So
+xa
+HI
+Ea
+Ea
 bP
 bP
 bP
-Dq
-Dq
+yX
+yX
 bP
 bP
 bP
 bP
-Fh
+XI
 it
 it
 it
@@ -35005,9 +35028,9 @@ bP
 bP
 bP
 bP
-SO
-SO
-Ov
+ff
+ff
+vy
 iN
 aa
 aa
@@ -35155,28 +35178,28 @@ aa
 aa
 aa
 iN
-ZP
-IV
+Jn
+vQ
 bP
 bP
 bP
 bP
 bP
-nY
-RY
-Ca
-TS
-TS
+So
+zl
+yV
+Ea
+Ea
 bP
 bP
 bP
-Dq
-Dq
+yX
+yX
 bP
 bP
 bP
 bP
-Fh
+XI
 it
 it
 it
@@ -35209,7 +35232,7 @@ bP
 bP
 bP
 bP
-Ov
+vy
 iN
 aa
 aa
@@ -35357,28 +35380,28 @@ aa
 aa
 aa
 iN
-ZP
-IZ
+Jn
+uW
 bP
 bP
-SO
-SO
+ff
+ff
 bP
-nY
-BB
-Ek
-TS
-TS
-TS
-TS
-TS
-TS
-TS
-bP
-bP
+So
+Ep
+Yj
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
 bP
 bP
-Nt
+bP
+bP
+zK
 iu
 iu
 iu
@@ -35395,22 +35418,22 @@ mk
 mW
 mU
 mU
-Ef
+Pd
 mW
-yq
+Cq
 bP
 bP
-TS
-TS
-Wc
-Wc
-Wc
+Ea
+Ea
+Yo
+Yo
+Yo
 bP
-Ey
+xw
 bP
-Wc
-Wc
-Wc
+Yo
+Yo
+Yo
 fG
 fG
 aa
@@ -35559,23 +35582,23 @@ aa
 aa
 aa
 fG
-HC
-SO
+vD
+ff
 bP
 bP
-TS
-Hl
+Ea
+Iu
 bP
-nY
-RL
-BE
-TS
-TS
-TS
-TS
-TS
-TS
-TS
+So
+xa
+HI
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
 bP
 bP
 bP
@@ -35594,25 +35617,25 @@ bP
 bP
 bP
 hL
-Il
+HY
 mk
 mV
 mk
 mU
-PU
+Iy
 bP
 bP
-TS
-TS
-VO
-VO
-VO
+Ea
+Ea
+Fi
+Fi
+Fi
 bP
-Ey
+xw
 bP
-VO
-VO
-VO
+Fi
+Fi
+Fi
 fG
 iN
 aa
@@ -35761,17 +35784,17 @@ aa
 aa
 aa
 iN
-ZP
-IV
+Jn
+vQ
 bP
 bP
-TS
-xp
+Ea
+LE
 bP
-nY
-RY
-Ca
-TS
+So
+zl
+yV
+Ea
 ep
 ep
 ep
@@ -35815,7 +35838,7 @@ bP
 bP
 bP
 bP
-Ov
+vy
 iN
 aa
 aa
@@ -35963,17 +35986,17 @@ aa
 aa
 aa
 iN
-ZP
-IZ
+Jn
+uW
 bP
 bP
-SO
-SO
+ff
+ff
 bP
-nY
-Vu
-FB
-TS
+So
+sK
+Kg
+Ea
 ep
 ep
 ep
@@ -36015,9 +36038,9 @@ bP
 bP
 bP
 bP
-SO
-SO
-Ov
+ff
+ff
+vy
 iN
 aa
 aa
@@ -36165,26 +36188,26 @@ aa
 aa
 aa
 fG
-HC
-SO
+vD
+ff
 bP
 bP
 bP
 bP
 bP
-nY
-RL
-BE
-TS
-TS
-TS
-TS
-TS
-TS
-TS
-NN
-NN
-NN
+So
+xa
+HI
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+Ea
+LK
+LK
+LK
 bg
 bg
 iQ
@@ -36198,19 +36221,19 @@ bg
 bP
 bP
 bP
-Iw
-Iw
+xT
+xT
 mY
 zO
 mY
 mY
 QF
-Iw
+xT
 nV
-JX
-JX
-JX
-xr
+HA
+HA
+HA
+Pk
 bP
 bP
 bP
@@ -36367,23 +36390,23 @@ aa
 aa
 aa
 iN
-ZP
-IV
+Jn
+vQ
 bP
 bP
 bP
 bP
 bP
 hO
-DB
-DB
-Tw
-DB
-DB
-DB
-DB
-DB
-Tw
+Pq
+Pq
+HP
+Pq
+Pq
+Pq
+Pq
+Pq
+HP
 bP
 bP
 bP
@@ -36402,17 +36425,17 @@ bP
 bP
 QC
 QC
-yO
-yO
-yO
+AH
+AH
+AH
 QC
 QC
-Iw
+xT
 aP
 aP
 aP
-JX
-TI
+HA
+Bu
 bP
 bP
 bP
@@ -36569,7 +36592,7 @@ aa
 aa
 aa
 iN
-ZP
+Jn
 bP
 bP
 bP
@@ -36579,25 +36602,25 @@ bP
 bP
 bP
 bP
-QD
+If
 bP
 bP
 bP
 bP
 bP
-QD
+If
 bP
 bP
 bP
 bg
-UC
-UC
-UC
+JU
+JU
+JU
 iw
 iw
-UC
-UC
-UC
+JU
+JU
+JU
 bg
 bP
 bP
@@ -36609,20 +36632,20 @@ nH
 of
 oG
 QC
-yi
+BK
 UP
-yi
+BK
 aP
-JX
-JX
+HA
+HA
 nV
-JX
-JX
-JX
-JX
+HA
+HA
+HA
+HA
 nV
-HC
-HC
+vD
+vD
 fG
 aa
 aa
@@ -36773,17 +36796,17 @@ aa
 fG
 fG
 fG
-JD
-JD
+Op
+Op
 bg
-JD
-JD
+Op
+Op
 bg
 bg
 bg
 bg
 qL
-Ey
+xw
 bg
 bg
 bg
@@ -36813,7 +36836,7 @@ oH
 QC
 pQ
 qw
-yi
+BK
 aP
 aP
 aP
@@ -36994,9 +37017,9 @@ bP
 bP
 bP
 ae
-UC
-UC
-UC
+JU
+JU
+JU
 iw
 iw
 iR
@@ -37019,7 +37042,7 @@ SH
 SH
 wx
 SH
-Yv
+Sr
 SH
 SH
 SH
@@ -37398,14 +37421,14 @@ bP
 bP
 bP
 bg
-UC
-UC
-UC
+JU
+JU
+JU
 iw
 iw
-IN
+Zg
 iw
-vy
+XP
 bg
 bP
 bP
@@ -37603,11 +37626,11 @@ ab
 ab
 ab
 ab
-uj
-uj
-uj
-uj
-uj
+yg
+yg
+yg
+yg
+yg
 bg
 bP
 bP
@@ -37783,11 +37806,11 @@ ae
 ae
 fG
 fG
-JD
-JD
+Op
+Op
 bg
-JD
-JD
+Op
+Op
 fG
 aa
 aa
@@ -38007,11 +38030,11 @@ hQ
 iy
 iT
 ab
-uj
+yg
 gr
-EA
-ML
-uj
+ul
+XO
+yg
 bg
 bP
 bP
@@ -38022,7 +38045,7 @@ ne
 nN
 oi
 oM
-JY
+Fe
 pW
 qC
 rc
@@ -39436,7 +39459,7 @@ nf
 nQ
 xq
 oT
-JY
+Fe
 pW
 qC
 re
@@ -39834,7 +39857,7 @@ la
 bP
 bP
 bP
-Iw
+xT
 Rs
 Rs
 Rs
@@ -40230,8 +40253,8 @@ hX
 iD
 gu
 gu
-TY
-Jt
+zZ
+wP
 ko
 ab
 bg
@@ -40431,8 +40454,8 @@ hX
 iD
 gu
 gu
-TY
-wT
+zZ
+Os
 jD
 kL
 ab
@@ -40632,8 +40655,8 @@ hv
 hY
 gu
 gu
-TY
-wT
+zZ
+Os
 kc
 kp
 kM
@@ -40834,7 +40857,7 @@ hw
 hZ
 bg
 iY
-wT
+Os
 jP
 Cl
 ag
@@ -41040,7 +41063,7 @@ jD
 jE
 kd
 kq
-zN
+CC
 ab
 bg
 lq
@@ -41253,12 +41276,12 @@ bg
 bg
 aP
 aP
-yi
+BK
 px
 qc
 qx
 rg
-yi
+BK
 aP
 aP
 aP
@@ -41455,7 +41478,7 @@ ab
 ab
 aP
 aP
-yi
+BK
 py
 qc
 qx
@@ -41657,12 +41680,12 @@ gr
 ab
 aP
 aP
-yi
+BK
 pz
 qi
 qK
 rh
-yi
+BK
 aP
 aP
 aP
@@ -41859,12 +41882,12 @@ Xa
 nn
 aP
 aP
-yi
+BK
 Qx
 JJ
 JJ
 Qx
-yi
+BK
 aP
 aP
 aP
@@ -42061,12 +42084,12 @@ vZ
 ab
 aP
 aP
-yi
+BK
 Qx
 JJ
 JJ
 Qx
-yi
+BK
 aP
 aP
 aP
@@ -42263,12 +42286,12 @@ fL
 ab
 aP
 aP
-yi
+BK
 Qx
 Ba
 Ba
 Qx
-yi
+BK
 aP
 aP
 aP
@@ -42465,12 +42488,12 @@ fL
 ab
 aP
 aP
-yi
+BK
 Qx
 Ba
 Ba
 Qx
-yi
+BK
 aP
 aP
 aP
@@ -42667,12 +42690,12 @@ fL
 ab
 aP
 aP
-yi
+BK
 Qx
 Qx
 Qx
 Qx
-yi
+BK
 aP
 bg
 bg
@@ -42869,12 +42892,12 @@ fL
 ab
 aP
 aP
-yi
-yi
-yi
-yi
-yi
-yi
+BK
+BK
+BK
+BK
+BK
+BK
 aP
 bg
 aP
