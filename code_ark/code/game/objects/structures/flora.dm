@@ -21,8 +21,11 @@
 /obj/structure/flora/tree/jungle/v_6
 	icon_state = "tree5"
 
+/obj/structure/flora/tree/jungle/v_7
+	icon_state = "tree6"
+
 /obj/structure/flora/tree/jungle/random/New()
-	icon_state = pick("tree", "tree1", "tree2", "tree3", "tree4", "tree5")
+	icon_state = pick("tree", "tree1", "tree2", "tree3", "tree4", "tree5", "tree6")
 	..()
 
 /obj/structure/flora/tree/jungle/stump
