@@ -83,6 +83,16 @@
 	obj_flags = 0
 	buckle_movable = FALSE
 
+/obj/structure/bed/chair/bench/right
+
+/obj/structure/bed/chair/bench/center
+	icon_state = "bench_center_preview"
+	base_icon = "bench_center"
+
+/obj/structure/bed/chair/bench/left
+	icon_state = "bench_left_preview"
+	base_icon = "bench_left"
+
 /obj/structure/bed/chair/bench/red/right
 
 /obj/structure/bed/chair/bench/red/center
@@ -212,3 +222,39 @@
 
 /obj/structure/bed/chair/bench/yellow/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "yellow")
+
+/obj/structure/bed/chair/bench/wood
+	name = "wooden bench"
+	desc = "It's wooden bench, apparently, used for seating, although it's a bit too hard."
+	icon = 'code_ark/icons/obj/furniture.dmi'
+	icon_state = "bench_wood_right_preview"
+	base_icon = "bench_wood_right"
+	color = WOOD_COLOR_GENERIC
+	var/bench_material = MATERIAL_WOOD
+
+/obj/structure/bed/chair/bench/wood/New(var/newloc)
+	..(newloc, bench_material)
+
+/obj/structure/bed/chair/bench/wood/right
+
+/obj/structure/bed/chair/bench/wood/center
+	icon_state = "bench_wood_center_preview"
+	base_icon = "bench_wood_center"
+
+/obj/structure/bed/chair/bench/wood/left
+	icon_state = "bench_wood_left_preview"
+	base_icon = "bench_wood_left"
+
+/obj/structure/bed/chair/bench/wood/walnut
+	color = WOOD_COLOR_CHOCOLATE
+	bench_material = MATERIAL_WALNUT
+
+/obj/structure/bed/chair/bench/wood/walnut/right
+
+/obj/structure/bed/chair/bench/wood/walnut/center
+	icon_state = "bench_wood_center_preview"
+	base_icon = "bench_wood_center"
+
+/obj/structure/bed/chair/bench/wood/walnut/left
+	icon_state = "bench_wood_left_preview"
+	base_icon = "bench_wood_left"
