@@ -267,7 +267,7 @@
 	icon = 'code_ark/icons/obj/furniture.dmi'
 	icon_state = "bathtub_base"
 	base_icon = "bathtub"
-	buckling_sound = 'code_ark/sound/effects/bathtub_splash.ogg'
+	buckling_sound = null
 
 	var/on = 0
 	var/watertemp = "normal"	//freezing, normal, or boiling
@@ -354,13 +354,13 @@
 
 /obj/structure/bed/chair/bathtub/buckle_mob()
 	. = ..()
-	if(. && on && buckling_sound)
-		playsound(src, buckling_sound, 20)
+	if(. && on)
+		playsound(src, 'code_ark/sound/effects/bathtub_splash.ogg', 20)
 
 /obj/structure/bed/chair/bathtub/unbuckle_mob()
 	. = ..()
-	if(. && on && buckling_sound)
-		playsound(src, buckling_sound, 20)
+	if(. && on)
+		playsound(src, 'code_ark/sound/effects/bathtub_splash.ogg', 20)
 
 /obj/structure/bed/chair/bathtub/on_update_icon()
 	overlays.Cut()
