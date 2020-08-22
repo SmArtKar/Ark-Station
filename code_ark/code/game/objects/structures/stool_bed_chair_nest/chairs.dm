@@ -258,3 +258,138 @@
 /obj/structure/bed/chair/bench/wood/walnut/left
 	icon_state = "bench_wood_left_preview"
 	base_icon = "bench_wood_left"
+
+// BATHTUB
+
+/obj/structure/bed/chair/bathtub
+	name = "bathtub"
+	desc = "This walnut-ornamented bathtub belongs to the upper price segment and offers an unprecedented level of comfort. It's probably the best place to spend some time in after a long day. Its sophisticated electronics can automatically adjust the water temperature to be ideal, however, you can find a manual override valve under the wooden panel."
+	icon = 'code_ark/icons/obj/furniture.dmi'
+	icon_state = "bathtub_base"
+	base_icon = "bathtub"
+	buckling_sound = 'code_ark/sound/effects/bathtub_splash.ogg'
+
+	var/on = 0
+	var/watertemp = "normal"	//freezing, normal, or boiling
+	var/is_washing = 0
+	var/list/temperature_settings = list("normal" = 310, "boiling" = T0C+100, "freezing" = T0C)
+
+/obj/structure/bed/chair/bathtub/verb/toggle()
+	set name = "Toggle Bathtub"
+	set category = "Object"
+	set src in view(1)
+	if(!CanPhysicallyInteract(usr))
+		return 0
+	on = !on
+	update_icon()
+	if(on)
+		playsound(src, 'code_ark/sound/effects/bath_filling.ogg', 20)
+		to_chat(usr, "<span class='notice'>You've filled the [name] with water!</span>")
+		if (usr.loc == loc)
+			wash(usr)
+			process_heat(usr)
+		for (var/atom/movable/G in src.loc)
+			G.clean_blood()
+	else
+		to_chat(usr, "<span class='notice'>You've drained the [name]!</span>")
+		playsound(src, 'code_ark/sound/effects/drain.ogg', 20)
+
+/obj/structure/bed/chair/bathtub/AltClick(var/mob/M)
+	toggle(M)
+
+/obj/structure/bed/chair/bathtub/CtrlClick(var/mob/M)
+	toggle(M)
+
+/obj/structure/bed/chair/bathtub/attackby(obj/item/I as obj, var/mob/user)
+	if(istype(I, /obj/item/device/scanner/gas))
+		to_chat(user, "<span class='notice'>The water temperature seems to be [watertemp].</span>")
+		return
+
+	if(isWrench(I))
+		var/newtemp = input(user, "What setting would you like to set the temperature valve to?", "Water Temperature Valve") in temperature_settings
+		to_chat(user,"<span class='notice'>You begin to adjust the temperature valve with \the [I].</span>")
+		playsound(src.loc, 'sound/items/Ratchet.ogg', 50, 1)
+		if(do_after(user, 50, src))
+			watertemp = newtemp
+			user.visible_message("<span class='notice'>\The [user] adjusts \the [src] with \the [I].</span>", "<span class='notice'>You adjust the [name] with \the [I].</span>")
+			add_fingerprint(user)
+			return
+
+/obj/structure/bed/chair/bathtub/proc/wash(var/atom/movable/washing)
+	if(on)
+		wash_mob(washing)
+		if(isturf(loc))
+			var/turf/tile = loc
+			for(var/obj/effect/E in tile)
+				if(istype(E,/obj/effect/decal/cleanable) || istype(E,/obj/effect/overlay))
+					qdel(E)
+
+/obj/structure/bed/chair/bathtub/Process()
+	..()
+	if(!on) return
+
+	for(var/thing in loc)
+		var/atom/movable/AM = thing
+		var/mob/living/L
+		if(buckled_mob)
+			L = thing
+		if(istype(AM) && AM.simulated)
+			wash(AM)
+			if(istype(L))
+				process_heat(L)
+
+/obj/structure/bed/chair/bathtub/proc/process_heat(mob/living/M)
+	if(!on || !istype(M)) return
+
+	var/water_temperature = temperature_settings[watertemp]
+	var/temp_adj = between(BODYTEMP_COOLING_MAX, water_temperature - M.bodytemperature, BODYTEMP_HEATING_MAX)
+	M.bodytemperature += temp_adj
+
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(water_temperature >= H.species.heat_level_1)
+			to_chat(H, "<span class='danger'>The water is searing hot!</span>")
+		else if(water_temperature <= H.species.cold_level_1)
+			to_chat(H, "<span class='warning'>The water is freezing cold!</span>")
+
+/obj/structure/bed/chair/bathtub/buckle_mob()
+	. = ..()
+	if(. && on && buckling_sound)
+		playsound(src, buckling_sound, 20)
+
+/obj/structure/bed/chair/bathtub/unbuckle_mob()
+	. = ..()
+	if(. && on && buckling_sound)
+		playsound(src, buckling_sound, 20)
+
+/obj/structure/bed/chair/bathtub/on_update_icon()
+	overlays.Cut()
+	// Putting the base icon
+	var/image/I = image(icon, base_icon)
+	overlays |= I
+	// Checking if water has to be added
+	if(on)
+		I = image(icon, "[base_icon]_water")
+		I.layer = ABOVE_OBJ_LAYER
+		overlays |= I
+		I = image(icon, "[base_icon]_water_over")
+		if(buckled_mob)
+			I.layer = ABOVE_HUMAN_LAYER
+		else
+			I.layer = ABOVE_OBJ_LAYER
+		overlays |= I
+	// Deciding whether to put the bathtub edge or water over the mob or not
+	I =  image(icon, "[base_icon]_over")
+	if(buckled_mob)
+		I.layer = ABOVE_HUMAN_LAYER
+	else
+		I.layer = ABOVE_OBJ_LAYER
+	overlays |= I
+
+/obj/structure/bed/chair/bathtub/New()
+	..()
+	START_PROCESSING(SSobj, src)
+
+/obj/structure/bed/chair/bathtub/Destroy()
+	STOP_PROCESSING(SSobj, src)
+	. = ..()
