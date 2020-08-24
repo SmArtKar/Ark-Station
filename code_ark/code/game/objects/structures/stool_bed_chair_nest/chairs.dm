@@ -265,7 +265,7 @@
 	name = "bathtub"
 	desc = "This walnut-ornamented bathtub belongs to the upper price segment and offers an unprecedented level of comfort. It's probably the best place to spend some time in after a long day. Its sophisticated electronics can automatically adjust the water temperature to be ideal, however, you can find a manual override valve under the wooden panel."
 	icon = 'code_ark/icons/obj/furniture.dmi'
-	icon_state = "bathtub_base"
+	icon_state = "bathtub"
 	base_icon = "bathtub"
 	buckling_sound = null
 
